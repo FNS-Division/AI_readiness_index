@@ -2,292 +2,34 @@ import type { CountryAIReadiness } from "@/types";
 
 export const generatedCountryProfiles: CountryAIReadiness[] = [
   {
-    "code": "ARE",
-    "name": "United Arab Emirates",
-    "flag": "🇦🇪",
-    "region": "Asia",
-    "rank": 1,
-    "score": 78.34,
-    "classification": "Mature",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 85.16,
-      "Infrastructure": 71.1,
-      "Capacity Building": 78.75
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.85164,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.95328,
-            "grade": 0.95328
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.71103,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 205.1599288,
-            "grade": 0.471097
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 237.077642690595,
-            "grade": 0.331792
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 99.46,
-            "grade": 0.9946
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.4",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 50.23,
-            "grade": 0.757662
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.787498,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 100,
-            "grade": 1
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 100,
-            "grade": 1
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 73,
-            "grade": 0.526765
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2017,
-            "value": 0.277327,
-            "grade": 0.623225
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "USA",
-    "name": "United States",
-    "flag": "🇺🇸",
-    "region": "North America",
-    "rank": 2,
-    "score": 78.21,
-    "classification": "Mature",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 83.47,
-      "Infrastructure": 68.76,
-      "Capacity Building": 82.39
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.834725,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.91945,
-            "grade": 0.91945
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.687612,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 196.7072186,
-            "grade": 0.451688
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 187.614333923491,
-            "grade": 0.262568
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 96,
-            "grade": 0.96
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.8",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 48.96,
-            "grade": 0.763802
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.823939,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 94.85512356,
-            "grade": 0.946103
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 94.69380188,
-            "grade": 0.946938
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 3535,
-            "grade": 1
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2016,
-            "value": 0.1792021,
-            "grade": 0.402713
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
     "code": "DNK",
     "name": "Denmark",
     "flag": "🇩🇰",
     "region": "Europe",
-    "rank": 3,
-    "score": 78.1,
+    "rank": 1,
+    "score": 78.35,
     "classification": "Mature",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 86.74,
+      "Government": 87.46,
       "Infrastructure": 71.97,
       "Capacity Building": 75.61
     },
     "pillars": {
       "Government": {
-        "value": 0.86737,
+        "value": 0.87462,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.98474,
-            "grade": 0.98474
+            "value": 0.99924,
+            "grade": 0.99924
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -389,34 +131,163 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "SAU",
-    "name": "Saudi Arabia",
-    "flag": "🇸🇦",
-    "region": "Asia",
-    "rank": 4,
-    "score": 77.4,
+    "code": "USA",
+    "name": "United States",
+    "flag": "🇺🇸",
+    "region": "North America",
+    "rank": 2,
+    "score": 78.11,
     "classification": "Mature",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 85.51,
-      "Infrastructure": 75.31,
-      "Capacity Building": 71.39
+      "Government": 83.18,
+      "Infrastructure": 68.76,
+      "Capacity Building": 82.39
     },
     "pillars": {
       "Government": {
-        "value": 0.85511,
+        "value": 0.83179,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.96022,
-            "grade": 0.96022
+            "value": 0.91358,
+            "grade": 0.91358
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.687612,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 196.7072186,
+            "grade": 0.451688
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 187.614333923491,
+            "grade": 0.262568
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 96,
+            "grade": 0.96
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.8",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 48.96,
+            "grade": 0.763802
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.823939,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 94.85512356,
+            "grade": 0.946103
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 94.69380188,
+            "grade": 0.946938
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 3535,
+            "grade": 1
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2016,
+            "value": 0.1792021,
+            "grade": 0.402713
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "SAU",
+    "name": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "region": "Asia",
+    "rank": 3,
+    "score": 77.9,
+    "classification": "Mature",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 87,
+      "Infrastructure": 75.31,
+      "Capacity Building": 71.39
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.869975,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.98995,
+            "grade": 0.98995
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -518,34 +389,163 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "EST",
-    "name": "Estonia",
-    "flag": "🇪🇪",
-    "region": "Europe",
-    "rank": 5,
-    "score": 77.31,
+    "code": "ARE",
+    "name": "United Arab Emirates",
+    "flag": "🇦🇪",
+    "region": "Asia",
+    "rank": 4,
+    "score": 77.72,
     "classification": "Mature",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 86.14,
-      "Infrastructure": 77.64,
-      "Capacity Building": 68.14
+      "Government": 83.31,
+      "Infrastructure": 71.1,
+      "Capacity Building": 78.75
     },
     "pillars": {
       "Government": {
-        "value": 0.86137,
+        "value": 0.833135,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.97274,
-            "grade": 0.97274
+            "value": 0.91627,
+            "grade": 0.91627
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2021,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.71103,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 205.1599288,
+            "grade": 0.471097
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 237.077642690595,
+            "grade": 0.331792
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 99.46,
+            "grade": 0.9946
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.4",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 50.23,
+            "grade": 0.757662
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.787498,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 100,
+            "grade": 1
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 100,
+            "grade": 1
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 73,
+            "grade": 0.526765
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2017,
+            "value": 0.277327,
+            "grade": 0.623225
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "EST",
+    "name": "Estonia",
+    "flag": "🇪🇪",
+    "region": "Europe",
+    "rank": 5,
+    "score": 77.68,
+    "classification": "Mature",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 87.27,
+      "Infrastructure": 77.64,
+      "Capacity Building": 68.14
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.872675,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.99535,
+            "grade": 0.99535
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -647,34 +647,156 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "NLD",
-    "name": "Netherlands",
-    "flag": "🇳🇱",
-    "region": "Europe",
+    "code": "CHN",
+    "name": "China",
+    "flag": "🇨🇳",
+    "region": "Asia",
     "rank": 6,
-    "score": 75.06,
+    "score": 75.01,
     "classification": "Mature",
     "yearlyChange": 0,
-    "dataCoverage": 100,
+    "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 85.19,
-      "Infrastructure": 65.42,
-      "Capacity Building": 74.58
+      "Government": 83.79,
+      "Infrastructure": 69.07,
+      "Capacity Building": 69.47
     },
     "pillars": {
       "Government": {
-        "value": 0.85192,
+        "value": 0.83788,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.95384,
-            "grade": 0.95384
+            "value": 0.92576,
+            "grade": 0.92576
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2019,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.690655,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 131.753932,
+            "grade": 0.302539
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 185.063023930175,
+            "grade": 0.258997
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 96,
+            "grade": 0.96
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.4",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 14.22,
+            "grade": 0.931741
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.6947,
+        "classification": "Developing",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 91.73655551,
+            "grade": 0.913433
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2025,
+            "value": 91.6,
+            "grade": 0.916
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 2337,
+            "grade": 0.949368
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "NLD",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "region": "Europe",
+    "rank": 7,
+    "score": 74.52,
+    "classification": "Mature",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 83.56,
+      "Infrastructure": 65.42,
+      "Capacity Building": 74.58
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.83559,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.92118,
+            "grade": 0.92118
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -776,285 +898,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "MYS",
-    "name": "Malaysia",
-    "flag": "🇲🇾",
-    "region": "Asia",
-    "rank": 7,
-    "score": 74.79,
-    "classification": "Mature",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 78.06,
-      "Infrastructure": 69.7,
-      "Capacity Building": 76.63
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.78057,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.81114,
-            "grade": 0.81114
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.696963,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 125.9444059,
-            "grade": 0.289199
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 347.23075102327,
-            "grade": 0.485952
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 82.4,
-            "grade": 0.824
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "2.2",
-            "grade": 0.9619
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 15.87,
-            "grade": 0.923765
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.766307,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 96.8051341,
-            "grade": 0.966531
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 98.0206059,
-            "grade": 0.980206
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 6,
-            "grade": 0.238156
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2019,
-            "value": 0.39173650000000004,
-            "grade": 0.880333
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "CHN",
-    "name": "China",
-    "flag": "🇨🇳",
-    "region": "Asia",
-    "rank": 8,
-    "score": 74.18,
-    "classification": "Mature",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 81.09,
-      "Infrastructure": 69.07,
-      "Capacity Building": 69.47
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.81092,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.87184,
-            "grade": 0.87184
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2019,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.690655,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 131.753932,
-            "grade": 0.302539
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 185.063023930175,
-            "grade": 0.258997
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 96,
-            "grade": 0.96
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.4",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 14.22,
-            "grade": 0.931741
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.6947,
-        "classification": "Developing",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 91.73655551,
-            "grade": 0.913433
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2025,
-            "value": 91.6,
-            "grade": 0.916
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 2337,
-            "grade": 0.949368
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
     "code": "NOR",
     "name": "Norway",
     "flag": "🇳🇴",
     "region": "Europe",
-    "rank": 9,
-    "score": 73.93,
+    "rank": 8,
+    "score": 73.6,
     "classification": "Mature",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 84.08,
+      "Government": 83.09,
       "Infrastructure": 65.95,
       "Capacity Building": 71.76
     },
     "pillars": {
       "Government": {
-        "value": 0.840765,
+        "value": 0.83086,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.93153,
-            "grade": 0.93153
+            "value": 0.91172,
+            "grade": 0.91172
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -1156,163 +1027,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "LTU",
-    "name": "Lithuania",
-    "flag": "🇱🇹",
-    "region": "Europe",
-    "rank": 10,
-    "score": 73.18,
+    "code": "MYS",
+    "name": "Malaysia",
+    "flag": "🇲🇾",
+    "region": "Asia",
+    "rank": 9,
+    "score": 73.41,
     "classification": "Mature",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 83.05,
-      "Infrastructure": 76.64,
-      "Capacity Building": 59.84
+      "Government": 73.9,
+      "Infrastructure": 69.7,
+      "Capacity Building": 76.63
     },
     "pillars": {
       "Government": {
-        "value": 0.83052,
+        "value": 0.73898,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.91104,
-            "grade": 0.91104
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.766403,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 141.4965846,
-            "grade": 0.324911
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 405.384394628855,
-            "grade": 0.567339
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 99.7,
-            "grade": 0.997
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.8",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 11.94,
-            "grade": 0.942763
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.598404,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 90.38055805,
-            "grade": 0.899227
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 89.16116293,
-            "grade": 0.891612
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.2682268,
-            "grade": 0.602775
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "CHL",
-    "name": "Chile",
-    "flag": "🇨🇱",
-    "region": "South America",
-    "rank": 11,
-    "score": 73.17,
-    "classification": "Mature",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 81.63,
-      "Infrastructure": 68.96,
-      "Capacity Building": 68.91
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.81633,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.88266,
-            "grade": 0.88266
+            "value": 0.72796,
+            "grade": 0.72796
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -1324,7 +1066,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
         ]
       },
       "Infrastructure": {
-        "value": 0.689619,
+        "value": 0.696963,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 5,
@@ -1334,42 +1076,42 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 108.7815437,
-            "grade": 0.249789
+            "value": 125.9444059,
+            "grade": 0.289199
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 301.80694584474,
-            "grade": 0.422381
+            "value": 347.23075102327,
+            "grade": 0.485952
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
             "year": 2024,
-            "value": 87,
-            "grade": 0.87
+            "value": 82.4,
+            "grade": 0.824
           },
           {
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
             "value": "2.2",
-            "grade": 0.9635
+            "grade": 0.9619
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 12.01,
-            "grade": 0.942425
+            "value": 15.87,
+            "grade": 0.923765
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.689149,
-        "classification": "Developing",
+        "value": 0.766307,
+        "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 4,
         "totalIndicators": 4,
@@ -1378,167 +1120,38 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 96.50037679,
-            "grade": 0.963338
+            "value": 96.8051341,
+            "grade": 0.966531
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 95.590243,
-            "grade": 0.955902
+            "value": 98.0206059,
+            "grade": 0.980206
           },
           {
             "source": "AI_Researchers_Global.xlsx",
             "indicator": "AI_Researchers_Global",
             "year": 2025,
-            "value": 19,
-            "grade": 0.366641
+            "value": 6,
+            "grade": 0.238156
           },
           {
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.20946169999999997,
-            "grade": 0.470714
+            "year": 2019,
+            "value": 0.39173650000000004,
+            "grade": 0.880333
           }
         ]
       }
     },
     "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
       "Capacity Building"
     ],
-    "trend3y": 0
-  },
-  {
-    "code": "POL",
-    "name": "Poland",
-    "flag": "🇵🇱",
-    "region": "Europe",
-    "rank": 12,
-    "score": 73.17,
-    "classification": "Mature",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 80.74,
-      "Infrastructure": 70.03,
-      "Capacity Building": 68.74
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.8074,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.8648,
-            "grade": 0.8648
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.700274,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 219.3062306,
-            "grade": 0.503581
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 112.400936174383,
-            "grade": 0.157306
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 91,
-            "grade": 0.91
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.9",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 14.48,
-            "grade": 0.930484
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.687414,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 95.88658021,
-            "grade": 0.956908
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 88.58496367,
-            "grade": 0.88585
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 30,
-            "grade": 0.420278
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.2165399,
-            "grade": 0.486621
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
     "weaknesses": [
-      "Capacity Building"
+      "Infrastructure"
     ],
     "trend3y": 0
   },
@@ -1547,30 +1160,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Spain",
     "flag": "🇪🇸",
     "region": "Europe",
-    "rank": 13,
-    "score": 73.16,
+    "rank": 10,
+    "score": 72.91,
     "classification": "Mature",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 83.53,
+      "Government": 82.77,
       "Infrastructure": 64.93,
       "Capacity Building": 71.03
     },
     "pillars": {
       "Government": {
-        "value": 0.8353,
+        "value": 0.82771,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.9206,
-            "grade": 0.9206
+            "value": 0.90542,
+            "grade": 0.90542
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -1672,34 +1285,421 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "PRT",
-    "name": "Portugal",
-    "flag": "🇵🇹",
-    "region": "Europe",
-    "rank": 14,
-    "score": 72.92,
+    "code": "CHL",
+    "name": "Chile",
+    "flag": "🇨🇱",
+    "region": "South America",
+    "rank": 11,
+    "score": 72.81,
     "classification": "Mature",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 79.58,
-      "Infrastructure": 66.91,
-      "Capacity Building": 72.29
+      "Government": 80.56,
+      "Infrastructure": 68.96,
+      "Capacity Building": 68.91
     },
     "pillars": {
       "Government": {
-        "value": 0.795765,
+        "value": 0.805595,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.84153,
-            "grade": 0.84153
+            "value": 0.86119,
+            "grade": 0.86119
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.689619,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 108.7815437,
+            "grade": 0.249789
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 301.80694584474,
+            "grade": 0.422381
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 87,
+            "grade": 0.87
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "2.2",
+            "grade": 0.9635
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 12.01,
+            "grade": 0.942425
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.689149,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 96.50037679,
+            "grade": 0.963338
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 95.590243,
+            "grade": 0.955902
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 19,
+            "grade": 0.366641
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.20946169999999997,
+            "grade": 0.470714
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "LTU",
+    "name": "Lithuania",
+    "flag": "🇱🇹",
+    "region": "Europe",
+    "rank": 12,
+    "score": 72.73,
+    "classification": "Mature",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 81.7,
+      "Infrastructure": 76.64,
+      "Capacity Building": 59.84
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.81695,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.8839,
+            "grade": 0.8839
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2021,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.766403,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 141.4965846,
+            "grade": 0.324911
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 405.384394628855,
+            "grade": 0.567339
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 99.7,
+            "grade": 0.997
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.8",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 11.94,
+            "grade": 0.942763
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.598404,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 90.38055805,
+            "grade": 0.899227
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 89.16116293,
+            "grade": 0.891612
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.2682268,
+            "grade": 0.602775
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "POL",
+    "name": "Poland",
+    "flag": "🇵🇱",
+    "region": "Europe",
+    "rank": 13,
+    "score": 72.15,
+    "classification": "Mature",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 77.69,
+      "Infrastructure": 70.03,
+      "Capacity Building": 68.74
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.776855,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.80371,
+            "grade": 0.80371
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.700274,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 219.3062306,
+            "grade": 0.503581
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 112.400936174383,
+            "grade": 0.157306
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 91,
+            "grade": 0.91
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.9",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 14.48,
+            "grade": 0.930484
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.687414,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 95.88658021,
+            "grade": 0.956908
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 88.58496367,
+            "grade": 0.88585
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 30,
+            "grade": 0.420278
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.2165399,
+            "grade": 0.486621
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "PRT",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "region": "Europe",
+    "rank": 14,
+    "score": 72.03,
+    "classification": "Mature",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 76.89,
+      "Infrastructure": 66.91,
+      "Capacity Building": 72.29
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.768875,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.78775,
+            "grade": 0.78775
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -1801,47 +1801,47 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "ITA",
-    "name": "Italy",
-    "flag": "🇮🇹",
-    "region": "Europe",
+    "code": "JPN",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "region": "Asia",
     "rank": 15,
-    "score": 72.88,
+    "score": 71.86,
     "classification": "Mature",
     "yearlyChange": 0,
-    "dataCoverage": 100,
+    "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 79.28,
-      "Infrastructure": 66.98,
-      "Capacity Building": 72.37
+      "Government": 84.64,
+      "Infrastructure": 71.17,
+      "Capacity Building": 59.53
     },
     "pillars": {
       "Government": {
-        "value": 0.792785,
+        "value": 0.84637,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.83557,
-            "grade": 0.83557
+            "value": 0.94274,
+            "grade": 0.94274
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
+            "year": 2013,
             "value": null,
             "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.669825,
-        "classification": "Developing",
+        "value": 0.71167,
+        "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 5,
         "totalIndicators": 5,
@@ -1850,22 +1850,22 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 99.63414474,
-            "grade": 0.228784
+            "value": 255.3310993,
+            "grade": 0.586303
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 236.783433710905,
-            "grade": 0.33138
+            "value": 107.601746946009,
+            "grade": 0.150589
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 90,
-            "grade": 0.9
+            "year": 2023,
+            "value": 96.6,
+            "grade": 0.966
           },
           {
             "source": "Fixed-broadband Internet basket price.xlsx",
@@ -1878,45 +1878,38 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 23.07,
-            "grade": 0.888959
+            "value": 30,
+            "grade": 0.855458
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.723652,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 4,
+        "value": 0.595296,
+        "classification": "Developing",
+        "coverage": 0.75,
+        "availableIndicators": 3,
         "totalIndicators": 4,
         "indicators": [
           {
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 86.21102801,
-            "grade": 0.855547
+            "value": 91.04313301,
+            "grade": 0.906168
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 89.2207202,
-            "grade": 0.892207
+            "value": 85.54153081,
+            "grade": 0.855415
           },
           {
             "source": "AI_Researchers_Global.xlsx",
             "indicator": "AI_Researchers_Global",
             "year": 2025,
-            "value": 137,
-            "grade": 0.603036
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.2419916,
-            "grade": 0.543817
+            "value": 157,
+            "grade": 0.6196
           }
         ]
       }
@@ -1925,7 +1918,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Government"
     ],
     "weaknesses": [
-      "Infrastructure"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -1935,29 +1928,29 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "flag": "🇶🇦",
     "region": "Asia",
     "rank": 16,
-    "score": 72.76,
+    "score": 71.77,
     "classification": "Mature",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 78.72,
+      "Government": 75.77,
       "Infrastructure": 68.66,
       "Capacity Building": 70.89
     },
     "pillars": {
       "Government": {
-        "value": 0.78719,
+        "value": 0.757745,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.82438,
-            "grade": 0.82438
+            "value": 0.76549,
+            "grade": 0.76549
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -2059,34 +2052,163 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "GRC",
-    "name": "Greece",
-    "flag": "🇬🇷",
+    "code": "ITA",
+    "name": "Italy",
+    "flag": "🇮🇹",
     "region": "Europe",
     "rank": 17,
-    "score": 72.5,
+    "score": 71.66,
     "classification": "Mature",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 80.87,
-      "Infrastructure": 67.33,
-      "Capacity Building": 69.29
+      "Government": 75.62,
+      "Infrastructure": 66.98,
+      "Capacity Building": 72.37
     },
     "pillars": {
       "Government": {
-        "value": 0.808685,
+        "value": 0.756195,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.86737,
-            "grade": 0.86737
+            "value": 0.76239,
+            "grade": 0.76239
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2021,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.669825,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 99.63414474,
+            "grade": 0.228784
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 236.783433710905,
+            "grade": 0.33138
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 90,
+            "grade": 0.9
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "1.0",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 23.07,
+            "grade": 0.888959
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.723652,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 86.21102801,
+            "grade": 0.855547
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 89.2207202,
+            "grade": 0.892207
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 137,
+            "grade": 0.603036
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.2419916,
+            "grade": 0.543817
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "GRC",
+    "name": "Greece",
+    "flag": "🇬🇷",
+    "region": "Europe",
+    "rank": 18,
+    "score": 71.62,
+    "classification": "Mature",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 78.23,
+      "Infrastructure": 67.33,
+      "Capacity Building": 69.29
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.782265,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.81453,
+            "grade": 0.81453
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -2192,30 +2314,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Thailand",
     "flag": "🇹🇭",
     "region": "Asia",
-    "rank": 18,
-    "score": 71.96,
+    "rank": 19,
+    "score": 70.72,
     "classification": "Mature",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 79.26,
+      "Government": 75.55,
       "Infrastructure": 70.25,
       "Capacity Building": 66.36
     },
     "pillars": {
       "Government": {
-        "value": 0.79255,
+        "value": 0.755525,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.8351,
-            "grade": 0.8351
+            "value": 0.76105,
+            "grade": 0.76105
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -2317,285 +2439,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "JPN",
-    "name": "Japan",
-    "flag": "🇯🇵",
-    "region": "Asia",
-    "rank": 19,
-    "score": 71.74,
-    "classification": "Mature",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 84.26,
-      "Infrastructure": 71.17,
-      "Capacity Building": 59.53
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.84255,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.9351,
-            "grade": 0.9351
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2013,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.71167,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 255.3310993,
-            "grade": 0.586303
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 107.601746946009,
-            "grade": 0.150589
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2023,
-            "value": 96.6,
-            "grade": 0.966
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "1.0",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 30,
-            "grade": 0.855458
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.595296,
-        "classification": "Developing",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 91.04313301,
-            "grade": 0.906168
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 85.54153081,
-            "grade": 0.855415
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 157,
-            "grade": 0.6196
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "CZE",
-    "name": "Czechia",
-    "flag": "🇨🇿",
-    "region": "Europe",
-    "rank": 20,
-    "score": 71.39,
-    "classification": "Mature",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 78.7,
-      "Infrastructure": 65.7,
-      "Capacity Building": 69.78
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.78697,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.82394,
-            "grade": 0.82394
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.657029,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 107.8161794,
-            "grade": 0.247572
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 149.701159214524,
-            "grade": 0.209508
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 98.6,
-            "grade": 0.986
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.9",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 32.77,
-            "grade": 0.842067
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.697796,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 89.06393335,
-            "grade": 0.885434
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 87.68776014,
-            "grade": 0.876878
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 36,
-            "grade": 0.441932
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.2611807,
-            "grade": 0.58694
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
     "code": "BHR",
     "name": "Bahrain",
     "flag": "🇧🇭",
     "region": "Asia",
-    "rank": 21,
-    "score": 70.93,
+    "rank": 20,
+    "score": 70.65,
     "classification": "Mature",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 83.48,
+      "Government": 82.65,
       "Infrastructure": 70.54,
       "Capacity Building": 58.76
     },
     "pillars": {
       "Government": {
-        "value": 0.83479,
+        "value": 0.826525,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.91958,
-            "grade": 0.91958
+            "value": 0.90305,
+            "grade": 0.90305
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -2701,30 +2572,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Malta",
     "flag": "🇲🇹",
     "region": "Europe",
-    "rank": 22,
-    "score": 70.86,
+    "rank": 21,
+    "score": 70.63,
     "classification": "Mature",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 81.93,
+      "Government": 81.25,
       "Infrastructure": 70.06,
       "Capacity Building": 60.58
     },
     "pillars": {
       "Government": {
-        "value": 0.8193,
+        "value": 0.81246,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.8886,
-            "grade": 0.8886
+            "value": 0.87492,
+            "grade": 0.87492
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -2830,30 +2701,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Croatia",
     "flag": "🇭🇷",
     "region": "Europe",
-    "rank": 23,
-    "score": 70.63,
+    "rank": 22,
+    "score": 70.49,
     "classification": "Mature",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 81.59,
+      "Government": 81.17,
       "Infrastructure": 72.25,
       "Capacity Building": 58.04
     },
     "pillars": {
       "Government": {
-        "value": 0.815875,
+        "value": 0.811735,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.88175,
-            "grade": 0.88175
+            "value": 0.87347,
+            "grade": 0.87347
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -2959,30 +2830,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Slovenia",
     "flag": "🇸🇮",
     "region": "Europe",
-    "rank": 24,
-    "score": 70.25,
+    "rank": 23,
+    "score": 70.05,
     "classification": "Mature",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 81.29,
+      "Government": 80.7,
       "Infrastructure": 68.01,
       "Capacity Building": 61.45
     },
     "pillars": {
       "Government": {
-        "value": 0.812945,
+        "value": 0.80698,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.87589,
-            "grade": 0.87589
+            "value": 0.86396,
+            "grade": 0.86396
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -3084,46 +2955,46 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "BEL",
-    "name": "Belgium",
-    "flag": "🇧🇪",
+    "code": "CZE",
+    "name": "Czechia",
+    "flag": "🇨🇿",
     "region": "Europe",
-    "rank": 25,
-    "score": 69.87,
+    "rank": 24,
+    "score": 69.34,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 78.11,
-      "Infrastructure": 65.25,
-      "Capacity Building": 66.25
+      "Government": 72.53,
+      "Infrastructure": 65.7,
+      "Capacity Building": 69.78
     },
     "pillars": {
       "Government": {
-        "value": 0.78106,
+        "value": 0.725315,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.81212,
-            "grade": 0.81212
+            "value": 0.70063,
+            "grade": 0.70063
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2019,
+            "year": 2022,
             "value": null,
             "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.652542,
+        "value": 0.657029,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 5,
@@ -3133,41 +3004,41 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 98.67669191,
-            "grade": 0.226586
+            "value": 107.8161794,
+            "grade": 0.247572
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 102.474026891706,
-            "grade": 0.143413
+            "value": 149.701159214524,
+            "grade": 0.209508
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
             "year": 2024,
-            "value": 99.8,
-            "grade": 0.998
+            "value": 98.6,
+            "grade": 0.986
           },
           {
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "0.7",
+            "value": "0.9",
             "grade": 1
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 21.88,
-            "grade": 0.894711
+            "value": 32.77,
+            "grade": 0.842067
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.662458,
+        "value": 0.697796,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 4,
@@ -3177,29 +3048,29 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 94.61933824,
-            "grade": 0.943632
+            "value": 89.06393335,
+            "grade": 0.885434
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 95.77579144,
-            "grade": 0.957758
+            "value": 87.68776014,
+            "grade": 0.876878
           },
           {
             "source": "AI_Researchers_Global.xlsx",
             "indicator": "AI_Researchers_Global",
             "year": 2025,
-            "value": 19,
-            "grade": 0.366641
+            "value": 36,
+            "grade": 0.441932
           },
           {
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
             "year": 2018,
-            "value": 0.1698965,
-            "grade": 0.381801
+            "value": 0.2611807,
+            "grade": 0.58694
           }
         ]
       }
@@ -3209,257 +3080,6 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     ],
     "weaknesses": [
       "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "CYP",
-    "name": "Cyprus",
-    "flag": "🇨🇾",
-    "region": "Asia",
-    "rank": 26,
-    "score": 69.57,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 80.59,
-      "Infrastructure": 70.42,
-      "Capacity Building": 57.7
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.805935,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.86187,
-            "grade": 0.86187
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.704232,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 91.59261175,
-            "grade": 0.210319
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 284.905061396304,
-            "grade": 0.398727
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 100,
-            "grade": 1
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "1.3",
-            "grade": 0.9898
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 16.17,
-            "grade": 0.922315
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.577005,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 93.9968803,
-            "grade": 0.937112
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 89.60099246,
-            "grade": 0.89601
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 2,
-            "grade": 0.134457
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.15149200000000002,
-            "grade": 0.340441
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "KWT",
-    "name": "Kuwait",
-    "flag": "🇰🇼",
-    "region": "Asia",
-    "rank": 27,
-    "score": 69.08,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 76.56,
-      "Infrastructure": 82.84,
-      "Capacity Building": 50
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.7656,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.7812,
-            "grade": 0.7812
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2014,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.828398,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 135.3650932,
-            "grade": 0.310831
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2023,
-            "value": 714.53698271308,
-            "grade": 1
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2023,
-            "value": 99.9,
-            "grade": 0.999
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.5",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 34.82,
-            "grade": 0.832157
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.5,
-        "classification": "Adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2025,
-            "value": 100,
-            "grade": 1
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2025,
-            "value": 100,
-            "grade": 1
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Infrastructure"
-    ],
-    "weaknesses": [
-      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -3468,30 +3088,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "New Zealand",
     "flag": "🇳🇿",
     "region": "Oceania",
-    "rank": 28,
-    "score": 68.9,
+    "rank": 25,
+    "score": 69.21,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 83.83,
+      "Government": 84.77,
       "Infrastructure": 52.69,
       "Capacity Building": 70.18
     },
     "pillars": {
       "Government": {
-        "value": 0.83827,
+        "value": 0.84765,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.92654,
-            "grade": 0.92654
+            "value": 0.9453,
+            "grade": 0.9453
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -3593,34 +3213,421 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "BGR",
-    "name": "Bulgaria",
-    "flag": "🇧🇬",
-    "region": "Europe",
-    "rank": 29,
-    "score": 68.36,
+    "code": "CYP",
+    "name": "Cyprus",
+    "flag": "🇨🇾",
+    "region": "Asia",
+    "rank": 26,
+    "score": 68.9,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 78.23,
-      "Infrastructure": 67.01,
-      "Capacity Building": 59.86
+      "Government": 78.58,
+      "Infrastructure": 70.42,
+      "Capacity Building": 57.7
     },
     "pillars": {
       "Government": {
-        "value": 0.782265,
+        "value": 0.785825,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.81453,
-            "grade": 0.81453
+            "value": 0.82165,
+            "grade": 0.82165
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.704232,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 91.59261175,
+            "grade": 0.210319
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 284.905061396304,
+            "grade": 0.398727
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 100,
+            "grade": 1
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "1.3",
+            "grade": 0.9898
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 16.17,
+            "grade": 0.922315
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.577005,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 93.9968803,
+            "grade": 0.937112
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 89.60099246,
+            "grade": 0.89601
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 2,
+            "grade": 0.134457
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.15149200000000002,
+            "grade": 0.340441
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "BEL",
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "region": "Europe",
+    "rank": 27,
+    "score": 68.37,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 73.62,
+      "Infrastructure": 65.25,
+      "Capacity Building": 66.25
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.73622,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.72244,
+            "grade": 0.72244
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2019,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.652542,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 98.67669191,
+            "grade": 0.226586
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 102.474026891706,
+            "grade": 0.143413
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 99.8,
+            "grade": 0.998
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.7",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 21.88,
+            "grade": 0.894711
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.662458,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 94.61933824,
+            "grade": 0.943632
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 95.77579144,
+            "grade": 0.957758
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 19,
+            "grade": 0.366641
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.1698965,
+            "grade": 0.381801
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "BRA",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "region": "South America",
+    "rank": 28,
+    "score": 68.07,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 82.82,
+      "Infrastructure": 56.93,
+      "Capacity Building": 64.47
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.828155,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.90631,
+            "grade": 0.90631
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.569258,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 98.92375596,
+            "grade": 0.227153
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 69.0931273361875,
+            "grade": 0.096696
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 62.98,
+            "grade": 0.6298
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "2.7",
+            "grade": 0.9477
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 11.49,
+            "grade": 0.944939
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.644672,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 83.43679991,
+            "grade": 0.826485
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 84.46347227,
+            "grade": 0.844635
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 56,
+            "grade": 0.49482
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.1836665,
+            "grade": 0.412746
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "BGR",
+    "name": "Bulgaria",
+    "flag": "🇧🇬",
+    "region": "Europe",
+    "rank": 29,
+    "score": 67.67,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 76.14,
+      "Infrastructure": 67.01,
+      "Capacity Building": 59.86
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.761355,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.77271,
+            "grade": 0.77271
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -3722,34 +3729,414 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "HUN",
-    "name": "Hungary",
-    "flag": "🇭🇺",
-    "region": "Europe",
+    "code": "KOR",
+    "name": "Republic of Korea",
+    "flag": "🇰🇷",
+    "region": "Asia",
     "rank": 30,
-    "score": 68.35,
+    "score": 67.08,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 77.72,
+      "Government": 50,
+      "Infrastructure": 67.49,
+      "Capacity Building": 83.73
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.5,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 1,
+            "grade": 1
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.674925,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 125.3966416,
+            "grade": 0.287941
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 204.465170846147,
+            "grade": 0.286151
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2023,
+            "value": 94,
+            "grade": 0.94
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "1.0",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 28.95,
+            "grade": 0.860534
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.837326,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 99.97082612,
+            "grade": 0.999694
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 97.89563777,
+            "grade": 0.978956
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 333,
+            "grade": 0.711213
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2017,
+            "value": 0.293442,
+            "grade": 0.65944
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "SGP",
+    "name": "Singapore",
+    "flag": "🇸🇬",
+    "region": "Asia",
+    "rank": 31,
+    "score": 66.96,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 49.15,
+      "Infrastructure": 68.55,
+      "Capacity Building": 83.18
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.49153,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.98306,
+            "grade": 0.98306
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.685526,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 170.782563,
+            "grade": 0.392159
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 110.434005642174,
+            "grade": 0.154553
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 95,
+            "grade": 0.95
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.7",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 14.39,
+            "grade": 0.930919
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.831819,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 98.52414368,
+            "grade": 0.984539
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 94.37757178,
+            "grade": 0.943776
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 196,
+            "grade": 0.646599
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.3347918,
+            "grade": 0.752363
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "KWT",
+    "name": "Kuwait",
+    "flag": "🇰🇼",
+    "region": "Asia",
+    "rank": 32,
+    "score": 66.87,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 69.33,
+      "Infrastructure": 82.84,
+      "Capacity Building": 50
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.693275,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.63655,
+            "grade": 0.63655
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2014,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.828398,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 135.3650932,
+            "grade": 0.310831
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2023,
+            "value": 714.53698271308,
+            "grade": 1
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2023,
+            "value": 99.9,
+            "grade": 0.999
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.5",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 34.82,
+            "grade": 0.832157
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.5,
+        "classification": "Adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2025,
+            "value": 100,
+            "grade": 1
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2025,
+            "value": 100,
+            "grade": 1
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "HUN",
+    "name": "Hungary",
+    "flag": "🇭🇺",
+    "region": "Europe",
+    "rank": 33,
+    "score": 66.85,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 73.22,
       "Infrastructure": 62.11,
       "Capacity Building": 65.21
     },
     "pillars": {
       "Government": {
-        "value": 0.77715,
+        "value": 0.732185,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.8043,
-            "grade": 0.8043
+            "value": 0.71437,
+            "grade": 0.71437
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -3855,30 +4242,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Liechtenstein",
     "flag": "🇱🇮",
     "region": "Europe",
-    "rank": 31,
-    "score": 68.25,
+    "rank": 34,
+    "score": 66.4,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 80.14,
+      "Government": 74.58,
       "Infrastructure": 64.48,
       "Capacity Building": 60.14
     },
     "pillars": {
       "Government": {
-        "value": 0.80142,
+        "value": 0.745785,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.85284,
-            "grade": 0.85284
+            "value": 0.74157,
+            "grade": 0.74157
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -3984,30 +4371,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Finland",
     "flag": "🇫🇮",
     "region": "Europe",
-    "rank": 32,
-    "score": 66.98,
+    "rank": 35,
+    "score": 66.18,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 47.87,
+      "Government": 45.49,
       "Infrastructure": 79.16,
       "Capacity Building": 73.91
     },
     "pillars": {
       "Government": {
-        "value": 0.47873,
+        "value": 0.454865,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.95746,
-            "grade": 0.95746
+            "value": 0.90973,
+            "grade": 0.90973
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -4109,679 +4496,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "BRA",
-    "name": "Brazil",
-    "flag": "🇧🇷",
-    "region": "South America",
-    "rank": 33,
-    "score": 66.97,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 79.51,
-      "Infrastructure": 56.93,
-      "Capacity Building": 64.47
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.79513,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.84026,
-            "grade": 0.84026
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.569258,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 98.92375596,
-            "grade": 0.227153
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 69.0931273361875,
-            "grade": 0.096696
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 62.98,
-            "grade": 0.6298
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "2.7",
-            "grade": 0.9477
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 11.49,
-            "grade": 0.944939
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.644672,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 83.43679991,
-            "grade": 0.826485
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 84.46347227,
-            "grade": 0.844635
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 56,
-            "grade": 0.49482
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.1836665,
-            "grade": 0.412746
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "SGP",
-    "name": "Singapore",
-    "flag": "🇸🇬",
-    "region": "Asia",
-    "rank": 34,
-    "score": 66.73,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 48.46,
-      "Infrastructure": 68.55,
-      "Capacity Building": 83.18
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.48456,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.96912,
-            "grade": 0.96912
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.685526,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 170.782563,
-            "grade": 0.392159
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 110.434005642174,
-            "grade": 0.154553
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 95,
-            "grade": 0.95
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.7",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 14.39,
-            "grade": 0.930919
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.831819,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 98.52414368,
-            "grade": 0.984539
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 94.37757178,
-            "grade": 0.943776
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 196,
-            "grade": 0.646599
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.3347918,
-            "grade": 0.752363
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "KOR",
-    "name": "Republic of Korea",
-    "flag": "🇰🇷",
-    "region": "Asia",
-    "rank": 35,
-    "score": 66.54,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 48.39,
-      "Infrastructure": 67.49,
-      "Capacity Building": 83.73
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.483945,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.96789,
-            "grade": 0.96789
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.674925,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 125.3966416,
-            "grade": 0.287941
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 204.465170846147,
-            "grade": 0.286151
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2023,
-            "value": 94,
-            "grade": 0.94
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "1.0",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 28.95,
-            "grade": 0.860534
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.837326,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 99.97082612,
-            "grade": 0.999694
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 97.89563777,
-            "grade": 0.978956
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 333,
-            "grade": 0.711213
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2017,
-            "value": 0.293442,
-            "grade": 0.65944
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "AUT",
-    "name": "Austria",
-    "flag": "🇦🇹",
-    "region": "Europe",
-    "rank": 36,
-    "score": 66.42,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 45.33,
-      "Infrastructure": 76.7,
-      "Capacity Building": 77.23
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.453265,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.90653,
-            "grade": 0.90653
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.767018,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 132.0825238,
-            "grade": 0.303294
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 430.616419025484,
-            "grade": 0.602651
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 98,
-            "grade": 0.98
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.3",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 10.62,
-            "grade": 0.949144
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.772347,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2025,
-            "value": 92.55740648,
-            "grade": 0.922032
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2025,
-            "value": 91.92573373,
-            "grade": 0.919257
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 89,
-            "grade": 0.550722
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.3103226,
-            "grade": 0.697375
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "DEU",
-    "name": "Germany",
-    "flag": "🇩🇪",
-    "region": "Europe",
-    "rank": 37,
-    "score": 66.12,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 46.91,
-      "Infrastructure": 66.01,
-      "Capacity Building": 85.44
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.469105,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.93821,
-            "grade": 0.93821
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.660099,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 97.4994844,
-            "grade": 0.223883
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 116.354108542177,
-            "grade": 0.162838
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 98,
-            "grade": 0.98
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "1.0",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 13.8,
-            "grade": 0.933772
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.854392,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 92.64897616,
-            "grade": 0.922991
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 93.49999579,
-            "grade": 0.935
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 522,
-            "grade": 0.766096
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.3530881,
-            "grade": 0.79348
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
     "code": "TUR",
     "name": "Türkiye",
     "flag": "🇹🇷",
     "region": "Asia",
-    "rank": 38,
-    "score": 65.61,
+    "rank": 36,
+    "score": 66.13,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 82.07,
+      "Government": 83.63,
       "Infrastructure": 47.32,
       "Capacity Building": 67.45
     },
     "pillars": {
       "Government": {
-        "value": 0.820655,
+        "value": 0.836265,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.89131,
-            "grade": 0.89131
+            "value": 0.92253,
+            "grade": 0.92253
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -4883,47 +4625,47 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "UZB",
-    "name": "Uzbekistan",
-    "flag": "🇺🇿",
-    "region": "Asia",
-    "rank": 39,
-    "score": 65.59,
+    "code": "DEU",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "region": "Europe",
+    "rank": 37,
+    "score": 65.88,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 77.5,
-      "Infrastructure": 53.36,
-      "Capacity Building": 65.93
+      "Government": 46.19,
+      "Infrastructure": 66.01,
+      "Capacity Building": 85.44
     },
     "pillars": {
       "Government": {
-        "value": 0.77495,
-        "classification": "Mature",
+        "value": 0.46192,
+        "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.7999,
-            "grade": 0.7999
+            "value": 0.92384,
+            "grade": 0.92384
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
+            "year": 2021,
             "value": null,
-            "grade": 0.75
+            "grade": 0
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.533569,
-        "classification": "Adopting",
+        "value": 0.660099,
+        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 5,
         "totalIndicators": 5,
@@ -4932,42 +4674,42 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 109.364326,
-            "grade": 0.251127
+            "value": 97.4994844,
+            "grade": 0.223883
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 270.104017657699,
-            "grade": 0.378013
+            "value": 116.354108542177,
+            "grade": 0.162838
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
             "year": 2024,
-            "value": 18,
-            "grade": 0.18
+            "value": 98,
+            "grade": 0.98
           },
           {
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "4.2",
-            "grade": 0.9012
+            "value": "1.0",
+            "grade": 1
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 8.89,
-            "grade": 0.957507
+            "value": 13.8,
+            "grade": 0.933772
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.659287,
-        "classification": "Developing",
+        "value": 0.854392,
+        "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 4,
         "totalIndicators": 4,
@@ -4976,83 +4718,83 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 96.87968807,
-            "grade": 0.967312
+            "value": 92.64897616,
+            "grade": 0.922991
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 89.50550079,
-            "grade": 0.895055
+            "value": 93.49999579,
+            "grade": 0.935
           },
           {
             "source": "AI_Researchers_Global.xlsx",
             "indicator": "AI_Researchers_Global",
             "year": 2025,
-            "value": 0,
-            "grade": 0
+            "value": 522,
+            "grade": 0.766096
           },
           {
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
-            "year": 2019,
-            "value": 0.34476799999999996,
-            "grade": 0.774782
+            "year": 2018,
+            "value": 0.3530881,
+            "grade": 0.79348
           }
         ]
       }
     },
     "strengths": [
-      "Government"
+      "Capacity Building"
     ],
     "weaknesses": [
-      "Infrastructure"
+      "Government"
     ],
     "trend3y": 0
   },
   {
-    "code": "MNE",
-    "name": "Montenegro",
-    "flag": "🇲🇪",
+    "code": "AUT",
+    "name": "Austria",
+    "flag": "🇦🇹",
     "region": "Europe",
-    "rank": 40,
-    "score": 65.43,
+    "rank": 38,
+    "score": 65.28,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 73.56,
-      "Infrastructure": 68.08,
-      "Capacity Building": 54.65
+      "Government": 41.91,
+      "Infrastructure": 76.7,
+      "Capacity Building": 77.23
     },
     "pillars": {
       "Government": {
-        "value": 0.735555,
-        "classification": "Mature",
+        "value": 0.419145,
+        "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.72111,
-            "grade": 0.72111
+            "value": 0.83829,
+            "grade": 0.83829
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
+            "year": 2022,
             "value": null,
-            "grade": 0.75
+            "grade": 0
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.680832,
-        "classification": "Developing",
+        "value": 0.767018,
+        "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 5,
         "totalIndicators": 5,
@@ -5061,42 +4803,42 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 115.8230733,
-            "grade": 0.265958
+            "value": 132.0825238,
+            "grade": 0.303294
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 253.047304551958,
-            "grade": 0.354142
+            "value": 430.616419025484,
+            "grade": 0.602651
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
             "year": 2024,
-            "value": 91.23,
-            "grade": 0.9123
+            "value": 98,
+            "grade": 0.98
           },
           {
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "1.5",
-            "grade": 0.9858
+            "value": "0.3",
+            "grade": 1
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 23.69,
-            "grade": 0.885962
+            "value": 10.62,
+            "grade": 0.949144
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.546534,
-        "classification": "Adopting",
+        "value": 0.772347,
+        "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 4,
         "totalIndicators": 4,
@@ -5104,39 +4846,39 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           {
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 84.5039454,
-            "grade": 0.837664
+            "year": 2025,
+            "value": 92.55740648,
+            "grade": 0.922032
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 88.88258428,
-            "grade": 0.888826
+            "year": 2025,
+            "value": 91.92573373,
+            "grade": 0.919257
           },
           {
             "source": "AI_Researchers_Global.xlsx",
             "indicator": "AI_Researchers_Global",
             "year": 2025,
-            "value": 0,
-            "grade": 0
+            "value": 89,
+            "grade": 0.550722
           },
           {
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
-            "year": 2019,
-            "value": 0.2045364,
-            "grade": 0.459646
+            "year": 2018,
+            "value": 0.3103226,
+            "grade": 0.697375
           }
         ]
       }
     },
     "strengths": [
-      "Government"
+      "Capacity Building"
     ],
     "weaknesses": [
-      "Capacity Building"
+      "Government"
     ],
     "trend3y": 0
   },
@@ -5145,30 +4887,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "United Kingdom",
     "flag": "🇬🇧",
     "region": "Europe",
-    "rank": 41,
-    "score": 65.21,
+    "rank": 39,
+    "score": 65.14,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 47.89,
+      "Government": 47.67,
       "Infrastructure": 64.91,
       "Capacity Building": 82.82
     },
     "pillars": {
       "Government": {
-        "value": 0.478865,
+        "value": 0.476745,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.95773,
-            "grade": 0.95773
+            "value": 0.95349,
+            "grade": 0.95349
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -5270,34 +5012,163 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "MKD",
-    "name": "North Macedonia",
-    "flag": "🇲🇰",
-    "region": "Europe",
-    "rank": 42,
-    "score": 65,
+    "code": "UZB",
+    "name": "Uzbekistan",
+    "flag": "🇺🇿",
+    "region": "Asia",
+    "rank": 40,
+    "score": 65.01,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 72.85,
-      "Infrastructure": 62.92,
-      "Capacity Building": 59.21
+      "Government": 75.74,
+      "Infrastructure": 53.36,
+      "Capacity Building": 65.93
     },
     "pillars": {
       "Government": {
-        "value": 0.72852,
+        "value": 0.75742,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.70704,
-            "grade": 0.70704
+            "value": 0.76484,
+            "grade": 0.76484
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.533569,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 109.364326,
+            "grade": 0.251127
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 270.104017657699,
+            "grade": 0.378013
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 18,
+            "grade": 0.18
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "4.2",
+            "grade": 0.9012
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 8.89,
+            "grade": 0.957507
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.659287,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 96.87968807,
+            "grade": 0.967312
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 89.50550079,
+            "grade": 0.895055
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2019,
+            "value": 0.34476799999999996,
+            "grade": 0.774782
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "MKD",
+    "name": "North Macedonia",
+    "flag": "🇲🇰",
+    "region": "Europe",
+    "rank": 41,
+    "score": 64.28,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 70.71,
+      "Infrastructure": 62.92,
+      "Capacity Building": 59.21
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.707075,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.66415,
+            "grade": 0.66415
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -5399,292 +5270,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "ROU",
-    "name": "Romania",
-    "flag": "🇷🇴",
-    "region": "Europe",
-    "rank": 43,
-    "score": 64.58,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 75.68,
-      "Infrastructure": 55.48,
-      "Capacity Building": 62.57
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.75682,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.76364,
-            "grade": 0.76364
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.554779,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 101.1814565,
-            "grade": 0.232337
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 150.729664112457,
-            "grade": 0.210947
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 39.8,
-            "grade": 0.398
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.5",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 14.04,
-            "grade": 0.932611
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.625674,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 94.58049053,
-            "grade": 0.943225
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 91.29048551,
-            "grade": 0.912905
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2016,
-            "value": 0.2877131,
-            "grade": 0.646565
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "IRN",
-    "name": "Iran",
-    "flag": "🇮🇷",
-    "region": "Asia",
-    "rank": 44,
-    "score": 64.55,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 70.32,
-      "Infrastructure": 51.66,
-      "Capacity Building": 71.67
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.703195,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.65639,
-            "grade": 0.65639
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.516558,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 126.9479738,
-            "grade": 0.291504
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 162.564084935308,
-            "grade": 0.22751
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 8.2,
-            "grade": 0.082
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.2",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 3.87,
-            "grade": 0.981775
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.716698,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 86.21587547,
-            "grade": 0.855598
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 85.3404007,
-            "grade": 0.853404
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 7,
-            "grade": 0.254498
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.4019529,
-            "grade": 0.903292
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
     "code": "ARG",
     "name": "Argentina",
     "flag": "🇦🇷",
     "region": "South America",
-    "rank": 45,
-    "score": 64.48,
+    "rank": 42,
+    "score": 63.55,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 80.37,
+      "Government": 77.32,
       "Infrastructure": 60.66,
       "Capacity Building": 52.49
     },
     "pillars": {
       "Government": {
-        "value": 0.803665,
+        "value": 0.773245,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.85733,
-            "grade": 0.85733
+            "value": 0.79649,
+            "grade": 0.79649
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -5779,163 +5392,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "VNM",
-    "name": "Viet Nam",
-    "flag": "🇻🇳",
-    "region": "Asia",
-    "rank": 46,
-    "score": 64.18,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 76.05,
-      "Infrastructure": 51.21,
-      "Capacity Building": 65.28
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.76046,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.77092,
-            "grade": 0.77092
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.512085,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 100.269523,
-            "grade": 0.230243
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 128.382545539684,
-            "grade": 0.179672
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 25.5,
-            "grade": 0.255
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "2.3",
-            "grade": 0.9585
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 13.13,
-            "grade": 0.937011
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.652829,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 92.45,
-            "grade": 0.920907
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 84.15,
-            "grade": 0.8415
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 15,
-            "grade": 0.339331
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2016,
-            "value": 0.2267548,
-            "grade": 0.509576
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
     "code": "SWE",
     "name": "Sweden",
     "flag": "🇸🇪",
     "region": "Europe",
-    "rank": 47,
-    "score": 64.04,
+    "rank": 43,
+    "score": 63.23,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 46.63,
+      "Government": 44.18,
       "Infrastructure": 72.78,
       "Capacity Building": 72.72
     },
     "pillars": {
       "Government": {
-        "value": 0.46631,
+        "value": 0.441805,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.93262,
-            "grade": 0.93262
+            "value": 0.88361,
+            "grade": 0.88361
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -6037,34 +5521,292 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "AUS",
-    "name": "Australia",
-    "flag": "🇦🇺",
-    "region": "Oceania",
-    "rank": 48,
-    "score": 63.21,
+    "code": "VNM",
+    "name": "Viet Nam",
+    "flag": "🇻🇳",
+    "region": "Asia",
+    "rank": 44,
+    "score": 63.13,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 47.89,
+      "Government": 72.91,
+      "Infrastructure": 51.21,
+      "Capacity Building": 65.28
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.729055,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.70811,
+            "grade": 0.70811
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.512085,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 100.269523,
+            "grade": 0.230243
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 128.382545539684,
+            "grade": 0.179672
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 25.5,
+            "grade": 0.255
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "2.3",
+            "grade": 0.9585
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 13.13,
+            "grade": 0.937011
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.652829,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 92.45,
+            "grade": 0.920907
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 84.15,
+            "grade": 0.8415
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 15,
+            "grade": 0.339331
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2016,
+            "value": 0.2267548,
+            "grade": 0.509576
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "ROU",
+    "name": "Romania",
+    "flag": "🇷🇴",
+    "region": "Europe",
+    "rank": 45,
+    "score": 62.76,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 70.24,
+      "Infrastructure": 55.48,
+      "Capacity Building": 62.57
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.702385,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.65477,
+            "grade": 0.65477
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.554779,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 101.1814565,
+            "grade": 0.232337
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 150.729664112457,
+            "grade": 0.210947
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 39.8,
+            "grade": 0.398
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.5",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 14.04,
+            "grade": 0.932611
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.625674,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 94.58049053,
+            "grade": 0.943225
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 91.29048551,
+            "grade": 0.912905
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2016,
+            "value": 0.2877131,
+            "grade": 0.646565
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "AUS",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "rank": 46,
+    "score": 62.62,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 46.11,
       "Infrastructure": 65.52,
       "Capacity Building": 76.22
     },
     "pillars": {
       "Government": {
-        "value": 0.47885,
+        "value": 0.461095,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.9577,
-            "grade": 0.9577
+            "value": 0.92219,
+            "grade": 0.92219
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -6166,34 +5908,163 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "CHE",
-    "name": "Switzerland",
-    "flag": "🇨🇭",
+    "code": "MNE",
+    "name": "Montenegro",
+    "flag": "🇲🇪",
     "region": "Europe",
-    "rank": 49,
-    "score": 63.08,
+    "rank": 47,
+    "score": 62.1,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 45.02,
+      "Government": 63.57,
+      "Infrastructure": 68.08,
+      "Capacity Building": 54.65
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.63571,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.52142,
+            "grade": 0.52142
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.680832,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 115.8230733,
+            "grade": 0.265958
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 253.047304551958,
+            "grade": 0.354142
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 91.23,
+            "grade": 0.9123
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "1.5",
+            "grade": 0.9858
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 23.69,
+            "grade": 0.885962
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.546534,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 84.5039454,
+            "grade": 0.837664
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 88.88258428,
+            "grade": 0.888826
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2019,
+            "value": 0.2045364,
+            "grade": 0.459646
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "CHE",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "region": "Europe",
+    "rank": 48,
+    "score": 62.09,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 42.04,
       "Infrastructure": 67.26,
       "Capacity Building": 76.98
     },
     "pillars": {
       "Government": {
-        "value": 0.450175,
+        "value": 0.4204,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.90035,
-            "grade": 0.90035
+            "value": 0.8408,
+            "grade": 0.8408
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -6295,163 +6166,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "SYC",
-    "name": "Seychelles",
-    "flag": "🇸🇨",
-    "region": "Africa",
-    "rank": 50,
-    "score": 62.77,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 71.37,
-      "Infrastructure": 65.59,
-      "Capacity Building": 51.36
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.713665,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.67733,
-            "grade": 0.67733
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.655871,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 82.35366284,
-            "grade": 0.189104
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 193.093367099922,
-            "grade": 0.270236
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 99,
-            "grade": 0.99
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "1.1",
-            "grade": 0.9966
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 34.56,
-            "grade": 0.833414
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.513552,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 74.2183336,
-            "grade": 0.729913
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 87.81800079,
-            "grade": 0.87818
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2019,
-            "value": 0.1985158,
-            "grade": 0.446116
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
     "code": "IRL",
     "name": "Ireland",
     "flag": "🇮🇪",
     "region": "Europe",
-    "rank": 51,
-    "score": 62.41,
+    "rank": 49,
+    "score": 61.79,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 45.69,
+      "Government": 43.84,
       "Infrastructure": 68.53,
       "Capacity Building": 73.01
     },
     "pillars": {
       "Government": {
-        "value": 0.456885,
+        "value": 0.43839,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.91377,
-            "grade": 0.91377
+            "value": 0.87678,
+            "grade": 0.87678
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -6553,163 +6295,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "FRA",
-    "name": "France",
-    "flag": "🇫🇷",
-    "region": "Europe",
-    "rank": 52,
-    "score": 61.29,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 43.72,
-      "Infrastructure": 68.19,
-      "Capacity Building": 71.96
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.43721,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.87442,
-            "grade": 0.87442
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2013,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.681945,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 112.2143494,
-            "grade": 0.257672
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 204.882360030531,
-            "grade": 0.286734
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2023,
-            "value": 93,
-            "grade": 0.93
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.8",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 13.48,
-            "grade": 0.935319
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.719579,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 89.15000133,
-            "grade": 0.886336
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 88.65381638,
-            "grade": 0.886538
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 78,
-            "grade": 0.534767
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.2539433,
-            "grade": 0.570676
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
     "code": "CAN",
     "name": "Canada",
     "flag": "🇨🇦",
     "region": "North America",
-    "rank": 53,
-    "score": 61.26,
+    "rank": 50,
+    "score": 61.43,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 42.26,
+      "Government": 42.76,
       "Infrastructure": 62.93,
       "Capacity Building": 78.6
     },
     "pillars": {
       "Government": {
-        "value": 0.42258,
+        "value": 0.42758,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.84516,
-            "grade": 0.84516
+            "value": 0.85516,
+            "grade": 0.85516
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -6811,421 +6424,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "MEX",
-    "name": "Mexico",
-    "flag": "🇲🇽",
-    "region": "North America",
-    "rank": 54,
-    "score": 60.81,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 76.75,
-      "Infrastructure": 52.63,
-      "Capacity Building": 53.05
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.767495,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.78499,
-            "grade": 0.78499
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.526266,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 103.7565132,
-            "grade": 0.23825
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 68.2517099494849,
-            "grade": 0.095519
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 45.76,
-            "grade": 0.4576
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "1.9",
-            "grade": 0.9715
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 27.31,
-            "grade": 0.868462
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.530476,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 73.60545652,
-            "grade": 0.723492
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 83.12233799,
-            "grade": 0.831223
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2017,
-            "value": 0.2523914,
-            "grade": 0.567188
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "ARM",
-    "name": "Armenia",
-    "flag": "🇦🇲",
-    "region": "Asia",
-    "rank": 55,
-    "score": 60.8,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 79.61,
-      "Infrastructure": 49.62,
-      "Capacity Building": 53.17
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.796085,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.84217,
-            "grade": 0.84217
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.496161,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 102.9591706,
-            "grade": 0.236419
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 146.970401141013,
-            "grade": 0.205686
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 17.63,
-            "grade": 0.1763
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "3.3",
-            "grade": 0.9294
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 13.96,
-            "grade": 0.932998
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.531722,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 93.14799672,
-            "grade": 0.928219
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 81.33930206,
-            "grade": 0.813393
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2019,
-            "value": 0.17144320000000002,
-            "grade": 0.385277
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "ALB",
-    "name": "Albania",
-    "flag": "🇦🇱",
-    "region": "Europe",
-    "rank": 56,
-    "score": 60.43,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 77.5,
-      "Infrastructure": 47.5,
-      "Capacity Building": 56.28
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.775,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.8,
-            "grade": 0.8
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.47498,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 74.90838233,
-            "grade": 0.172008
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 106.840545392121,
-            "grade": 0.149524
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 24,
-            "grade": 0.24
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "2.1",
-            "grade": 0.9669
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 31.86,
-            "grade": 0.846466
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.562792,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 97.09425227,
-            "grade": 0.96956
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 85.86389923,
-            "grade": 0.858639
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2019,
-            "value": 0.1882147,
-            "grade": 0.422967
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
     "code": "PER",
     "name": "Peru",
     "flag": "🇵🇪",
     "region": "South America",
-    "rank": 57,
-    "score": 60.43,
+    "rank": 51,
+    "score": 60.94,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 77.85,
+      "Government": 79.38,
       "Infrastructure": 52.93,
       "Capacity Building": 50.5
     },
     "pillars": {
       "Government": {
-        "value": 0.7785,
+        "value": 0.79385,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.807,
-            "grade": 0.807
+            "value": 0.8377,
+            "grade": 0.8377
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -7327,47 +6553,47 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "ISL",
-    "name": "Iceland",
-    "flag": "🇮🇸",
+    "code": "FRA",
+    "name": "France",
+    "flag": "🇫🇷",
     "region": "Europe",
-    "rank": 58,
-    "score": 60.33,
+    "rank": 52,
+    "score": 60.78,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 48.35,
-      "Infrastructure": 73.07,
-      "Capacity Building": 59.55
+      "Government": 42.2,
+      "Infrastructure": 68.19,
+      "Capacity Building": 71.96
     },
     "pillars": {
       "Government": {
-        "value": 0.483535,
+        "value": 0.422,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.96707,
-            "grade": 0.96707
+            "value": 0.844,
+            "grade": 0.844
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
+            "year": 2013,
             "value": null,
             "grade": 0
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.730733,
-        "classification": "Mature",
+        "value": 0.681945,
+        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 5,
         "totalIndicators": 5,
@@ -7376,42 +6602,42 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 126.2326002,
-            "grade": 0.289861
+            "value": 112.2143494,
+            "grade": 0.257672
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 364.482857223406,
-            "grade": 0.510097
+            "value": 204.882360030531,
+            "grade": 0.286734
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 95,
-            "grade": 0.95
+            "year": 2023,
+            "value": 93,
+            "grade": 0.93
           },
           {
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "1.4",
-            "grade": 0.987
+            "value": "0.8",
+            "grade": 1
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 17.33,
-            "grade": 0.916707
+            "value": 13.48,
+            "grade": 0.935319
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.595498,
-        "classification": "Developing",
+        "value": 0.719579,
+        "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 4,
         "totalIndicators": 4,
@@ -7420,35 +6646,35 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 98.29035943,
-            "grade": 0.98209
+            "value": 89.15000133,
+            "grade": 0.886336
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 98.209198,
-            "grade": 0.982092
+            "value": 88.65381638,
+            "grade": 0.886538
           },
           {
             "source": "AI_Researchers_Global.xlsx",
             "indicator": "AI_Researchers_Global",
             "year": 2025,
-            "value": 0,
-            "grade": 0
+            "value": 78,
+            "grade": 0.534767
           },
           {
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
             "year": 2018,
-            "value": 0.1859193,
-            "grade": 0.417808
+            "value": 0.2539433,
+            "grade": 0.570676
           }
         ]
       }
     },
     "strengths": [
-      "Infrastructure"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -7456,46 +6682,46 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "GEO",
-    "name": "Georgia",
-    "flag": "🇬🇪",
-    "region": "Asia",
-    "rank": 59,
-    "score": 60.28,
+    "code": "ALB",
+    "name": "Albania",
+    "flag": "🇦🇱",
+    "region": "Europe",
+    "rank": 53,
+    "score": 60.67,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 76.46,
-      "Infrastructure": 46.86,
-      "Capacity Building": 57.53
+      "Government": 78.22,
+      "Infrastructure": 47.5,
+      "Capacity Building": 56.28
     },
     "pillars": {
       "Government": {
-        "value": 0.764615,
+        "value": 0.782205,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.77923,
-            "grade": 0.77923
+            "value": 0.81441,
+            "grade": 0.81441
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
+            "year": 2022,
             "value": null,
             "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.468553,
+        "value": 0.47498,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 5,
@@ -7505,41 +6731,41 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 120.8244412,
-            "grade": 0.277442
+            "value": 74.90838233,
+            "grade": 0.172008
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 147.806936318686,
-            "grade": 0.206857
+            "value": 106.840545392121,
+            "grade": 0.149524
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
             "year": 2024,
-            "value": 0,
-            "grade": 0
+            "value": 24,
+            "grade": 0.24
           },
           {
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "2.5",
-            "grade": 0.9551
+            "value": "2.1",
+            "grade": 0.9669
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 20.09,
-            "grade": 0.903365
+            "value": 31.86,
+            "grade": 0.846466
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.575332,
+        "value": 0.562792,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 4,
@@ -7549,15 +6775,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 91.54449466,
-            "grade": 0.911421
+            "value": 97.09425227,
+            "grade": 0.96956
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 83.79855689,
-            "grade": 0.837986
+            "value": 85.86389923,
+            "grade": 0.858639
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -7570,8 +6796,8 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
             "year": 2019,
-            "value": 0.2455977,
-            "grade": 0.551921
+            "value": 0.1882147,
+            "grade": 0.422967
           }
         ]
       }
@@ -7585,34 +6811,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "KGZ",
-    "name": "Kyrgyzstan",
-    "flag": "🇰🇬",
-    "region": "Asia",
-    "rank": 60,
-    "score": 59.86,
+    "code": "MEX",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "region": "North America",
+    "rank": 54,
+    "score": 60.45,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 74.08,
-      "Infrastructure": 49.72,
-      "Capacity Building": 55.76
+      "Government": 75.68,
+      "Infrastructure": 52.63,
+      "Capacity Building": 53.05
     },
     "pillars": {
       "Government": {
-        "value": 0.7408,
+        "value": 0.75683,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.7316,
-            "grade": 0.7316
+            "value": 0.76366,
+            "grade": 0.76366
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -7624,7 +6850,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
         ]
       },
       "Infrastructure": {
-        "value": 0.497233,
+        "value": 0.526266,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 5,
@@ -7634,20 +6860,142 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 92.29037982,
-            "grade": 0.211921
+            "value": 103.7565132,
+            "grade": 0.23825
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 311.067785786931,
-            "grade": 0.435342
+            "value": 68.2517099494849,
+            "grade": 0.095519
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 45.76,
+            "grade": 0.4576
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
+            "value": "1.9",
+            "grade": 0.9715
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 27.31,
+            "grade": 0.868462
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.530476,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 73.60545652,
+            "grade": 0.723492
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 83.12233799,
+            "grade": 0.831223
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2017,
+            "value": 0.2523914,
+            "grade": 0.567188
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "UKR",
+    "name": "Ukraine",
+    "flag": "🇺🇦",
+    "region": "Europe",
+    "rank": 55,
+    "score": 60.37,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 93.3,
+    "dimensions": {
+      "Government": 86.77,
+      "Infrastructure": 40.99,
+      "Capacity Building": 56.05
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.86768,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.98536,
+            "grade": 0.98536
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2013,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.409862,
+        "classification": "Adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 86.81177041,
+            "grade": 0.199341
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
             "value": 0,
             "grade": 0
           },
@@ -7655,20 +7003,20 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "4.8",
-            "grade": 0.8827
+            "value": "2.3",
+            "grade": 0.9613
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 9.16,
-            "grade": 0.956202
+            "value": 23.13,
+            "grade": 0.888669
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.557646,
+        "value": 0.560469,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 4,
@@ -7678,15 +7026,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 87.33398619,
-            "grade": 0.867311
+            "value": 86.07418675,
+            "grade": 0.854114
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 92.0286026,
-            "grade": 0.920286
+            "value": 82.47489929,
+            "grade": 0.824749
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -7699,14 +7047,272 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
             "year": 2019,
-            "value": 0.1971237,
-            "grade": 0.442988
+            "value": 0.2505327,
+            "grade": 0.563011
           }
         ]
       }
     },
     "strengths": [
       "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "ARM",
+    "name": "Armenia",
+    "flag": "🇦🇲",
+    "region": "Asia",
+    "rank": 56,
+    "score": 59.97,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 77.11,
+      "Infrastructure": 49.62,
+      "Capacity Building": 53.17
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.7711,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.7922,
+            "grade": 0.7922
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.496161,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 102.9591706,
+            "grade": 0.236419
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 146.970401141013,
+            "grade": 0.205686
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 17.63,
+            "grade": 0.1763
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "3.3",
+            "grade": 0.9294
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 13.96,
+            "grade": 0.932998
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.531722,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 93.14799672,
+            "grade": 0.928219
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 81.33930206,
+            "grade": 0.813393
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2019,
+            "value": 0.17144320000000002,
+            "grade": 0.385277
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "IRN",
+    "name": "Iran",
+    "flag": "🇮🇷",
+    "region": "Asia",
+    "rank": 57,
+    "score": 59.9,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 56.36,
+      "Infrastructure": 51.66,
+      "Capacity Building": 71.67
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.563645,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.37729,
+            "grade": 0.37729
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.516558,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 126.9479738,
+            "grade": 0.291504
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 162.564084935308,
+            "grade": 0.22751
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 8.2,
+            "grade": 0.082
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.2",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 3.87,
+            "grade": 0.981775
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.716698,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 86.21587547,
+            "grade": 0.855598
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 85.3404007,
+            "grade": 0.853404
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 7,
+            "grade": 0.254498
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.4019529,
+            "grade": 0.903292
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -7718,30 +7324,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Indonesia",
     "flag": "🇮🇩",
     "region": "Asia",
-    "rank": 61,
-    "score": 59.7,
+    "rank": 58,
+    "score": 59.78,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 77.46,
+      "Government": 77.67,
       "Infrastructure": 46.87,
       "Capacity Building": 54.78
     },
     "pillars": {
       "Government": {
-        "value": 0.774555,
+        "value": 0.77673,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.79911,
-            "grade": 0.79911
+            "value": 0.80346,
+            "grade": 0.80346
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -7843,122 +7449,108 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "MAR",
-    "name": "Morocco",
-    "flag": "🇲🇦",
-    "region": "Africa",
-    "rank": 62,
-    "score": 59.59,
+    "code": "IND",
+    "name": "India",
+    "flag": "🇮🇳",
+    "region": "Asia",
+    "rank": 59,
+    "score": 59.62,
     "classification": "Developing",
     "yearlyChange": 0,
-    "dataCoverage": 100,
+    "dataCoverage": 85,
     "dimensions": {
-      "Government": 71.71,
-      "Infrastructure": 45.49,
-      "Capacity Building": 61.57
+      "Government": 78.42,
+      "Infrastructure": 44.83,
+      "Capacity Building": 56.98
     },
     "pillars": {
       "Government": {
-        "value": 0.717055,
+        "value": 0.78421,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.68411,
-            "grade": 0.68411
+            "value": 0.81842,
+            "grade": 0.81842
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
+            "year": 2024,
             "value": null,
             "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.454916,
+        "value": 0.448266,
         "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
+        "coverage": 0.8,
+        "availableIndicators": 4,
         "totalIndicators": 5,
         "indicators": [
           {
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 98.32155118,
-            "grade": 0.22577
+            "value": 61.93034375,
+            "grade": 0.142207
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 146.626782757331,
-            "grade": 0.205205
+            "value": 241.238985355616,
+            "grade": 0.337616
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2023,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "3.4",
-            "grade": 0.9269
+            "year": 2024,
+            "value": 82.15,
+            "grade": 0.8215
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 17.33,
-            "grade": 0.916707
+            "value": 12.51,
+            "grade": 0.940008
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.615727,
+        "value": 0.569837,
         "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 4,
+        "coverage": 0.75,
+        "availableIndicators": 3,
         "totalIndicators": 4,
         "indicators": [
           {
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 89.2,
-            "grade": 0.88686
+            "year": 2025,
+            "value": 86.3,
+            "grade": 0.856479
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 91.2,
-            "grade": 0.912
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
             "year": 2025,
-            "value": 6,
-            "grade": 0.238156
+            "value": 70,
+            "grade": 0.7
           },
           {
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
             "year": 2019,
-            "value": 0.1895167,
-            "grade": 0.425893
+            "value": 0.32166649999999997,
+            "grade": 0.722867
           }
         ]
       }
@@ -7972,46 +7564,175 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "OMN",
-    "name": "Oman",
-    "flag": "🇴🇲",
-    "region": "Asia",
-    "rank": 63,
-    "score": 59.32,
+    "code": "ISL",
+    "name": "Iceland",
+    "flag": "🇮🇸",
+    "region": "Europe",
+    "rank": 60,
+    "score": 59.33,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 42.88,
-      "Infrastructure": 61.8,
-      "Capacity Building": 73.28
+      "Government": 45.38,
+      "Infrastructure": 73.07,
+      "Capacity Building": 59.55
     },
     "pillars": {
       "Government": {
-        "value": 0.428795,
+        "value": 0.453775,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.85759,
-            "grade": 0.85759
+            "value": 0.90755,
+            "grade": 0.90755
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2019,
+            "year": 2024,
             "value": null,
             "grade": 0
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.617997,
+        "value": 0.730733,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 126.2326002,
+            "grade": 0.289861
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 364.482857223406,
+            "grade": 0.510097
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 95,
+            "grade": 0.95
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "1.4",
+            "grade": 0.987
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 17.33,
+            "grade": 0.916707
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.595498,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 98.29035943,
+            "grade": 0.98209
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 98.209198,
+            "grade": 0.982092
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.1859193,
+            "grade": 0.417808
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "SYC",
+    "name": "Seychelles",
+    "flag": "🇸🇨",
+    "region": "Africa",
+    "rank": 61,
+    "score": 59.21,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 60.69,
+      "Infrastructure": 65.59,
+      "Capacity Building": 51.36
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.6069,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.4638,
+            "grade": 0.4638
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.655871,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 5,
@@ -8021,42 +7742,42 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 101.4551623,
-            "grade": 0.232966
+            "value": 82.35366284,
+            "grade": 0.189104
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 91.6779534835336,
-            "grade": 0.128304
+            "value": 193.093367099922,
+            "grade": 0.270236
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
             "year": 2024,
-            "value": 89,
-            "grade": 0.89
+            "value": 99,
+            "grade": 0.99
           },
           {
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "2.1",
-            "grade": 0.9659
+            "value": "1.1",
+            "grade": 0.9966
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 26.41,
-            "grade": 0.872813
+            "value": 34.56,
+            "grade": 0.833414
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.732826,
-        "classification": "Mature",
+        "value": 0.513552,
+        "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 4,
         "totalIndicators": 4,
@@ -8065,15 +7786,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 97.97513987,
-            "grade": 0.978788
+            "value": 74.2183336,
+            "grade": 0.729913
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 95.25174678,
-            "grade": 0.952517
+            "value": 87.81800079,
+            "grade": 0.87818
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -8086,17 +7807,17 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
             "year": 2019,
-            "value": 0.4449869,
-            "grade": 1
+            "value": 0.1985158,
+            "grade": 0.446116
           }
         ]
       }
     },
     "strengths": [
-      "Capacity Building"
+      "Infrastructure"
     ],
     "weaknesses": [
-      "Government"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -8105,30 +7826,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Azerbaijan",
     "flag": "🇦🇿",
     "region": "Asia",
-    "rank": 64,
-    "score": 59.25,
+    "rank": 62,
+    "score": 58.88,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 75.54,
+      "Government": 74.43,
       "Infrastructure": 42.53,
       "Capacity Building": 59.69
     },
     "pillars": {
       "Government": {
-        "value": 0.755365,
+        "value": 0.744315,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.76073,
-            "grade": 0.76073
+            "value": 0.73863,
+            "grade": 0.73863
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -8230,34 +7951,163 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "LVA",
-    "name": "Latvia",
-    "flag": "🇱🇻",
-    "region": "Europe",
-    "rank": 65,
-    "score": 59.17,
+    "code": "OMN",
+    "name": "Oman",
+    "flag": "🇴🇲",
+    "region": "Asia",
+    "rank": 63,
+    "score": 58.49,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 44.26,
-      "Infrastructure": 75.45,
-      "Capacity Building": 57.79
+      "Government": 40.39,
+      "Infrastructure": 61.8,
+      "Capacity Building": 73.28
     },
     "pillars": {
       "Government": {
-        "value": 0.44261,
+        "value": 0.40387,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.88522,
-            "grade": 0.88522
+            "value": 0.80774,
+            "grade": 0.80774
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2019,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.617997,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 101.4551623,
+            "grade": 0.232966
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 91.6779534835336,
+            "grade": 0.128304
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 89,
+            "grade": 0.89
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "2.1",
+            "grade": 0.9659
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 26.41,
+            "grade": 0.872813
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.732826,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 97.97513987,
+            "grade": 0.978788
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 95.25174678,
+            "grade": 0.952517
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2019,
+            "value": 0.4449869,
+            "grade": 1
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "LVA",
+    "name": "Latvia",
+    "flag": "🇱🇻",
+    "region": "Europe",
+    "rank": 64,
+    "score": 57.9,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 40.46,
+      "Infrastructure": 75.45,
+      "Capacity Building": 57.79
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.404575,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.80915,
+            "grade": 0.80915
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -8359,62 +8209,69 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "UKR",
-    "name": "Ukraine",
-    "flag": "🇺🇦",
-    "region": "Europe",
-    "rank": 66,
-    "score": 58.79,
+    "code": "KGZ",
+    "name": "Kyrgyzstan",
+    "flag": "🇰🇬",
+    "region": "Asia",
+    "rank": 65,
+    "score": 57.78,
     "classification": "Developing",
     "yearlyChange": 0,
-    "dataCoverage": 93.3,
+    "dataCoverage": 100,
     "dimensions": {
-      "Government": 81.7,
-      "Infrastructure": 40.99,
-      "Capacity Building": 56.05
+      "Government": 67.86,
+      "Infrastructure": 49.72,
+      "Capacity Building": 55.76
     },
     "pillars": {
       "Government": {
-        "value": 0.817035,
-        "classification": "Mature",
+        "value": 0.678615,
+        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.88407,
-            "grade": 0.88407
+            "value": 0.60723,
+            "grade": 0.60723
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2013,
+            "year": 2024,
             "value": null,
             "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.409862,
+        "value": 0.497233,
         "classification": "Adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
+        "coverage": 1,
+        "availableIndicators": 5,
         "totalIndicators": 5,
         "indicators": [
           {
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 86.81177041,
-            "grade": 0.199341
+            "value": 92.29037982,
+            "grade": 0.211921
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 311.067785786931,
+            "grade": 0.435342
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
+            "year": 2023,
             "value": 0,
             "grade": 0
           },
@@ -8422,20 +8279,20 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "2.3",
-            "grade": 0.9613
+            "value": "4.8",
+            "grade": 0.8827
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 23.13,
-            "grade": 0.888669
+            "value": 9.16,
+            "grade": 0.956202
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.560469,
+        "value": 0.557646,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 4,
@@ -8445,15 +8302,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 86.07418675,
-            "grade": 0.854114
+            "value": 87.33398619,
+            "grade": 0.867311
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 82.47489929,
-            "grade": 0.824749
+            "value": 92.0286026,
+            "grade": 0.920286
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -8466,8 +8323,8 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
             "year": 2019,
-            "value": 0.2505327,
-            "grade": 0.563011
+            "value": 0.1971237,
+            "grade": 0.442988
           }
         ]
       }
@@ -8481,47 +8338,47 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "LUX",
-    "name": "Luxembourg",
-    "flag": "🇱🇺",
-    "region": "Europe",
-    "rank": 67,
-    "score": 58.74,
+    "code": "MAR",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "region": "Africa",
+    "rank": 66,
+    "score": 57.55,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 42.33,
-      "Infrastructure": 67.8,
-      "Capacity Building": 66.1
+      "Government": 65.59,
+      "Infrastructure": 45.49,
+      "Capacity Building": 61.57
     },
     "pillars": {
       "Government": {
-        "value": 0.42329,
-        "classification": "Adopting",
+        "value": 0.65592,
+        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.84658,
-            "grade": 0.84658
+            "value": 0.56184,
+            "grade": 0.56184
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
+            "year": 2021,
             "value": null,
-            "grade": 0
+            "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.677951,
-        "classification": "Developing",
+        "value": 0.454916,
+        "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 5,
         "totalIndicators": 5,
@@ -8530,41 +8387,41 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 119.1615307,
-            "grade": 0.273624
+            "value": 98.32155118,
+            "grade": 0.22577
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 132.680798004987,
-            "grade": 0.185688
+            "value": 146.626782757331,
+            "grade": 0.205205
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
             "year": 2023,
-            "value": 99,
-            "grade": 0.99
+            "value": 0,
+            "grade": 0
           },
           {
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "0.6",
-            "grade": 1
+            "value": "3.4",
+            "grade": 0.9269
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 12.42,
-            "grade": 0.940443
+            "value": 17.33,
+            "grade": 0.916707
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.660978,
+        "value": 0.615727,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 4,
@@ -8573,16 +8430,16 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           {
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
-            "year": 2025,
-            "value": 99.18139968,
-            "grade": 0.991424
+            "year": 2024,
+            "value": 89.2,
+            "grade": 0.88686
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
-            "year": 2025,
-            "value": 99.12902211,
-            "grade": 0.99129
+            "year": 2024,
+            "value": 91.2,
+            "grade": 0.912
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -8594,138 +8451,9 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           {
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.18824870000000002,
-            "grade": 0.423043
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Infrastructure"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "TUN",
-    "name": "Tunisia",
-    "flag": "🇹🇳",
-    "region": "Africa",
-    "rank": 68,
-    "score": 58.38,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 72.17,
-      "Infrastructure": 43.22,
-      "Capacity Building": 59.76
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.72174,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.69348,
-            "grade": 0.69348
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.43216,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 86.17303145,
-            "grade": 0.197874
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 106.809765286013,
-            "grade": 0.149481
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "4.3",
-            "grade": 0.8978
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 17.55,
-            "grade": 0.915643
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.597573,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 66.9,
-            "grade": 0.653246
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 76.5,
-            "grade": 0.765
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.4325471,
-            "grade": 0.972045
+            "year": 2019,
+            "value": 0.1895167,
+            "grade": 0.425893
           }
         ]
       }
@@ -8735,128 +8463,6 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     ],
     "weaknesses": [
       "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "BTN",
-    "name": "Bhutan",
-    "flag": "🇧🇹",
-    "region": "Asia",
-    "rank": 69,
-    "score": 58.16,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 70.06,
-      "Infrastructure": 59.27,
-      "Capacity Building": 45.76
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.70055,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.6511,
-            "grade": 0.6511
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.592664,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 97.3943936,
-            "grade": 0.223641
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 232.546374367622,
-            "grade": 0.32545
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 60,
-            "grade": 0.6
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "2.6",
-            "grade": 0.9492
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 28.02,
-            "grade": 0.865029
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.457565,
-        "classification": "Adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 92.12369406,
-            "grade": 0.917488
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 91.27739716,
-            "grade": 0.912774
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -8865,30 +8471,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Republic of Moldova",
     "flag": "🇲🇩",
     "region": "Europe",
-    "rank": 70,
-    "score": 58.15,
+    "rank": 67,
+    "score": 57.39,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 76.1,
+      "Government": 73.82,
       "Infrastructure": 46.88,
       "Capacity Building": 51.46
     },
     "pillars": {
       "Government": {
-        "value": 0.760975,
+        "value": 0.73818,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.77195,
-            "grade": 0.77195
+            "value": 0.72636,
+            "grade": 0.72636
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -8990,536 +8596,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "DZA",
-    "name": "Algeria",
-    "flag": "🇩🇿",
-    "region": "Africa",
-    "rank": 71,
-    "score": 57.82,
+    "code": "LUX",
+    "name": "Luxembourg",
+    "flag": "🇱🇺",
+    "region": "Europe",
+    "rank": 68,
+    "score": 57.22,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 67.28,
-      "Infrastructure": 44.58,
-      "Capacity Building": 61.59
+      "Government": 37.78,
+      "Infrastructure": 67.8,
+      "Capacity Building": 66.1
     },
     "pillars": {
       "Government": {
-        "value": 0.67278,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.59556,
-            "grade": 0.59556
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.445776,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 109.6263412,
-            "grade": 0.251729
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 114.357837043618,
-            "grade": 0.160045
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "3.2",
-            "grade": 0.931
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 23.66,
-            "grade": 0.886107
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.615897,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 92.36923979,
-            "grade": 0.920061
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 77.4178009,
-            "grade": 0.774178
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.3423498,
-            "grade": 0.769348
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "CRI",
-    "name": "Costa Rica",
-    "flag": "🇨🇷",
-    "region": "North America",
-    "rank": 72,
-    "score": 57.73,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 77.54,
-      "Infrastructure": 45.31,
-      "Capacity Building": 50.33
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.775445,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.80089,
-            "grade": 0.80089
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2018,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.453118,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 103.6197126,
-            "grade": 0.237936
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 89.8109676465376,
-            "grade": 0.125691
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "1.5",
-            "grade": 0.9839
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 17.05,
-            "grade": 0.918061
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.503283,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 81.08033844,
-            "grade": 0.801799
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 87.17019653,
-            "grade": 0.871702
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2019,
-            "value": 0.1511316,
-            "grade": 0.339632
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "MDV",
-    "name": "Maldives",
-    "flag": "🇲🇻",
-    "region": "Asia",
-    "rank": 73,
-    "score": 57.51,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 71.23,
-      "Infrastructure": 54.09,
-      "Capacity Building": 47.2
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.712265,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.67453,
-            "grade": 0.67453
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.540866,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 58.23883713,
-            "grade": 0.133731
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 61.8119355594306,
-            "grade": 0.086506
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 69,
-            "grade": 0.69
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "2.0",
-            "grade": 0.9703
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 36.55,
-            "grade": 0.823794
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.472047,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 92.45080514,
-            "grade": 0.920915
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 85.23999786,
-            "grade": 0.8524
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2017,
-            "value": 0.0511159,
-            "grade": 0.114871
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "IND",
-    "name": "India",
-    "flag": "🇮🇳",
-    "region": "Asia",
-    "rank": 74,
-    "score": 57.49,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 85,
-    "dimensions": {
-      "Government": 70.89,
-      "Infrastructure": 44.83,
-      "Capacity Building": 56.98
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.70888,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.66776,
-            "grade": 0.66776
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.448266,
-        "classification": "Adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 61.93034375,
-            "grade": 0.142207
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 241.238985355616,
-            "grade": 0.337616
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 82.15,
-            "grade": 0.8215
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 12.51,
-            "grade": 0.940008
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.569837,
-        "classification": "Developing",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2025,
-            "value": 86.3,
-            "grade": 0.856479
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2025,
-            "value": 70,
-            "grade": 0.7
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2019,
-            "value": 0.32166649999999997,
-            "grade": 0.722867
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "BRN",
-    "name": "Brunei Darussalam",
-    "flag": "🇧🇳",
-    "region": "Asia",
-    "rank": 75,
-    "score": 57.36,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 37.77,
-      "Infrastructure": 64.23,
-      "Capacity Building": 70.08
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.37768,
+        "value": 0.37777,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.75536,
-            "grade": 0.75536
+            "value": 0.75554,
+            "grade": 0.75554
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -9531,7 +8635,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
         ]
       },
       "Infrastructure": {
-        "value": 0.642313,
+        "value": 0.677951,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 5,
@@ -9541,42 +8645,42 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 119.0698066,
-            "grade": 0.273413
+            "value": 119.1615307,
+            "grade": 0.273624
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 102.586208461216,
-            "grade": 0.14357
+            "value": 132.680798004987,
+            "grade": 0.185688
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 95.44,
-            "grade": 0.9544
+            "year": 2023,
+            "value": 99,
+            "grade": 0.99
           },
           {
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "0.9",
+            "value": "0.6",
             "grade": 1
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 33.16,
-            "grade": 0.840182
+            "value": 12.42,
+            "grade": 0.940443
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.700821,
-        "classification": "Mature",
+        "value": 0.660978,
+        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 4,
         "totalIndicators": 4,
@@ -9584,16 +8688,145 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           {
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
+            "year": 2025,
+            "value": 99.18139968,
+            "grade": 0.991424
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2025,
+            "value": 99.12902211,
+            "grade": 0.99129
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 6,
+            "grade": 0.238156
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.18824870000000002,
+            "grade": 0.423043
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "BTN",
+    "name": "Bhutan",
+    "flag": "🇧🇹",
+    "region": "Asia",
+    "rank": 69,
+    "score": 57.2,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 66.93,
+      "Infrastructure": 59.27,
+      "Capacity Building": 45.76
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.66931,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 94.09618574,
-            "grade": 0.938152
+            "value": 0.58862,
+            "grade": 0.58862
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.592664,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 97.3943936,
+            "grade": 0.223641
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 232.546374367622,
+            "grade": 0.32545
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 60,
+            "grade": 0.6
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "2.6",
+            "grade": 0.9492
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 28.02,
+            "grade": 0.865029
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.457565,
+        "classification": "Adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 92.12369406,
+            "grade": 0.917488
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 96.29828801,
-            "grade": 0.962983
+            "value": 91.27739716,
+            "grade": 0.912774
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -9601,22 +8834,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "year": 2025,
             "value": 0,
             "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2019,
-            "value": 0.40144379999999996,
-            "grade": 0.902147
           }
         ]
       }
     },
     "strengths": [
-      "Capacity Building"
+      "Government"
     ],
     "weaknesses": [
-      "Government"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -9625,30 +8851,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Colombia",
     "flag": "🇨🇴",
     "region": "South America",
-    "rank": 76,
-    "score": 57.26,
+    "rank": 70,
+    "score": 56.8,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 76.47,
+      "Government": 75.11,
       "Infrastructure": 44.35,
       "Capacity Building": 50.95
     },
     "pillars": {
       "Government": {
-        "value": 0.76465,
+        "value": 0.75105,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.7793,
-            "grade": 0.7793
+            "value": 0.7521,
+            "grade": 0.7521
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -9750,46 +8976,46 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "DOM",
-    "name": "Dominican Republic",
-    "flag": "🇩🇴",
-    "region": "North America",
-    "rank": 77,
-    "score": 56.54,
+    "code": "TUN",
+    "name": "Tunisia",
+    "flag": "🇹🇳",
+    "region": "Africa",
+    "rank": 71,
+    "score": 56.74,
     "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 72.56,
-      "Infrastructure": 53.74,
-      "Capacity Building": 43.32
+      "Government": 67.25,
+      "Infrastructure": 43.22,
+      "Capacity Building": 59.76
     },
     "pillars": {
       "Government": {
-        "value": 0.725635,
-        "classification": "Mature",
+        "value": 0.672535,
+        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.70127,
-            "grade": 0.70127
+            "value": 0.59507,
+            "grade": 0.59507
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2016,
+            "year": 2024,
             "value": null,
             "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.537419,
+        "value": 0.43216,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 5,
@@ -9799,42 +9025,42 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 76.06898832,
-            "grade": 0.174673
+            "value": 86.17303145,
+            "grade": 0.197874
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 149.548587588365,
-            "grade": 0.209294
+            "value": 106.809765286013,
+            "grade": 0.149481
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
             "year": 2024,
-            "value": 61.9,
-            "grade": 0.619
+            "value": 0,
+            "grade": 0
           },
           {
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "2.2",
-            "grade": 0.9619
+            "value": "4.3",
+            "grade": 0.8978
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 57.56,
-            "grade": 0.722228
+            "value": 17.55,
+            "grade": 0.915643
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.433245,
-        "classification": "Adopting",
+        "value": 0.597573,
+        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 4,
         "totalIndicators": 4,
@@ -9843,15 +9069,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 58.31922019,
-            "grade": 0.563354
+            "value": 66.9,
+            "grade": 0.653246
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 91.0022446,
-            "grade": 0.910022
+            "value": 76.5,
+            "grade": 0.765
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -9863,138 +9089,9 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           {
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
-            "year": 2017,
-            "value": 0.1155196,
-            "grade": 0.259602
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "BIH",
-    "name": "Bosnia and Herzegovina",
-    "flag": "🇧🇦",
-    "region": "Europe",
-    "rank": 78,
-    "score": 55.81,
-    "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 69.15,
-      "Infrastructure": 42.67,
-      "Capacity Building": 55.6
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.691465,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.63293,
-            "grade": 0.63293
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.42673,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 69.4373996,
-            "grade": 0.159445
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 101.397021174918,
-            "grade": 0.141906
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "1.7",
-            "grade": 0.978
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 30.24,
-            "grade": 0.854298
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.556007,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 84.1933318,
-            "grade": 0.83441
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 86.10091103,
-            "grade": 0.861009
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2019,
-            "value": 0.2352245,
-            "grade": 0.52861
+            "year": 2018,
+            "value": 0.4325471,
+            "grade": 0.972045
           }
         ]
       }
@@ -10008,169 +9105,47 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "ISR",
-    "name": "Israel",
-    "flag": "🇮🇱",
+    "code": "GEO",
+    "name": "Georgia",
+    "flag": "🇬🇪",
     "region": "Asia",
-    "rank": 79,
-    "score": 55.5,
+    "rank": 72,
+    "score": 56.72,
     "classification": "Developing",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 45.07,
-      "Infrastructure": 56.9,
-      "Capacity Building": 59.74
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.450715,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.90143,
-            "grade": 0.90143
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2014,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.568999,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 177.3931048,
-            "grade": 0.407338
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 139.983790465585,
-            "grade": 0.195908
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 30,
-            "grade": 0.3
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.6",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 12.15,
-            "grade": 0.941748
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.597383,
-        "classification": "Developing",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 86.56512224,
-            "grade": 0.859257
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 88.18242225,
-            "grade": 0.881824
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 199,
-            "grade": 0.648449
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "KAZ",
-    "name": "Kazakhstan",
-    "flag": "🇰🇿",
-    "region": "Asia",
-    "rank": 80,
-    "score": 54.87,
-    "classification": "Adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 45.05,
-      "Infrastructure": 58.09,
-      "Capacity Building": 61.47
+      "Government": 65.76,
+      "Infrastructure": 46.86,
+      "Capacity Building": 57.53
     },
     "pillars": {
       "Government": {
-        "value": 0.450465,
-        "classification": "Adopting",
+        "value": 0.65761,
+        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.90093,
-            "grade": 0.90093
+            "value": 0.56522,
+            "grade": 0.56522
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
+            "year": 2024,
             "value": null,
-            "grade": 0
+            "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.580943,
-        "classification": "Developing",
+        "value": 0.468553,
+        "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 5,
         "totalIndicators": 5,
@@ -10179,41 +9154,41 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 119.0414737,
-            "grade": 0.273348
+            "value": 120.8244412,
+            "grade": 0.277442
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 242.194981581728,
-            "grade": 0.338954
+            "value": 147.806936318686,
+            "grade": 0.206857
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
             "year": 2024,
-            "value": 45.8,
-            "grade": 0.458
+            "value": 0,
+            "grade": 0
           },
           {
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "1.1",
-            "grade": 0.9981
+            "value": "2.5",
+            "grade": 0.9551
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 33.96,
-            "grade": 0.836314
+            "value": 20.09,
+            "grade": 0.903365
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.614705,
+        "value": 0.575332,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 4,
@@ -10223,15 +9198,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 97.05723288,
-            "grade": 0.969172
+            "value": 91.54449466,
+            "grade": 0.911421
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 93.39167254,
-            "grade": 0.933917
+            "value": 83.79855689,
+            "grade": 0.837986
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -10244,62 +9219,62 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
             "year": 2019,
-            "value": 0.2472934,
-            "grade": 0.555732
+            "value": 0.2455977,
+            "grade": 0.551921
           }
         ]
       }
     },
     "strengths": [
-      "Capacity Building"
+      "Government"
     ],
     "weaknesses": [
-      "Government"
+      "Infrastructure"
     ],
     "trend3y": 0
   },
   {
-    "code": "SVK",
-    "name": "Slovak Republic",
-    "flag": "🇸🇰",
-    "region": "Europe",
-    "rank": 81,
-    "score": 54.84,
-    "classification": "Adopting",
+    "code": "MDV",
+    "name": "Maldives",
+    "flag": "🇲🇻",
+    "region": "Asia",
+    "rank": 73,
+    "score": 56.63,
+    "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 40.11,
-      "Infrastructure": 61.56,
-      "Capacity Building": 62.86
+      "Government": 68.6,
+      "Infrastructure": 54.09,
+      "Capacity Building": 47.2
     },
     "pillars": {
       "Government": {
-        "value": 0.40107,
-        "classification": "Adopting",
+        "value": 0.686005,
+        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.80214,
-            "grade": 0.80214
+            "value": 0.62201,
+            "grade": 0.62201
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
+            "year": 2024,
             "value": null,
-            "grade": 0
+            "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.615645,
-        "classification": "Developing",
+        "value": 0.540866,
+        "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 5,
         "totalIndicators": 5,
@@ -10308,42 +9283,42 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 99.13420959,
-            "grade": 0.227636
+            "value": 58.23883713,
+            "grade": 0.133731
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 146.074899392444,
-            "grade": 0.204433
+            "value": 61.8119355594306,
+            "grade": 0.086506
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
             "year": 2024,
-            "value": 83,
-            "grade": 0.83
+            "value": 69,
+            "grade": 0.69
           },
           {
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "0.8",
-            "grade": 1
+            "value": "2.0",
+            "grade": 0.9703
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 38.13,
-            "grade": 0.816156
+            "value": 36.55,
+            "grade": 0.823794
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.628612,
-        "classification": "Developing",
+        "value": 0.472047,
+        "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 4,
         "totalIndicators": 4,
@@ -10352,38 +9327,167 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 90.5383572,
-            "grade": 0.90088
+            "value": 92.45080514,
+            "grade": 0.920915
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 89.82507032,
-            "grade": 0.898251
+            "value": 85.23999786,
+            "grade": 0.8524
           },
           {
             "source": "AI_Researchers_Global.xlsx",
             "indicator": "AI_Researchers_Global",
             "year": 2025,
-            "value": 5,
-            "grade": 0.219289
+            "value": 0,
+            "grade": 0
           },
           {
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.2207255,
-            "grade": 0.496027
+            "year": 2017,
+            "value": 0.0511159,
+            "grade": 0.114871
           }
         ]
       }
     },
     "strengths": [
-      "Capacity Building"
+      "Government"
     ],
     "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "CRI",
+    "name": "Costa Rica",
+    "flag": "🇨🇷",
+    "region": "North America",
+    "rank": 74,
+    "score": 56.41,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 73.58,
+      "Infrastructure": 45.31,
+      "Capacity Building": 50.33
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.735845,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.72169,
+            "grade": 0.72169
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2018,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.453118,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 103.6197126,
+            "grade": 0.237936
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 89.8109676465376,
+            "grade": 0.125691
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "1.5",
+            "grade": 0.9839
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 17.05,
+            "grade": 0.918061
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.503283,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 81.08033844,
+            "grade": 0.801799
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 87.17019653,
+            "grade": 0.871702
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2019,
+            "value": 0.1511316,
+            "grade": 0.339632
+          }
+        ]
+      }
+    },
+    "strengths": [
       "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
     ],
     "trend3y": 0
   },
@@ -10392,30 +9496,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Ecuador",
     "flag": "🇪🇨",
     "region": "South America",
-    "rank": 82,
-    "score": 54.46,
-    "classification": "Adopting",
+    "rank": 75,
+    "score": 56.21,
+    "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 76.5,
+      "Government": 81.75,
       "Infrastructure": 42.61,
       "Capacity Building": 44.28
     },
     "pillars": {
       "Government": {
-        "value": 0.764985,
+        "value": 0.817535,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.77997,
-            "grade": 0.77997
+            "value": 0.88507,
+            "grade": 0.88507
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -10517,34 +9621,930 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "RUS",
-    "name": "Russian Federation",
-    "flag": "🇷🇺",
-    "region": "Europe",
-    "rank": 83,
-    "score": 54.38,
-    "classification": "Adopting",
+    "code": "DOM",
+    "name": "Dominican Republic",
+    "flag": "🇩🇴",
+    "region": "North America",
+    "rank": 76,
+    "score": 55.53,
+    "classification": "Developing",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 42.66,
-      "Infrastructure": 50.57,
-      "Capacity Building": 69.9
+      "Government": 69.52,
+      "Infrastructure": 53.74,
+      "Capacity Building": 43.32
     },
     "pillars": {
       "Government": {
-        "value": 0.426625,
+        "value": 0.695235,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.64047,
+            "grade": 0.64047
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2016,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.537419,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 76.06898832,
+            "grade": 0.174673
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 149.548587588365,
+            "grade": 0.209294
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 61.9,
+            "grade": 0.619
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "2.2",
+            "grade": 0.9619
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 57.56,
+            "grade": 0.722228
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.433245,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 58.31922019,
+            "grade": 0.563354
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 91.0022446,
+            "grade": 0.910022
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2017,
+            "value": 0.1155196,
+            "grade": 0.259602
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "KAZ",
+    "name": "Kazakhstan",
+    "flag": "🇰🇿",
+    "region": "Asia",
+    "rank": 77,
+    "score": 55.51,
+    "classification": "Developing",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 46.95,
+      "Infrastructure": 58.09,
+      "Capacity Building": 61.47
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.469515,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.85325,
-            "grade": 0.85325
+            "value": 0.93903,
+            "grade": 0.93903
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.580943,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 119.0414737,
+            "grade": 0.273348
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 242.194981581728,
+            "grade": 0.338954
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 45.8,
+            "grade": 0.458
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "1.1",
+            "grade": 0.9981
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 33.96,
+            "grade": 0.836314
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.614705,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 97.05723288,
+            "grade": 0.969172
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 93.39167254,
+            "grade": 0.933917
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2019,
+            "value": 0.2472934,
+            "grade": 0.555732
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "ISR",
+    "name": "Israel",
+    "flag": "🇮🇱",
+    "region": "Asia",
+    "rank": 78,
+    "score": 54.77,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 42.71,
+      "Infrastructure": 56.9,
+      "Capacity Building": 59.74
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.42706,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.85412,
+            "grade": 0.85412
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2014,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.568999,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 177.3931048,
+            "grade": 0.407338
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 139.983790465585,
+            "grade": 0.195908
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 30,
+            "grade": 0.3
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.6",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 12.15,
+            "grade": 0.941748
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.597383,
+        "classification": "Developing",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 86.56512224,
+            "grade": 0.859257
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 88.18242225,
+            "grade": 0.881824
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 199,
+            "grade": 0.648449
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "BRN",
+    "name": "Brunei Darussalam",
+    "flag": "🇧🇳",
+    "region": "Asia",
+    "rank": 79,
+    "score": 54.44,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 29.01,
+      "Infrastructure": 64.23,
+      "Capacity Building": 70.08
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.2901,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.5802,
+            "grade": 0.5802
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.642313,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 119.0698066,
+            "grade": 0.273413
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 102.586208461216,
+            "grade": 0.14357
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 95.44,
+            "grade": 0.9544
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.9",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 33.16,
+            "grade": 0.840182
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.700821,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 94.09618574,
+            "grade": 0.938152
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 96.29828801,
+            "grade": 0.962983
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2019,
+            "value": 0.40144379999999996,
+            "grade": 0.902147
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "region": "Europe",
+    "rank": 80,
+    "score": 53.6,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 62.51,
+      "Infrastructure": 42.67,
+      "Capacity Building": 55.6
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.62514,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.50028,
+            "grade": 0.50028
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2021,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.42673,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 69.4373996,
+            "grade": 0.159445
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 101.397021174918,
+            "grade": 0.141906
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "1.7",
+            "grade": 0.978
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 30.24,
+            "grade": 0.854298
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.556007,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 84.1933318,
+            "grade": 0.83441
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 86.10091103,
+            "grade": 0.861009
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2019,
+            "value": 0.2352245,
+            "grade": 0.52861
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "DZA",
+    "name": "Algeria",
+    "flag": "🇩🇿",
+    "region": "Africa",
+    "rank": 81,
+    "score": 53.42,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 54.1,
+      "Infrastructure": 44.58,
+      "Capacity Building": 61.59
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.541,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.332,
+            "grade": 0.332
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.445776,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 109.6263412,
+            "grade": 0.251729
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 114.357837043618,
+            "grade": 0.160045
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "3.2",
+            "grade": 0.931
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 23.66,
+            "grade": 0.886107
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.615897,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 92.36923979,
+            "grade": 0.920061
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 77.4178009,
+            "grade": 0.774178
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.3423498,
+            "grade": 0.769348
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "SVK",
+    "name": "Slovak Republic",
+    "flag": "🇸🇰",
+    "region": "Europe",
+    "rank": 82,
+    "score": 53.3,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 35.48,
+      "Infrastructure": 61.56,
+      "Capacity Building": 62.86
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.354845,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.70969,
+            "grade": 0.70969
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.615645,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 99.13420959,
+            "grade": 0.227636
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 146.074899392444,
+            "grade": 0.204433
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 83,
+            "grade": 0.83
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.8",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 38.13,
+            "grade": 0.816156
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.628612,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 90.5383572,
+            "grade": 0.90088
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 89.82507032,
+            "grade": 0.898251
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 5,
+            "grade": 0.219289
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.2207255,
+            "grade": 0.496027
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "RUS",
+    "name": "Russian Federation",
+    "flag": "🇷🇺",
+    "region": "Europe",
+    "rank": 83,
+    "score": 53.1,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 38.83,
+      "Infrastructure": 50.57,
+      "Capacity Building": 69.9
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.3883,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.7766,
+            "grade": 0.7766
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -10646,658 +10646,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "BHS",
-    "name": "Bahamas",
-    "flag": "🇧🇸",
-    "region": "North America",
-    "rank": 84,
-    "score": 54.29,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 73.22,
-      "Infrastructure": 42.69,
-      "Capacity Building": 46.32
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.73217,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.71434,
-            "grade": 0.71434
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.426914,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 96.67989922,
-            "grade": 0.222001
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 100.786240849572,
-            "grade": 0.141051
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "2.2",
-            "grade": 0.9644
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 40,
-            "grade": 0.807116
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.463213,
-        "classification": "Adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 93.13883466,
-            "grade": 0.928123
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 92.47270203,
-            "grade": 0.924727
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "PAN",
-    "name": "Panama",
-    "flag": "🇵🇦",
-    "region": "North America",
-    "rank": 85,
-    "score": 52.7,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 93.3,
-    "dimensions": {
-      "Government": 73.99,
-      "Infrastructure": 39.02,
-      "Capacity Building": 46.62
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.739905,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.72981,
-            "grade": 0.72981
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.390165,
-        "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 97.39811767,
-            "grade": 0.22365
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2023,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "3.3",
-            "grade": 0.9291
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 41.87,
-            "grade": 0.798076
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.466186,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 79.98796943,
-            "grade": 0.790355
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 72.77149963,
-            "grade": 0.727715
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2016,
-            "value": 0.1542653,
-            "grade": 0.346674
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "KHM",
-    "name": "Cambodia",
-    "flag": "🇰🇭",
-    "region": "Asia",
-    "rank": 86,
-    "score": 52.47,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 66.27,
-      "Infrastructure": 43.78,
-      "Capacity Building": 47.35
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.66268,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.57536,
-            "grade": 0.57536
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.437789,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 104.0512051,
-            "grade": 0.238927
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 259.74728912405,
-            "grade": 0.363518
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "12.7",
-            "grade": 0.6375
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 10.65,
-            "grade": 0.948999
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.473536,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 70.21042609,
-            "grade": 0.687926
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 68.47530365,
-            "grade": 0.684753
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2019,
-            "value": 0.23204550000000002,
-            "grade": 0.521466
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "EGY",
-    "name": "Egypt",
-    "flag": "🇪🇬",
-    "region": "Africa",
-    "rank": 87,
-    "score": 52.07,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 71,
-      "Infrastructure": 41.63,
-      "Capacity Building": 43.59
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.70997,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.66994,
-            "grade": 0.66994
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.416268,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 75.01781432,
-            "grade": 0.172259
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 56.1627756920278,
-            "grade": 0.0786
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "2.4",
-            "grade": 0.9567
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 26.21,
-            "grade": 0.873779
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.435856,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 75.59372244,
-            "grade": 0.744321
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 74.64839935,
-            "grade": 0.746484
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2016,
-            "value": 0.1124119,
-            "grade": 0.252618
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "SMR",
-    "name": "San Marino",
-    "flag": "🇸🇲",
-    "region": "Europe",
-    "rank": 88,
-    "score": 52.07,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 83.3,
-    "dimensions": {
-      "Government": 32.75,
-      "Infrastructure": 65.57,
-      "Capacity Building": 56.36
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.327545,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 1,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.65509,
-            "grade": 0.65509
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.65568,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 142.9379709,
-            "grade": 0.328221
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2022,
-            "value": 69.5652173913043,
-            "grade": 0.097357
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 99,
-            "grade": 0.99
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "1.0",
-            "grade": 0.9991
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 28.29,
-            "grade": 0.863724
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.563618,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 97.35220722,
-            "grade": 0.972262
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 97.35220337,
-            "grade": 0.973522
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.1373626,
-            "grade": 0.308689
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Infrastructure"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
     "code": "BGD",
     "name": "Bangladesh",
     "flag": "🇧🇩",
     "region": "Asia",
-    "rank": 89,
-    "score": 51.56,
+    "rank": 84,
+    "score": 52.9,
     "classification": "Adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 70.35,
+      "Government": 74.37,
       "Infrastructure": 45.53,
       "Capacity Building": 38.81
     },
     "pillars": {
       "Government": {
-        "value": 0.70348,
+        "value": 0.74372,
         "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.65696,
-            "grade": 0.65696
+            "value": 0.73744,
+            "grade": 0.73744
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -11399,34 +10775,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "GHA",
-    "name": "Ghana",
-    "flag": "🇬🇭",
+    "code": "EGY",
+    "name": "Egypt",
+    "flag": "🇪🇬",
     "region": "Africa",
-    "rank": 90,
-    "score": 51.1,
+    "rank": 85,
+    "score": 52.57,
     "classification": "Adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 69.08,
-      "Infrastructure": 38.88,
-      "Capacity Building": 45.33
+      "Government": 72.51,
+      "Infrastructure": 41.63,
+      "Capacity Building": 43.59
     },
     "pillars": {
       "Government": {
-        "value": 0.690845,
-        "classification": "Developing",
+        "value": 0.72508,
+        "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.63169,
-            "grade": 0.63169
+            "value": 0.70016,
+            "grade": 0.70016
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -11438,8 +10814,8 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
         ]
       },
       "Infrastructure": {
-        "value": 0.388849,
-        "classification": "Early adopting",
+        "value": 0.416268,
+        "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 5,
         "totalIndicators": 5,
@@ -11448,20 +10824,20 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 65.37313549,
-            "grade": 0.150113
+            "value": 75.01781432,
+            "grade": 0.172259
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 111.524427848583,
-            "grade": 0.156079
+            "value": 56.1627756920278,
+            "grade": 0.0786
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2023,
+            "year": 2024,
             "value": 0,
             "grade": 0
           },
@@ -11469,20 +10845,20 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "9.3",
-            "grade": 0.7446
+            "value": "2.4",
+            "grade": 0.9567
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 22.14,
-            "grade": 0.893455
+            "value": 26.21,
+            "grade": 0.873779
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.453349,
+        "value": 0.435856,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 4,
@@ -11492,15 +10868,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 73.54179336,
-            "grade": 0.722825
+            "value": 75.59372244,
+            "grade": 0.744321
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 72.17569733,
-            "grade": 0.721757
+            "value": 74.64839935,
+            "grade": 0.746484
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -11512,398 +10888,18 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           {
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
-            "year": 2019,
-            "value": 0.1641172,
-            "grade": 0.368814
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "MCO",
-    "name": "Monaco",
-    "flag": "🇲🇨",
-    "region": "Europe",
-    "rank": 91,
-    "score": 51.03,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 35.87,
-      "Infrastructure": 65.14,
-      "Capacity Building": 49.51
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.358735,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.71747,
-            "grade": 0.71747
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.6514,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 105.1616577,
-            "grade": 0.241477
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 192.403692307692,
-            "grade": 0.26927
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 100,
-            "grade": 1
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.2",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 52.59,
-            "grade": 0.746254
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.495056,
-        "classification": "Adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 99.02384282,
-            "grade": 0.989774
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 99.04489899,
-            "grade": 0.990449
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Infrastructure"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "URY",
-    "name": "Uruguay",
-    "flag": "🇺🇾",
-    "region": "South America",
-    "rank": 92,
-    "score": 50.7,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 45.03,
-      "Infrastructure": 50.77,
-      "Capacity Building": 56.29
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.450295,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.90059,
-            "grade": 0.90059
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.507722,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 113.4577634,
-            "grade": 0.260527
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 191.009557439763,
-            "grade": 0.267319
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 18.8,
-            "grade": 0.188
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "2.1",
-            "grade": 0.9675
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 30.04,
-            "grade": 0.855264
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.562927,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 94.23054675,
-            "grade": 0.939559
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 91.99109007,
-            "grade": 0.919911
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2017,
-            "value": 0.1745411,
-            "grade": 0.392239
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "AND",
-    "name": "Andorra",
-    "flag": "🇦🇩",
-    "region": "Europe",
-    "rank": 93,
-    "score": 50.6,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 34.47,
-      "Infrastructure": 62.57,
-      "Capacity Building": 54.76
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.344655,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.68931,
-            "grade": 0.68931
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
             "year": 2016,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.625746,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 108.3965925,
-            "grade": 0.248905
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 53.4089936724538,
-            "grade": 0.074746
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 94,
-            "grade": 0.94
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.8",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 28.01,
-            "grade": 0.865078
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.547561,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 94.37610939,
-            "grade": 0.941084
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 94.39759827,
-            "grade": 0.943976
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2019,
-            "value": 0.1358025,
-            "grade": 0.305183
+            "value": 0.1124119,
+            "grade": 0.252618
           }
         ]
       }
     },
     "strengths": [
-      "Infrastructure"
+      "Government"
     ],
     "weaknesses": [
-      "Government"
+      "Infrastructure"
     ],
     "trend3y": 0
   },
@@ -11912,30 +10908,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Jordan",
     "flag": "🇯🇴",
     "region": "Asia",
-    "rank": 94,
-    "score": 50.59,
+    "rank": 86,
+    "score": 51.83,
     "classification": "Adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 34.25,
+      "Government": 37.95,
       "Infrastructure": 52.62,
       "Capacity Building": 64.91
     },
     "pillars": {
       "Government": {
-        "value": 0.342465,
+        "value": 0.379525,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.68493,
-            "grade": 0.68493
+            "value": 0.75905,
+            "grade": 0.75905
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -12037,47 +11033,47 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "TTO",
-    "name": "Trinidad and Tobago",
-    "flag": "🇹🇹",
+    "code": "BHS",
+    "name": "Bahamas",
+    "flag": "🇧🇸",
     "region": "North America",
-    "rank": 95,
-    "score": 50.45,
+    "rank": 87,
+    "score": 51.63,
     "classification": "Adopting",
     "yearlyChange": 0,
     "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 72.36,
-      "Infrastructure": 37.7,
-      "Capacity Building": 41.29
+      "Government": 64.51,
+      "Infrastructure": 42.69,
+      "Capacity Building": 46.32
     },
     "pillars": {
       "Government": {
-        "value": 0.72363,
-        "classification": "Mature",
+        "value": 0.645105,
+        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.69726,
-            "grade": 0.69726
+            "value": 0.54021,
+            "grade": 0.54021
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
+            "year": 2022,
             "value": null,
             "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.377049,
-        "classification": "Early adopting",
+        "value": 0.426914,
+        "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 5,
         "totalIndicators": 5,
@@ -12086,20 +11082,20 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 60.04999396,
-            "grade": 0.137889
+            "value": 96.67989922,
+            "grade": 0.222001
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 125.390574350331,
-            "grade": 0.175485
+            "value": 100.786240849572,
+            "grade": 0.141051
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
+            "year": 2024,
             "value": 0,
             "grade": 0
           },
@@ -12107,20 +11103,20 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "2.9",
-            "grade": 0.9427
+            "value": "2.2",
+            "grade": 0.9644
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 76.81,
-            "grade": 0.629169
+            "value": 40,
+            "grade": 0.807116
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.412893,
+        "value": 0.463213,
         "classification": "Adopting",
         "coverage": 0.75,
         "availableIndicators": 3,
@@ -12130,15 +11126,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 83.76980493,
-            "grade": 0.829973
+            "value": 93.13883466,
+            "grade": 0.928123
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 82.15989685,
-            "grade": 0.821599
+            "value": 92.47270203,
+            "grade": 0.924727
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -12159,34 +11155,156 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
+    "code": "PAN",
+    "name": "Panama",
+    "flag": "🇵🇦",
+    "region": "North America",
+    "rank": 88,
+    "score": 51.46,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 93.3,
+    "dimensions": {
+      "Government": 70.02,
+      "Infrastructure": 39.02,
+      "Capacity Building": 46.62
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.700245,
+        "classification": "Mature",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.65049,
+            "grade": 0.65049
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.390165,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 97.39811767,
+            "grade": 0.22365
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2023,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "3.3",
+            "grade": 0.9291
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 41.87,
+            "grade": 0.798076
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.466186,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 79.98796943,
+            "grade": 0.790355
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 72.77149963,
+            "grade": 0.727715
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2016,
+            "value": 0.1542653,
+            "grade": 0.346674
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
     "code": "ZAF",
     "name": "South Africa",
     "flag": "🇿🇦",
     "region": "Africa",
-    "rank": 96,
-    "score": 50.37,
+    "rank": 89,
+    "score": 50.8,
     "classification": "Adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 43.08,
+      "Government": 44.36,
       "Infrastructure": 51.15,
       "Capacity Building": 56.89
     },
     "pillars": {
       "Government": {
-        "value": 0.43081,
+        "value": 0.443605,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.86162,
-            "grade": 0.86162
+            "value": 0.88721,
+            "grade": 0.88721
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -12288,46 +11406,175 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "BLR",
-    "name": "Belarus",
-    "flag": "🇧🇾",
-    "region": "Europe",
-    "rank": 97,
-    "score": 50.16,
+    "code": "GHA",
+    "name": "Ghana",
+    "flag": "🇬🇭",
+    "region": "Africa",
+    "rank": 90,
+    "score": 50.71,
     "classification": "Adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 37.22,
-      "Infrastructure": 47.59,
-      "Capacity Building": 65.68
+      "Government": 67.92,
+      "Infrastructure": 38.88,
+      "Capacity Building": 45.33
     },
     "pillars": {
       "Government": {
-        "value": 0.372245,
-        "classification": "Early adopting",
+        "value": 0.679185,
+        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.74449,
-            "grade": 0.74449
+            "value": 0.60837,
+            "grade": 0.60837
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.388849,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 65.37313549,
+            "grade": 0.150113
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 111.524427848583,
+            "grade": 0.156079
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2023,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "9.3",
+            "grade": 0.7446
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 22.14,
+            "grade": 0.893455
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.453349,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 73.54179336,
+            "grade": 0.722825
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 72.17569733,
+            "grade": 0.721757
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2019,
+            "value": 0.1641172,
+            "grade": 0.368814
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "URY",
+    "name": "Uruguay",
+    "flag": "🇺🇾",
+    "region": "South America",
+    "rank": 91,
+    "score": 50.41,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 44.16,
+      "Infrastructure": 50.77,
+      "Capacity Building": 56.29
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.441605,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.88321,
+            "grade": 0.88321
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2021,
             "value": null,
             "grade": 0
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.47586,
+        "value": 0.507722,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 5,
@@ -12337,41 +11584,41 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 107.5501817,
-            "grade": 0.246962
+            "value": 113.4577634,
+            "grade": 0.260527
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 163.852076070482,
-            "grade": 0.229312
+            "value": 191.009557439763,
+            "grade": 0.267319
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
             "year": 2024,
-            "value": 0,
-            "grade": 0
+            "value": 18.8,
+            "grade": 0.188
           },
           {
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "0.7",
-            "grade": 1
+            "value": "2.1",
+            "grade": 0.9675
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 20.16,
-            "grade": 0.903026
+            "value": 30.04,
+            "grade": 0.855264
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.656812,
+        "value": 0.562927,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 4,
@@ -12381,15 +11628,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 94.06466636,
-            "grade": 0.937822
+            "value": 94.23054675,
+            "grade": 0.939559
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 94.26182128,
-            "grade": 0.942618
+            "value": 91.99109007,
+            "grade": 0.919911
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -12402,8 +11649,8 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
             "year": 2017,
-            "value": 0.33232039999999996,
-            "grade": 0.746809
+            "value": 0.1745411,
+            "grade": 0.392239
           }
         ]
       }
@@ -12417,47 +11664,47 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "MUS",
-    "name": "Mauritius",
-    "flag": "🇲🇺",
-    "region": "Africa",
-    "rank": 98,
-    "score": 49.81,
+    "code": "KHM",
+    "name": "Cambodia",
+    "flag": "🇰🇭",
+    "region": "Asia",
+    "rank": 92,
+    "score": 50.38,
     "classification": "Adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 37.53,
-      "Infrastructure": 61.27,
-      "Capacity Building": 50.63
+      "Government": 60.02,
+      "Infrastructure": 43.78,
+      "Capacity Building": 47.35
     },
     "pillars": {
       "Government": {
-        "value": 0.375305,
-        "classification": "Early adopting",
+        "value": 0.60017,
+        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.75061,
-            "grade": 0.75061
+            "value": 0.45034,
+            "grade": 0.45034
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2013,
+            "year": 2021,
             "value": null,
-            "grade": 0
+            "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.612704,
-        "classification": "Developing",
+        "value": 0.437789,
+        "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 5,
         "totalIndicators": 5,
@@ -12466,41 +11713,41 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 145.7162659,
-            "grade": 0.3346
+            "value": 104.0512051,
+            "grade": 0.238927
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 141.44577012363,
-            "grade": 0.197954
+            "value": 259.74728912405,
+            "grade": 0.363518
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 65,
-            "grade": 0.65
+            "year": 2021,
+            "value": 0,
+            "grade": 0
           },
           {
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "1.3",
-            "grade": 0.9907
+            "value": "12.7",
+            "grade": 0.6375
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 22.8,
-            "grade": 0.890264
+            "value": 10.65,
+            "grade": 0.948999
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.506311,
+        "value": 0.473536,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 4,
@@ -12510,15 +11757,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 77.88283932,
-            "grade": 0.768302
+            "value": 70.21042609,
+            "grade": 0.687926
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 73.30793533,
-            "grade": 0.733079
+            "value": 68.47530365,
+            "grade": 0.684753
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -12530,18 +11777,18 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           {
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
-            "year": 2017,
-            "value": 0.2331118,
-            "grade": 0.523862
+            "year": 2019,
+            "value": 0.23204550000000002,
+            "grade": 0.521466
           }
         ]
       }
     },
     "strengths": [
-      "Infrastructure"
+      "Government"
     ],
     "weaknesses": [
-      "Government"
+      "Infrastructure"
     ],
     "trend3y": 0
   },
@@ -12550,30 +11797,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Serbia",
     "flag": "🇷🇸",
     "region": "Europe",
-    "rank": 99,
-    "score": 49.68,
+    "rank": 93,
+    "score": 49.55,
     "classification": "Adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 43.09,
+      "Government": 42.7,
       "Infrastructure": 46.01,
       "Capacity Building": 59.93
     },
     "pillars": {
       "Government": {
-        "value": 0.43092,
+        "value": 0.426985,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.86184,
-            "grade": 0.86184
+            "value": 0.85397,
+            "grade": 0.85397
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -12675,47 +11922,47 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "VCT",
-    "name": "Saint Vincent and the Grenadines",
-    "flag": "🇻🇨",
-    "region": "North America",
-    "rank": 100,
-    "score": 48.9,
+    "code": "PAK",
+    "name": "Pakistan",
+    "flag": "🇵🇰",
+    "region": "Asia",
+    "rank": 94,
+    "score": 49.36,
     "classification": "Adopting",
     "yearlyChange": 0,
     "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 66.88,
-      "Infrastructure": 41.18,
-      "Capacity Building": 38.98
+      "Government": 72.71,
+      "Infrastructure": 38.05,
+      "Capacity Building": 38.09
     },
     "pillars": {
       "Government": {
-        "value": 0.66881,
-        "classification": "Developing",
+        "value": 0.727085,
+        "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.58762,
-            "grade": 0.58762
+            "value": 0.70417,
+            "grade": 0.70417
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
+            "year": 2021,
             "value": null,
             "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.411764,
-        "classification": "Adopting",
+        "value": 0.380455,
+        "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 5,
         "totalIndicators": 5,
@@ -12724,20 +11971,20 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 69.81493997,
-            "grade": 0.160312
+            "value": 55.11861495,
+            "grade": 0.126566
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 282.881343867891,
-            "grade": 0.395895
+            "value": 99.4361645592533,
+            "grade": 0.139162
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
+            "year": 2023,
             "value": 0,
             "grade": 0
           },
@@ -12745,20 +11992,20 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "6.1",
-            "grade": 0.8412
+            "value": "11.1",
+            "grade": 0.6889
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 70.14,
-            "grade": 0.661414
+            "value": 10.93,
+            "grade": 0.947646
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.389767,
+        "value": 0.380928,
         "classification": "Early adopting",
         "coverage": 0.75,
         "availableIndicators": 3,
@@ -12768,15 +12015,137 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 80.63818968,
-            "grade": 0.797167
+            "value": 69.6702,
+            "grade": 0.682267
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 76.19010162,
-            "grade": 0.761901
+            "value": 57.253,
+            "grade": 0.57253
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 8,
+            "grade": 0.268913
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "TTO",
+    "name": "Trinidad and Tobago",
+    "flag": "🇹🇹",
+    "region": "North America",
+    "rank": 95,
+    "score": 48.97,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 67.49,
+      "Infrastructure": 37.7,
+      "Capacity Building": 41.29
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.674945,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.59989,
+            "grade": 0.59989
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2021,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.377049,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 60.04999396,
+            "grade": 0.137889
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 125.390574350331,
+            "grade": 0.175485
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "2.9",
+            "grade": 0.9427
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 76.81,
+            "grade": 0.629169
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.412893,
+        "classification": "Adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 83.76980493,
+            "grade": 0.829973
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 82.15989685,
+            "grade": 0.821599
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -12792,7 +12161,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Government"
     ],
     "weaknesses": [
-      "Capacity Building"
+      "Infrastructure"
     ],
     "trend3y": 0
   },
@@ -12801,30 +12170,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Mongolia",
     "flag": "🇲🇳",
     "region": "Asia",
-    "rank": 101,
-    "score": 48.69,
+    "rank": 96,
+    "score": 48.3,
     "classification": "Adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 42.28,
+      "Government": 41.11,
       "Infrastructure": 47.62,
       "Capacity Building": 56.17
     },
     "pillars": {
       "Government": {
-        "value": 0.422845,
+        "value": 0.411095,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.84569,
-            "grade": 0.84569
+            "value": 0.82219,
+            "grade": 0.82219
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -12926,47 +12295,47 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "NAM",
-    "name": "Namibia",
-    "flag": "🇳🇦",
-    "region": "Africa",
-    "rank": 102,
-    "score": 48.69,
+    "code": "MCO",
+    "name": "Monaco",
+    "flag": "🇲🇨",
+    "region": "Europe",
+    "rank": 97,
+    "score": 47.46,
     "classification": "Adopting",
     "yearlyChange": 0,
-    "dataCoverage": 100,
+    "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 67.54,
-      "Infrastructure": 38.28,
-      "Capacity Building": 40.24
+      "Government": 24.19,
+      "Infrastructure": 65.14,
+      "Capacity Building": 49.51
     },
     "pillars": {
       "Government": {
-        "value": 0.67537,
-        "classification": "Developing",
+        "value": 0.241885,
+        "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.60074,
-            "grade": 0.60074
+            "value": 0.48377,
+            "grade": 0.48377
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
+            "year": 2022,
             "value": null,
-            "grade": 0.75
+            "grade": 0
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.382754,
-        "classification": "Early adopting",
+        "value": 0.6514,
+        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 5,
         "totalIndicators": 5,
@@ -12975,15 +12344,137 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 51.67647867,
-            "grade": 0.118662
+            "value": 105.1616577,
+            "grade": 0.241477
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 85.4313749908198,
-            "grade": 0.119562
+            "value": 192.403692307692,
+            "grade": 0.26927
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 100,
+            "grade": 1
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.2",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 52.59,
+            "grade": 0.746254
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.495056,
+        "classification": "Adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 99.02384282,
+            "grade": 0.989774
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 99.04489899,
+            "grade": 0.990449
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "BLR",
+    "name": "Belarus",
+    "flag": "🇧🇾",
+    "region": "Europe",
+    "rank": 98,
+    "score": 47.36,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 28.8,
+      "Infrastructure": 47.59,
+      "Capacity Building": 65.68
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.28799,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.57598,
+            "grade": 0.57598
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.47586,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 107.5501817,
+            "grade": 0.246962
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 163.852076070482,
+            "grade": 0.229312
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
@@ -12996,21 +12487,21 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "7.7",
-            "grade": 0.7935
+            "value": "0.7",
+            "grade": 1
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 24.5,
-            "grade": 0.882046
+            "value": 20.16,
+            "grade": 0.903026
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.402429,
-        "classification": "Adopting",
+        "value": 0.656812,
+        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 4,
         "totalIndicators": 4,
@@ -13019,15 +12510,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 70.27629718,
-            "grade": 0.688616
+            "value": 94.06466636,
+            "grade": 0.937822
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 64.87460327,
-            "grade": 0.648746
+            "value": 94.26182128,
+            "grade": 0.942618
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -13040,512 +12531,17 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
             "year": 2017,
-            "value": 0.12119350000000001,
-            "grade": 0.272353
+            "value": 0.33232039999999996,
+            "grade": 0.746809
           }
         ]
       }
     },
     "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "IRQ",
-    "name": "Iraq",
-    "flag": "🇮🇶",
-    "region": "Asia",
-    "rank": 103,
-    "score": 48.41,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 60.36,
-      "Infrastructure": 42.01,
-      "Capacity Building": 42.04
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.603605,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.45721,
-            "grade": 0.45721
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.420106,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 41.88265435,
-            "grade": 0.096173
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 165.943963420142,
-            "grade": 0.23224
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "4.2",
-            "grade": 0.9009
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 26.74,
-            "grade": 0.871217
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.420359,
-        "classification": "Adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 87.27489911,
-            "grade": 0.866692
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 81.47450256,
-            "grade": 0.814745
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "BRB",
-    "name": "Barbados",
-    "flag": "🇧🇧",
-    "region": "North America",
-    "rank": 104,
-    "score": 48.22,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 71.58,
-      "Infrastructure": 37.17,
-      "Capacity Building": 36.8
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.71575,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.6815,
-            "grade": 0.6815
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.371743,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 59.93620494,
-            "grade": 0.137628
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2021,
-            "value": 38.0816192998934,
-            "grade": 0.053296
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "3.6",
-            "grade": 0.9211
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 52.5,
-            "grade": 0.746689
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.367958,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 77.87149627,
-            "grade": 0.768183
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 70.36470032,
-            "grade": 0.703647
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
       "Capacity Building"
     ],
-    "trend3y": 0
-  },
-  {
-    "code": "ZWE",
-    "name": "Zimbabwe",
-    "flag": "🇿🇼",
-    "region": "Africa",
-    "rank": 105,
-    "score": 47.49,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 59.9,
-      "Infrastructure": 38.12,
-      "Capacity Building": 44.47
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.599035,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.44807,
-            "grade": 0.44807
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.381152,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 71.2892094,
-            "grade": 0.163697
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 25.2785488366037,
-            "grade": 0.035378
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 15.9,
-            "grade": 0.159
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "12.8",
-            "grade": 0.6347
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 18.1,
-            "grade": 0.912985
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.44466,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 69.74008433,
-            "grade": 0.682999
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 41.64279938,
-            "grade": 0.416428
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2015,
-            "value": 0.3022403,
-            "grade": 0.679212
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
     "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "SWZ",
-    "name": "Eswatini",
-    "flag": "🇸🇿",
-    "region": "Africa",
-    "rank": 106,
-    "score": 47.33,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 67.91,
-      "Infrastructure": 42.83,
-      "Capacity Building": 33.12
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.67906,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.60812,
-            "grade": 0.60812
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.428304,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 116.3093347,
-            "grade": 0.267075
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 27.8729562689638,
-            "grade": 0.039008
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 5,
-            "grade": 0.05
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "1.9",
-            "grade": 0.9731
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 38.92,
-            "grade": 0.812337
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.331181,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 70.47454119,
-            "grade": 0.690693
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 63.40309906,
-            "grade": 0.634031
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
       "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -13554,30 +12550,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Philippines",
     "flag": "🇵🇭",
     "region": "Asia",
-    "rank": 107,
-    "score": 46.56,
+    "rank": 99,
+    "score": 47.28,
     "classification": "Adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 38.11,
+      "Government": 40.27,
       "Infrastructure": 53.66,
       "Capacity Building": 47.91
     },
     "pillars": {
       "Government": {
-        "value": 0.38106,
-        "classification": "Early adopting",
+        "value": 0.402715,
+        "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.76212,
-            "grade": 0.76212
+            "value": 0.80543,
+            "grade": 0.80543
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -13679,46 +12675,304 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "PAK",
-    "name": "Pakistan",
-    "flag": "🇵🇰",
-    "region": "Asia",
-    "rank": 108,
-    "score": 46.39,
+    "code": "MUS",
+    "name": "Mauritius",
+    "flag": "🇲🇺",
+    "region": "Africa",
+    "rank": 100,
+    "score": 47.14,
     "classification": "Adopting",
     "yearlyChange": 0,
-    "dataCoverage": 91.7,
+    "dataCoverage": 100,
     "dimensions": {
-      "Government": 62.98,
-      "Infrastructure": 38.05,
-      "Capacity Building": 38.09
+      "Government": 29.52,
+      "Infrastructure": 61.27,
+      "Capacity Building": 50.63
     },
     "pillars": {
       "Government": {
-        "value": 0.629775,
+        "value": 0.29516,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.59032,
+            "grade": 0.59032
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2013,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.612704,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 145.7162659,
+            "grade": 0.3346
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 141.44577012363,
+            "grade": 0.197954
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 65,
+            "grade": 0.65
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "1.3",
+            "grade": 0.9907
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 22.8,
+            "grade": 0.890264
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.506311,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 77.88283932,
+            "grade": 0.768302
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 73.30793533,
+            "grade": 0.733079
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2017,
+            "value": 0.2331118,
+            "grade": 0.523862
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "AND",
+    "name": "Andorra",
+    "flag": "🇦🇩",
+    "region": "Europe",
+    "rank": 101,
+    "score": 47.08,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 23.9,
+      "Infrastructure": 62.57,
+      "Capacity Building": 54.76
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.23902,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.47804,
+            "grade": 0.47804
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2016,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.625746,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 108.3965925,
+            "grade": 0.248905
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 53.4089936724538,
+            "grade": 0.074746
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 94,
+            "grade": 0.94
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.8",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 28.01,
+            "grade": 0.865078
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.547561,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 94.37610939,
+            "grade": 0.941084
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 94.39759827,
+            "grade": 0.943976
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2019,
+            "value": 0.1358025,
+            "grade": 0.305183
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "NAM",
+    "name": "Namibia",
+    "flag": "🇳🇦",
+    "region": "Africa",
+    "rank": 102,
+    "score": 47,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 62.48,
+      "Infrastructure": 38.28,
+      "Capacity Building": 40.24
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.62479,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.50955,
-            "grade": 0.50955
+            "value": 0.49958,
+            "grade": 0.49958
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
+            "year": 2024,
             "value": null,
             "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.380455,
+        "value": 0.382754,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 5,
@@ -13728,20 +12982,20 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 55.11861495,
-            "grade": 0.126566
+            "value": 51.67647867,
+            "grade": 0.118662
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 99.4361645592533,
-            "grade": 0.139162
+            "value": 85.4313749908198,
+            "grade": 0.119562
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2023,
+            "year": 2024,
             "value": 0,
             "grade": 0
           },
@@ -13749,45 +13003,52 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "11.1",
-            "grade": 0.6889
+            "value": "7.7",
+            "grade": 0.7935
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 10.93,
-            "grade": 0.947646
+            "value": 24.5,
+            "grade": 0.882046
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.380928,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
+        "value": 0.402429,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
         "totalIndicators": 4,
         "indicators": [
           {
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 69.6702,
-            "grade": 0.682267
+            "value": 70.27629718,
+            "grade": 0.688616
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 57.253,
-            "grade": 0.57253
+            "value": 64.87460327,
+            "grade": 0.648746
           },
           {
             "source": "AI_Researchers_Global.xlsx",
             "indicator": "AI_Researchers_Global",
             "year": 2025,
-            "value": 8,
-            "grade": 0.268913
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2017,
+            "value": 0.12119350000000001,
+            "grade": 0.272353
           }
         ]
       }
@@ -13801,34 +13062,163 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "GAB",
-    "name": "Gabon",
-    "flag": "🇬🇦",
+    "code": "ZWE",
+    "name": "Zimbabwe",
+    "flag": "🇿🇼",
     "region": "Africa",
-    "rank": 109,
-    "score": 46.31,
+    "rank": 103,
+    "score": 46.86,
     "classification": "Adopting",
     "yearlyChange": 0,
-    "dataCoverage": 91.7,
+    "dataCoverage": 100,
     "dimensions": {
-      "Government": 66.2,
-      "Infrastructure": 37.89,
-      "Capacity Building": 35.6
+      "Government": 58,
+      "Infrastructure": 38.12,
+      "Capacity Building": 44.47
     },
     "pillars": {
       "Government": {
-        "value": 0.66204,
+        "value": 0.580015,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.57408,
-            "grade": 0.57408
+            "value": 0.41003,
+            "grade": 0.41003
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.381152,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 71.2892094,
+            "grade": 0.163697
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 25.2785488366037,
+            "grade": 0.035378
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 15.9,
+            "grade": 0.159
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "12.8",
+            "grade": 0.6347
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 18.1,
+            "grade": 0.912985
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.44466,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 69.74008433,
+            "grade": 0.682999
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 41.64279938,
+            "grade": 0.416428
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2015,
+            "value": 0.3022403,
+            "grade": 0.679212
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "VCT",
+    "name": "Saint Vincent and the Grenadines",
+    "flag": "🇻🇨",
+    "region": "North America",
+    "rank": 104,
+    "score": 45.89,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 57.03,
+      "Infrastructure": 41.18,
+      "Capacity Building": 38.98
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.570315,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.39063,
+            "grade": 0.39063
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -13840,8 +13230,8 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
         ]
       },
       "Infrastructure": {
-        "value": 0.378887,
-        "classification": "Early adopting",
+        "value": 0.411764,
+        "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 5,
         "totalIndicators": 5,
@@ -13850,20 +13240,20 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 85.69890254,
-            "grade": 0.196786
+            "value": 69.81493997,
+            "grade": 0.160312
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2020,
-            "value": 16.9453888586108,
-            "grade": 0.023715
+            "year": 2024,
+            "value": 282.881343867891,
+            "grade": 0.395895
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
+            "year": 2024,
             "value": 0,
             "grade": 0
           },
@@ -13871,20 +13261,20 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "6.0",
-            "grade": 0.844
+            "value": "6.1",
+            "grade": 0.8412
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 35.28,
-            "grade": 0.829933
+            "value": 70.14,
+            "grade": 0.661414
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.355999,
+        "value": 0.389767,
         "classification": "Early adopting",
         "coverage": 0.75,
         "availableIndicators": 3,
@@ -13894,15 +13284,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 74.87440755,
-            "grade": 0.736786
+            "value": 80.63818968,
+            "grade": 0.797167
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 68.72090149,
-            "grade": 0.687209
+            "value": 76.19010162,
+            "grade": 0.761901
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -13923,34 +13313,522 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "LSO",
-    "name": "Lesotho",
-    "flag": "🇱🇸",
-    "region": "Africa",
-    "rank": 110,
-    "score": 45.88,
+    "code": "BRB",
+    "name": "Barbados",
+    "flag": "🇧🇧",
+    "region": "North America",
+    "rank": 105,
+    "score": 45.41,
     "classification": "Adopting",
     "yearlyChange": 0,
-    "dataCoverage": 100,
+    "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 58.11,
-      "Infrastructure": 45.79,
-      "Capacity Building": 33.75
+      "Government": 62.38,
+      "Infrastructure": 37.17,
+      "Capacity Building": 36.8
     },
     "pillars": {
       "Government": {
-        "value": 0.581145,
+        "value": 0.623775,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.41229,
-            "grade": 0.41229
+            "value": 0.49755,
+            "grade": 0.49755
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.371743,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 59.93620494,
+            "grade": 0.137628
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2021,
+            "value": 38.0816192998934,
+            "grade": 0.053296
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "3.6",
+            "grade": 0.9211
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 52.5,
+            "grade": 0.746689
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.367958,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 77.87149627,
+            "grade": 0.768183
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 70.36470032,
+            "grade": 0.703647
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "SWZ",
+    "name": "Eswatini",
+    "flag": "🇸🇿",
+    "region": "Africa",
+    "rank": 106,
+    "score": 45,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 60.29,
+      "Infrastructure": 42.83,
+      "Capacity Building": 33.12
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.60287,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.45574,
+            "grade": 0.45574
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.428304,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 116.3093347,
+            "grade": 0.267075
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 27.8729562689638,
+            "grade": 0.039008
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 5,
+            "grade": 0.05
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "1.9",
+            "grade": 0.9731
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 38.92,
+            "grade": 0.812337
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.331181,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 70.47454119,
+            "grade": 0.690693
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 63.40309906,
+            "grade": 0.634031
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "IRQ",
+    "name": "Iraq",
+    "flag": "🇮🇶",
+    "region": "Asia",
+    "rank": 107,
+    "score": 44.29,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 46.88,
+      "Infrastructure": 42.01,
+      "Capacity Building": 42.04
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.468775,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.18755,
+            "grade": 0.18755
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.420106,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 41.88265435,
+            "grade": 0.096173
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 165.943963420142,
+            "grade": 0.23224
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "4.2",
+            "grade": 0.9009
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 26.74,
+            "grade": 0.871217
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.420359,
+        "classification": "Adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 87.27489911,
+            "grade": 0.866692
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 81.47450256,
+            "grade": 0.814745
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "SMR",
+    "name": "San Marino",
+    "flag": "🇸🇲",
+    "region": "Europe",
+    "rank": 108,
+    "score": 43.8,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 83.3,
+    "dimensions": {
+      "Government": 17.88,
+      "Infrastructure": 65.57,
+      "Capacity Building": 56.36
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.17877,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 1,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.35754,
+            "grade": 0.35754
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.65568,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 142.9379709,
+            "grade": 0.328221
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2022,
+            "value": 69.5652173913043,
+            "grade": 0.097357
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 99,
+            "grade": 0.99
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "1.0",
+            "grade": 0.9991
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 28.29,
+            "grade": 0.863724
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.563618,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 97.35220722,
+            "grade": 0.972262
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 97.35220337,
+            "grade": 0.973522
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.1373626,
+            "grade": 0.308689
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "LSO",
+    "name": "Lesotho",
+    "flag": "🇱🇸",
+    "region": "Africa",
+    "rank": 109,
+    "score": 43.79,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 51.82,
+      "Infrastructure": 45.79,
+      "Capacity Building": 33.75
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.518185,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.28637,
+            "grade": 0.28637
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -14052,1212 +13930,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "LCA",
-    "name": "Saint Lucia",
-    "flag": "🇱🇨",
-    "region": "North America",
-    "rank": 111,
-    "score": 44.63,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 63.77,
-      "Infrastructure": 33.73,
-      "Capacity Building": 36.43
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.637735,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.52547,
-            "grade": 0.52547
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.337257,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 66.65034716,
-            "grade": 0.153046
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2020,
-            "value": 22.7108650486902,
-            "grade": 0.031784
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2022,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "4.1",
-            "grade": 0.904
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 83.37,
-            "grade": 0.597457
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.364308,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 78.5395689,
-            "grade": 0.775182
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 68.20500183,
-            "grade": 0.68205
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "MRT",
-    "name": "Mauritania",
-    "flag": "🇲🇷",
-    "region": "Africa",
-    "rank": 112,
-    "score": 44.16,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 54.96,
-      "Infrastructure": 34.94,
-      "Capacity Building": 42.58
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.54956,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.34912,
-            "grade": 0.34912
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.34937,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 70.02190779,
-            "grade": 0.160787
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 84.9697917705539,
-            "grade": 0.118916
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "15.1",
-            "grade": 0.5647
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 20.28,
-            "grade": 0.902446
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.425775,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 58.67253071,
-            "grade": 0.567055
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 45.77939987,
-            "grade": 0.457794
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2017,
-            "value": 0.301813,
-            "grade": 0.678251
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "LBN",
-    "name": "Lebanon",
-    "flag": "🇱🇧",
-    "region": "Asia",
-    "rank": 113,
-    "score": 43.45,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 76.7,
-    "dimensions": {
-      "Government": 64.75,
-      "Infrastructure": 22.87,
-      "Capacity Building": 38.34
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.64745,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.5449,
-            "grade": 0.5449
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.228704,
-        "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 107.5980173,
-            "grade": 0.247071
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2020,
-            "value": 11.7414876629063,
-            "grade": 0.016432
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 24.92,
-            "grade": 0.880015
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.383389,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 2,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 73.96080127,
-            "grade": 0.727215
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 80.63400269,
-            "grade": 0.80634
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "CIV",
-    "name": "Côte d'Ivoire",
-    "flag": "🇨🇮",
-    "region": "Africa",
-    "rank": 114,
-    "score": 43.13,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 65.43,
-      "Infrastructure": 37.26,
-      "Capacity Building": 28.84
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.65434,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.55868,
-            "grade": 0.55868
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2019,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.372623,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 108.0449317,
-            "grade": 0.248098
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 41.1554634008087,
-            "grade": 0.057597
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "12.0",
-            "grade": 0.6601
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 21.34,
-            "grade": 0.897322
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.28845,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 75.1313487,
-            "grade": 0.739477
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 41.43219902,
-            "grade": 0.414322
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "SYR",
-    "name": "Syrian Arab Republic",
-    "flag": "🇸🇾",
-    "region": "Asia",
-    "rank": 115,
-    "score": 43.13,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 56.94,
-      "Infrastructure": 40.52,
-      "Capacity Building": 31.94
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.56938,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.38876,
-            "grade": 0.38876
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.405154,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 64.81305963,
-            "grade": 0.148827
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 0.283925429812106,
-            "grade": 0.000397
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "2.3",
-            "grade": 0.961
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 17.57,
-            "grade": 0.915547
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.31942,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2017,
-            "value": 45.01001815,
-            "grade": 0.423928
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2018,
-            "value": 33.77000046,
-            "grade": 0.3377
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2016,
-            "value": 0.22963640000000002,
-            "grade": 0.516052
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "DMA",
-    "name": "Dominica",
-    "flag": "🇩🇲",
-    "region": "North America",
-    "rank": 116,
-    "score": 43.08,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 76.7,
-    "dimensions": {
-      "Government": 64.73,
-      "Infrastructure": 17.77,
-      "Capacity Building": 40.81
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.64726,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.54452,
-            "grade": 0.54452
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2014,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.177733,
-        "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 88.66399819,
-            "grade": 0.203594
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2020,
-            "value": 18.4579616112463,
-            "grade": 0.025832
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2022,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 70.59,
-            "grade": 0.659238
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.408098,
-        "classification": "Adopting",
-        "coverage": 0.5,
-        "availableIndicators": 2,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 82.04690725,
-            "grade": 0.811924
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 82.04689789,
-            "grade": 0.820469
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "BLZ",
-    "name": "Belize",
-    "flag": "🇧🇿",
-    "region": "North America",
-    "rank": 117,
-    "score": 43.01,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 85,
-    "dimensions": {
-      "Government": 61.86,
-      "Infrastructure": 19.48,
-      "Capacity Building": 49.18
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.618595,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.48719,
-            "grade": 0.48719
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.194822,
-        "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 43.56561937,
-            "grade": 0.100037
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2019,
-            "value": 22.176960472486,
-            "grade": 0.031037
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 32.57,
-            "grade": 0.843034
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.491783,
-        "classification": "Adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 77.31276263,
-            "grade": 0.76233
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 80.00582262,
-            "grade": 0.800058
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2015,
-            "value": 0.1801059,
-            "grade": 0.404744
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "GRD",
-    "name": "Grenada",
-    "flag": "🇬🇩",
-    "region": "North America",
-    "rank": 118,
-    "score": 42.83,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 85,
-    "dimensions": {
-      "Government": 69.79,
-      "Infrastructure": 16.96,
-      "Capacity Building": 45.14
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.697885,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.64577,
-            "grade": 0.64577
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2018,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.169592,
-        "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 76.36062693,
-            "grade": 0.175343
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2020,
-            "value": 8.97311305474571,
-            "grade": 0.012558
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2022,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 70.42,
-            "grade": 0.66006
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.451364,
-        "classification": "Adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 76.27815286,
-            "grade": 0.751491
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 70.16159821,
-            "grade": 0.701616
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.1567901,
-            "grade": 0.352348
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "SEN",
-    "name": "Senegal",
-    "flag": "🇸🇳",
-    "region": "Africa",
-    "rank": 119,
-    "score": 42.71,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 63.31,
-      "Infrastructure": 34.97,
-      "Capacity Building": 31.12
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.633125,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.51625,
-            "grade": 0.51625
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.34969,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 108.8578176,
-            "grade": 0.249964
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 39.7996986821216,
-            "grade": 0.0557
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "16.0",
-            "grade": 0.5372
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 19.63,
-            "grade": 0.905588
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.311213,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 65.98612122,
-            "grade": 0.643672
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 60.11780167,
-            "grade": 0.601178
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "BOL",
-    "name": "Bolivia",
-    "flag": "🇧🇴",
-    "region": "South America",
-    "rank": 120,
-    "score": 42.37,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 76.7,
-    "dimensions": {
-      "Government": 70.75,
-      "Infrastructure": 17.25,
-      "Capacity Building": 36.74
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.70754,
-        "classification": "Mature",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.66508,
-            "grade": 0.66508
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.172499,
-        "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 90.65816827,
-            "grade": 0.208173
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 0.00968393994357759,
-            "grade": 0.000014
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 71.61,
-            "grade": 0.654307
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.367372,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 2,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 68.73218009,
-            "grade": 0.67244
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 79.70469666,
-            "grade": 0.797047
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
     "code": "TZA",
     "name": "United Republic of Tanzania",
     "flag": "🇹🇿",
     "region": "Africa",
-    "rank": 121,
-    "score": 42.33,
+    "rank": 110,
+    "score": 43.1,
     "classification": "Adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 59.14,
+      "Government": 61.46,
       "Infrastructure": 43.3,
       "Capacity Building": 24.55
     },
     "pillars": {
       "Government": {
-        "value": 0.59136,
+        "value": 0.61455,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.43272,
-            "grade": 0.43272
+            "value": 0.4791,
+            "grade": 0.4791
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -15359,902 +14059,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "WSM",
-    "name": "Samoa",
-    "flag": "🇼🇸",
-    "region": "Oceania",
-    "rank": 122,
-    "score": 41.82,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 62,
-      "Infrastructure": 31.97,
-      "Capacity Building": 31.51
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.61995,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.4899,
-            "grade": 0.4899
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.319661,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 68.83803705,
-            "grade": 0.158069
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2015,
-            "value": 22.930854778918,
-            "grade": 0.032092
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "15.8",
-            "grade": 0.5406
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 27.5,
-            "grade": 0.867543
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.315051,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2021,
-            "value": 84.61316119,
-            "grade": 0.838808
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2014,
-            "value": 21.20000076,
-            "grade": 0.212
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.093178,
-            "grade": 0.209395
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "AGO",
-    "name": "Angola",
-    "flag": "🇦🇴",
-    "region": "Africa",
-    "rank": 123,
-    "score": 41.01,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 58.24,
-      "Infrastructure": 34.5,
-      "Capacity Building": 30.3
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.582435,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.41487,
-            "grade": 0.41487
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.344967,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 33.38451251,
-            "grade": 0.076659
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 34.194193930648,
-            "grade": 0.047855
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 16.05,
-            "grade": 0.1605
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "17.0",
-            "grade": 0.5046
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 13.5,
-            "grade": 0.935222
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.30303,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 55.62824302,
-            "grade": 0.535164
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 40.70479965,
-            "grade": 0.407048
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2015,
-            "value": 0.1201046,
-            "grade": 0.269906
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "JAM",
-    "name": "Jamaica",
-    "flag": "🇯🇲",
-    "region": "North America",
-    "rank": 124,
-    "score": 40.6,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 33.39,
-      "Infrastructure": 40.79,
-      "Capacity Building": 44.03
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.333885,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.66777,
-            "grade": 0.66777
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.407886,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 63.21646253,
-            "grade": 0.14516
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 267.435394851646,
-            "grade": 0.374278
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "8.3",
-            "grade": 0.7734
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 52.52,
-            "grade": 0.746592
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.440286,
-        "classification": "Adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 86.64142356,
-            "grade": 0.860056
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 90.10870361,
-            "grade": 0.901087
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "CPV",
-    "name": "Cabo Verde",
-    "flag": "🇨🇻",
-    "region": "Africa",
-    "rank": 125,
-    "score": 40.37,
-    "classification": "Adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 31.19,
-      "Infrastructure": 44.04,
-      "Capacity Building": 45.88
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.31189,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.62378,
-            "grade": 0.62378
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.440394,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 95.13066871,
-            "grade": 0.218443
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 60.169631037473,
-            "grade": 0.084208
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "2.2",
-            "grade": 0.9625
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 13.17,
-            "grade": 0.936817
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.458758,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 73.77527452,
-            "grade": 0.725271
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 74.73519897,
-            "grade": 0.747352
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.1612676,
-            "grade": 0.36241
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "SUR",
-    "name": "Suriname",
-    "flag": "🇸🇷",
-    "region": "South America",
-    "rank": 126,
-    "score": 39.89,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 31.83,
-      "Infrastructure": 42.84,
-      "Capacity Building": 41.9
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.318275,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.63655,
-            "grade": 0.63655
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2019,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.42843,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 109.1909128,
-            "grade": 0.250729
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 75.9879955134747,
-            "grade": 0.106346
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 16.29,
-            "grade": 0.1629
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "4.8",
-            "grade": 0.8839
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 54.24,
-            "grade": 0.738277
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.418997,
-        "classification": "Adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 81.09841296,
-            "grade": 0.801988
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2023,
-            "value": 87.4,
-            "grade": 0.874
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Infrastructure"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "VEN",
-    "name": "Venezuela",
-    "flag": "🇻🇪",
-    "region": "South America",
-    "rank": 127,
-    "score": 39.58,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 85,
-    "dimensions": {
-      "Government": 64.3,
-      "Infrastructure": 23.4,
-      "Capacity Building": 34.62
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.643015,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.53603,
-            "grade": 0.53603
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.233952,
-        "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 72.83730855,
-            "grade": 0.167252
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 43.7956519030385,
-            "grade": 0.061292
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 12.26,
-            "grade": 0.941216
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.346199,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 63.53602456,
-            "grade": 0.618005
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 76.67890167,
-            "grade": 0.766789
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "LKA",
-    "name": "Sri Lanka",
-    "flag": "🇱🇰",
-    "region": "Asia",
-    "rank": 128,
-    "score": 39.47,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 33.33,
-      "Infrastructure": 46.79,
-      "Capacity Building": 36.78
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.33334,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.66668,
-            "grade": 0.66668
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.467855,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 73.53313655,
-            "grade": 0.16885
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 149.580311141897,
-            "grade": 0.209339
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2023,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "0.8",
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 8.15,
-            "grade": 0.961085
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.36784,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 76.68878633,
-            "grade": 0.755793
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 54.59,
-            "grade": 0.5459
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 3,
-            "grade": 0.169665
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Infrastructure"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
     "code": "RWA",
     "name": "Rwanda",
     "flag": "🇷🇼",
     "region": "Africa",
-    "rank": 129,
-    "score": 38.97,
-    "classification": "Early adopting",
+    "rank": 111,
+    "score": 42.99,
+    "classification": "Adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 66.5,
+      "Government": 78.53,
       "Infrastructure": 24.61,
       "Capacity Building": 25.81
     },
     "pillars": {
       "Government": {
-        "value": 0.664965,
-        "classification": "Developing",
+        "value": 0.785325,
+        "classification": "Mature",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.57993,
-            "grade": 0.57993
+            "value": 0.82065,
+            "grade": 0.82065
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -16356,34 +14188,1721 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "BEN",
-    "name": "Benin",
-    "flag": "🇧🇯",
+    "code": "CIV",
+    "name": "Côte d'Ivoire",
+    "flag": "🇨🇮",
     "region": "Africa",
-    "rank": 130,
-    "score": 38.6,
-    "classification": "Early adopting",
+    "rank": 112,
+    "score": 42.57,
+    "classification": "Adopting",
     "yearlyChange": 0,
-    "dataCoverage": 100,
+    "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 60.39,
-      "Infrastructure": 26.32,
-      "Capacity Building": 29.11
+      "Government": 63.6,
+      "Infrastructure": 37.26,
+      "Capacity Building": 28.84
     },
     "pillars": {
       "Government": {
-        "value": 0.603895,
+        "value": 0.63597,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.45779,
-            "grade": 0.45779
+            "value": 0.52194,
+            "grade": 0.52194
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2019,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.372623,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 108.0449317,
+            "grade": 0.248098
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 41.1554634008087,
+            "grade": 0.057597
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "12.0",
+            "grade": 0.6601
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 21.34,
+            "grade": 0.897322
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.28845,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 75.1313487,
+            "grade": 0.739477
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 41.43219902,
+            "grade": 0.414322
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "GAB",
+    "name": "Gabon",
+    "flag": "🇬🇦",
+    "region": "Africa",
+    "rank": 113,
+    "score": 42.41,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 53.44,
+      "Infrastructure": 37.89,
+      "Capacity Building": 35.6
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.534375,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.31875,
+            "grade": 0.31875
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.378887,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 85.69890254,
+            "grade": 0.196786
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2020,
+            "value": 16.9453888586108,
+            "grade": 0.023715
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "6.0",
+            "grade": 0.844
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 35.28,
+            "grade": 0.829933
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.355999,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 74.87440755,
+            "grade": 0.736786
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 68.72090149,
+            "grade": 0.687209
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "LBN",
+    "name": "Lebanon",
+    "flag": "🇱🇧",
+    "region": "Asia",
+    "rank": 114,
+    "score": 42.22,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 76.7,
+    "dimensions": {
+      "Government": 59.95,
+      "Infrastructure": 22.87,
+      "Capacity Building": 38.34
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.59947,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.44894,
+            "grade": 0.44894
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.228704,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 107.5980173,
+            "grade": 0.247071
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2020,
+            "value": 11.7414876629063,
+            "grade": 0.016432
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 24.92,
+            "grade": 0.880015
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.383389,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 2,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 73.96080127,
+            "grade": 0.727215
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 80.63400269,
+            "grade": 0.80634
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "SEN",
+    "name": "Senegal",
+    "flag": "🇸🇳",
+    "region": "Africa",
+    "rank": 115,
+    "score": 42.12,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 61.39,
+      "Infrastructure": 34.97,
+      "Capacity Building": 31.12
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.613945,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.47789,
+            "grade": 0.47789
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2021,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.34969,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 108.8578176,
+            "grade": 0.249964
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 39.7996986821216,
+            "grade": 0.0557
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "16.0",
+            "grade": 0.5372
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 19.63,
+            "grade": 0.905588
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.311213,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 65.98612122,
+            "grade": 0.643672
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 60.11780167,
+            "grade": 0.601178
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "BLZ",
+    "name": "Belize",
+    "flag": "🇧🇿",
+    "region": "North America",
+    "rank": 116,
+    "score": 41.85,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 85,
+    "dimensions": {
+      "Government": 57.77,
+      "Infrastructure": 19.48,
+      "Capacity Building": 49.18
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.577725,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.40545,
+            "grade": 0.40545
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.194822,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 43.56561937,
+            "grade": 0.100037
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2019,
+            "value": 22.176960472486,
+            "grade": 0.031037
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 32.57,
+            "grade": 0.843034
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.491783,
+        "classification": "Adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 77.31276263,
+            "grade": 0.76233
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 80.00582262,
+            "grade": 0.800058
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2015,
+            "value": 0.1801059,
+            "grade": 0.404744
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "SYR",
+    "name": "Syrian Arab Republic",
+    "flag": "🇸🇾",
+    "region": "Asia",
+    "rank": 117,
+    "score": 41.77,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 52.84,
+      "Infrastructure": 40.52,
+      "Capacity Building": 31.94
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.52839,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.30678,
+            "grade": 0.30678
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.405154,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 64.81305963,
+            "grade": 0.148827
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 0.283925429812106,
+            "grade": 0.000397
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "2.3",
+            "grade": 0.961
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 17.57,
+            "grade": 0.915547
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.31942,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2017,
+            "value": 45.01001815,
+            "grade": 0.423928
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2018,
+            "value": 33.77000046,
+            "grade": 0.3377
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2016,
+            "value": 0.22963640000000002,
+            "grade": 0.516052
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "LCA",
+    "name": "Saint Lucia",
+    "flag": "🇱🇨",
+    "region": "North America",
+    "rank": 118,
+    "score": 41.54,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 53.65,
+      "Infrastructure": 33.73,
+      "Capacity Building": 36.43
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.53646,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.32292,
+            "grade": 0.32292
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.337257,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 66.65034716,
+            "grade": 0.153046
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2020,
+            "value": 22.7108650486902,
+            "grade": 0.031784
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2022,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "4.1",
+            "grade": 0.904
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 83.37,
+            "grade": 0.597457
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.364308,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 78.5395689,
+            "grade": 0.775182
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 68.20500183,
+            "grade": 0.68205
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "BOL",
+    "name": "Bolivia",
+    "flag": "🇧🇴",
+    "region": "South America",
+    "rank": 119,
+    "score": 41.52,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 76.7,
+    "dimensions": {
+      "Government": 67.43,
+      "Infrastructure": 17.25,
+      "Capacity Building": 36.74
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.674345,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.59869,
+            "grade": 0.59869
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.172499,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 90.65816827,
+            "grade": 0.208173
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 0.00968393994357759,
+            "grade": 0.000014
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 71.61,
+            "grade": 0.654307
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.367372,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 2,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 68.73218009,
+            "grade": 0.67244
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 79.70469666,
+            "grade": 0.797047
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "CPV",
+    "name": "Cabo Verde",
+    "flag": "🇨🇻",
+    "region": "Africa",
+    "rank": 120,
+    "score": 41.46,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 34.46,
+      "Infrastructure": 44.04,
+      "Capacity Building": 45.88
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.344585,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.68917,
+            "grade": 0.68917
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.440394,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 95.13066871,
+            "grade": 0.218443
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 60.169631037473,
+            "grade": 0.084208
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "2.2",
+            "grade": 0.9625
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 13.17,
+            "grade": 0.936817
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.458758,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 73.77527452,
+            "grade": 0.725271
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 74.73519897,
+            "grade": 0.747352
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.1612676,
+            "grade": 0.36241
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "MRT",
+    "name": "Mauritania",
+    "flag": "🇲🇷",
+    "region": "Africa",
+    "rank": 121,
+    "score": 41.15,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 45.94,
+      "Infrastructure": 34.94,
+      "Capacity Building": 42.58
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.459395,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.16879,
+            "grade": 0.16879
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.34937,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 70.02190779,
+            "grade": 0.160787
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 84.9697917705539,
+            "grade": 0.118916
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "15.1",
+            "grade": 0.5647
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 20.28,
+            "grade": 0.902446
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.425775,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 58.67253071,
+            "grade": 0.567055
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 45.77939987,
+            "grade": 0.457794
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2017,
+            "value": 0.301813,
+            "grade": 0.678251
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "DMA",
+    "name": "Dominica",
+    "flag": "🇩🇲",
+    "region": "North America",
+    "rank": 122,
+    "score": 40.97,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 76.7,
+    "dimensions": {
+      "Government": 56.49,
+      "Infrastructure": 17.77,
+      "Capacity Building": 40.81
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.564915,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.37983,
+            "grade": 0.37983
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2014,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.177733,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 88.66399819,
+            "grade": 0.203594
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2020,
+            "value": 18.4579616112463,
+            "grade": 0.025832
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2022,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 70.59,
+            "grade": 0.659238
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.408098,
+        "classification": "Adopting",
+        "coverage": 0.5,
+        "availableIndicators": 2,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 82.04690725,
+            "grade": 0.811924
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 82.04689789,
+            "grade": 0.820469
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "GRD",
+    "name": "Grenada",
+    "flag": "🇬🇩",
+    "region": "North America",
+    "rank": 123,
+    "score": 40.84,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 85,
+    "dimensions": {
+      "Government": 62.78,
+      "Infrastructure": 16.96,
+      "Capacity Building": 45.14
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.627775,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.50555,
+            "grade": 0.50555
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2018,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.169592,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 76.36062693,
+            "grade": 0.175343
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2020,
+            "value": 8.97311305474571,
+            "grade": 0.012558
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2022,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 70.42,
+            "grade": 0.66006
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.451364,
+        "classification": "Adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 76.27815286,
+            "grade": 0.751491
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 70.16159821,
+            "grade": 0.701616
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.1567901,
+            "grade": 0.352348
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "AGO",
+    "name": "Angola",
+    "flag": "🇦🇴",
+    "region": "Africa",
+    "rank": 124,
+    "score": 40.7,
+    "classification": "Adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 57.31,
+      "Infrastructure": 34.5,
+      "Capacity Building": 30.3
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.57312,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.39624,
+            "grade": 0.39624
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.344967,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 33.38451251,
+            "grade": 0.076659
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 34.194193930648,
+            "grade": 0.047855
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 16.05,
+            "grade": 0.1605
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "17.0",
+            "grade": 0.5046
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 13.5,
+            "grade": 0.935222
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.30303,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 55.62824302,
+            "grade": 0.535164
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 40.70479965,
+            "grade": 0.407048
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2015,
+            "value": 0.1201046,
+            "grade": 0.269906
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "WSM",
+    "name": "Samoa",
+    "flag": "🇼🇸",
+    "region": "Oceania",
+    "rank": 125,
+    "score": 39.72,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 55.69,
+      "Infrastructure": 31.97,
+      "Capacity Building": 31.51
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.55689,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.36378,
+            "grade": 0.36378
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.319661,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 68.83803705,
+            "grade": 0.158069
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2015,
+            "value": 22.930854778918,
+            "grade": 0.032092
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "15.8",
+            "grade": 0.5406
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 27.5,
+            "grade": 0.867543
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.315051,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2021,
+            "value": 84.61316119,
+            "grade": 0.838808
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2014,
+            "value": 21.20000076,
+            "grade": 0.212
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.093178,
+            "grade": 0.209395
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "BEN",
+    "name": "Benin",
+    "flag": "🇧🇯",
+    "region": "Africa",
+    "rank": 126,
+    "score": 39.64,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 63.51,
+      "Infrastructure": 26.32,
+      "Capacity Building": 29.11
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.63508,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.52016,
+            "grade": 0.52016
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -16485,62 +16004,69 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "LBY",
-    "name": "Libya",
-    "flag": "🇱🇾",
-    "region": "Africa",
-    "rank": 131,
-    "score": 38.54,
+    "code": "JAM",
+    "name": "Jamaica",
+    "flag": "🇯🇲",
+    "region": "North America",
+    "rank": 127,
+    "score": 39.07,
     "classification": "Early adopting",
     "yearlyChange": 0,
-    "dataCoverage": 85,
+    "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 27.33,
-      "Infrastructure": 44.85,
-      "Capacity Building": 39.48
+      "Government": 28.39,
+      "Infrastructure": 40.79,
+      "Capacity Building": 44.03
     },
     "pillars": {
       "Government": {
-        "value": 0.27331,
+        "value": 0.28386,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.54662,
-            "grade": 0.54662
+            "value": 0.56772,
+            "grade": 0.56772
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
+            "year": 2024,
             "value": null,
             "grade": 0
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.448512,
+        "value": 0.407886,
         "classification": "Adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
+        "coverage": 1,
+        "availableIndicators": 5,
         "totalIndicators": 5,
         "indicators": [
           {
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 128.0120655,
-            "grade": 0.293947
+            "value": 63.21646253,
+            "grade": 0.14516
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 267.435394851646,
+            "grade": 0.374278
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2022,
+            "year": 2024,
             "value": 0,
             "grade": 0
           },
@@ -16548,20 +16074,142 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "0.7",
-            "grade": 1
+            "value": "8.3",
+            "grade": 0.7734
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 10.73,
-            "grade": 0.948613
+            "value": 52.52,
+            "grade": 0.746592
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.394814,
+        "value": 0.440286,
+        "classification": "Adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 86.64142356,
+            "grade": 0.860056
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 90.10870361,
+            "grade": 0.901087
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "TGO",
+    "name": "Togo",
+    "flag": "🇹🇬",
+    "region": "Africa",
+    "rank": 128,
+    "score": 38.69,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 59.86,
+      "Infrastructure": 39.97,
+      "Capacity Building": 20.09
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.598605,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.44721,
+            "grade": 0.44721
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.399742,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 45.29878187,
+            "grade": 0.104017
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 23.0757309375758,
+            "grade": 0.032295
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 99.7,
+            "grade": 0.997
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "31.3",
+            "grade": 0.0607
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 40.5,
+            "grade": 0.804699
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.200888,
         "classification": "Early adopting",
         "coverage": 0.75,
         "availableIndicators": 3,
@@ -16571,15 +16219,259 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 77.06296386,
-            "grade": 0.759713
+            "value": 43.55819139,
+            "grade": 0.408718
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 81.95449829,
-            "grade": 0.819545
+            "value": 39.48320007,
+            "grade": 0.394832
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "LKA",
+    "name": "Sri Lanka",
+    "flag": "🇱🇰",
+    "region": "Asia",
+    "rank": 129,
+    "score": 37.67,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 27.47,
+      "Infrastructure": 46.79,
+      "Capacity Building": 36.78
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.274685,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.54937,
+            "grade": 0.54937
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.467855,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 73.53313655,
+            "grade": 0.16885
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 149.580311141897,
+            "grade": 0.209339
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2023,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.8",
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 8.15,
+            "grade": 0.961085
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.36784,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 76.68878633,
+            "grade": 0.755793
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 54.59,
+            "grade": 0.5459
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 3,
+            "grade": 0.169665
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "SUR",
+    "name": "Suriname",
+    "flag": "🇸🇷",
+    "region": "South America",
+    "rank": 130,
+    "score": 37.52,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 24.07,
+      "Infrastructure": 42.84,
+      "Capacity Building": 41.9
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.240685,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.48137,
+            "grade": 0.48137
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2019,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.42843,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 109.1909128,
+            "grade": 0.250729
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 75.9879955134747,
+            "grade": 0.106346
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 16.29,
+            "grade": 0.1629
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "4.8",
+            "grade": 0.8839
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 54.24,
+            "grade": 0.738277
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.418997,
+        "classification": "Adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 81.09841296,
+            "grade": 0.801988
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2023,
+            "value": 87.4,
+            "grade": 0.874
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -16604,30 +16496,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Congo",
     "flag": "🇨🇬",
     "region": "Africa",
-    "rank": 132,
-    "score": 38.45,
+    "rank": 131,
+    "score": 37.4,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 54.46,
+      "Government": 51.3,
       "Infrastructure": 27.12,
       "Capacity Building": 33.77
     },
     "pillars": {
       "Government": {
-        "value": 0.54456,
+        "value": 0.51302,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.33912,
-            "grade": 0.33912
+            "value": 0.27604,
+            "grade": 0.27604
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -16729,142 +16621,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "GUY",
-    "name": "Guyana",
-    "flag": "🇬🇾",
-    "region": "South America",
-    "rank": 133,
-    "score": 38.26,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 78.3,
-    "dimensions": {
-      "Government": 64.72,
-      "Infrastructure": 15.67,
-      "Capacity Building": 41.77
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.64716,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.54432,
-            "grade": 0.54432
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.156691,
-        "classification": "Early adopting",
-        "coverage": 0.6,
-        "availableIndicators": 3,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 32.7282222,
-            "grade": 0.075152
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 60.44,
-            "grade": 0.708305
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.417692,
-        "classification": "Adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 54.33765642,
-            "grade": 0.521644
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 83.00080109,
-            "grade": 0.830008
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2012,
-            "value": 0.1420022,
-            "grade": 0.319115
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
     "code": "PRY",
     "name": "Paraguay",
     "flag": "🇵🇾",
     "region": "South America",
-    "rank": 134,
-    "score": 38.22,
+    "rank": 132,
+    "score": 37.4,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 36.25,
+      "Government": 33.56,
       "Infrastructure": 40.95,
       "Capacity Building": 35.91
     },
     "pillars": {
       "Government": {
-        "value": 0.362535,
+        "value": 0.335575,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.72507,
-            "grade": 0.72507
+            "value": 0.67115,
+            "grade": 0.67115
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -16954,525 +16738,51 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Infrastructure"
     ],
     "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "KNA",
-    "name": "Saint Kitts and Nevis",
-    "flag": "🇰🇳",
-    "region": "North America",
-    "rank": 135,
-    "score": 38.15,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 68.3,
-    "dimensions": {
-      "Government": 31.53,
-      "Infrastructure": 41.09,
-      "Capacity Building": 39.79
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.31527,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 1,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.63054,
-            "grade": 0.63054
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.410894,
-        "classification": "Adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 157.7610315,
-            "grade": 0.362258
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2022,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "3.7",
-            "grade": 0.917
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 46.6,
-            "grade": 0.77521
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.397921,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 83.0892338,
-            "grade": 0.822844
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 76.88400269,
-            "grade": 0.76884
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Infrastructure"
-    ],
-    "weaknesses": [
       "Government"
     ],
     "trend3y": 0
   },
   {
-    "code": "TGO",
-    "name": "Togo",
-    "flag": "🇹🇬",
-    "region": "Africa",
-    "rank": 136,
-    "score": 37.85,
+    "code": "VEN",
+    "name": "Venezuela",
+    "flag": "🇻🇪",
+    "region": "South America",
+    "rank": 133,
+    "score": 37.05,
     "classification": "Early adopting",
     "yearlyChange": 0,
-    "dataCoverage": 91.7,
+    "dataCoverage": 85,
     "dimensions": {
-      "Government": 57.1,
-      "Infrastructure": 39.97,
-      "Capacity Building": 20.09
+      "Government": 55.38,
+      "Infrastructure": 23.4,
+      "Capacity Building": 34.62
     },
     "pillars": {
       "Government": {
-        "value": 0.57099,
+        "value": 0.55378,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.39198,
-            "grade": 0.39198
+            "value": 0.35756,
+            "grade": 0.35756
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
+            "year": 2024,
             "value": null,
             "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.399742,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 45.29878187,
-            "grade": 0.104017
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 23.0757309375758,
-            "grade": 0.032295
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 99.7,
-            "grade": 0.997
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "31.3",
-            "grade": 0.0607
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 40.5,
-            "grade": 0.804699
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.200888,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 43.55819139,
-            "grade": 0.408718
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 39.48320007,
-            "grade": 0.394832
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "BWA",
-    "name": "Botswana",
-    "flag": "🇧🇼",
-    "region": "Africa",
-    "rank": 137,
-    "score": 37.24,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 30.59,
-      "Infrastructure": 49.65,
-      "Capacity Building": 31.23
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.30589,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.61178,
-            "grade": 0.61178
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.496462,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 135.0878313,
-            "grade": 0.310195
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 58.7241819134218,
-            "grade": 0.082185
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 47,
-            "grade": 0.47
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "6.1",
-            "grade": 0.8424
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 46.12,
-            "grade": 0.777531
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.312269,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 68.92681812,
-            "grade": 0.674479
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 57.45950036,
-            "grade": 0.574595
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Infrastructure"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "LAO",
-    "name": "Lao People's Democratic Republic",
-    "flag": "🇱🇦",
-    "region": "Asia",
-    "rank": 138,
-    "score": 37.01,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 83.3,
-    "dimensions": {
-      "Government": 22.02,
-      "Infrastructure": 43,
-      "Capacity Building": 46.21
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.22019,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 1,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.44038,
-            "grade": 0.44038
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.430001,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 69.61294723,
-            "grade": 0.159848
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2021,
-            "value": 42.0063151227229,
-            "grade": 0.058788
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2023,
-            "value": 17,
-            "grade": 0.17
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "6.1",
-            "grade": 0.8421
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 16.8,
-            "grade": 0.919269
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.462141,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 70.2070482,
-            "grade": 0.68789
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 65.59269714,
-            "grade": 0.655927
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.224605,
-            "grade": 0.504745
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "TON",
-    "name": "Tonga",
-    "flag": "🇹🇴",
-    "region": "Oceania",
-    "rank": 139,
-    "score": 36.41,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 76.7,
-    "dimensions": {
-      "Government": 63.32,
-      "Infrastructure": 21.65,
-      "Capacity Building": 26.04
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.633195,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.51639,
-            "grade": 0.51639
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.216465,
+        "value": 0.233952,
         "classification": "Early adopting",
         "coverage": 0.8,
         "availableIndicators": 4,
@@ -17482,123 +16792,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 69.01847852,
-            "grade": 0.158483
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2021,
-            "value": 1.98980226340007,
-            "grade": 0.002785
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 16.43,
-            "grade": 0.921058
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.260445,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 2,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 39.61050147,
-            "grade": 0.367363
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 67.4417038,
-            "grade": 0.674417
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "CUB",
-    "name": "Cuba",
-    "flag": "🇨🇺",
-    "region": "North America",
-    "rank": 140,
-    "score": 36.35,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 93.3,
-    "dimensions": {
-      "Government": 62.11,
-      "Infrastructure": 19.79,
-      "Capacity Building": 29.99
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.62107,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.49214,
-            "grade": 0.49214
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.1979,
-        "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 52.44691994,
-            "grade": 0.120431
+            "value": 72.83730855,
+            "grade": 0.167252
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 105.199947625777,
-            "grade": 0.147228
+            "value": 43.7956519030385,
+            "grade": 0.061292
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
@@ -17611,480 +16813,13 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 57.64,
-            "grade": 0.721841
+            "value": 12.26,
+            "grade": 0.941216
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.299939,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 33.02319232,
-            "grade": 0.298354
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 70.47699738,
-            "grade": 0.70477
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2016,
-            "value": 0.0874986,
-            "grade": 0.196632
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "MHL",
-    "name": "Marshall Islands",
-    "flag": "🇲🇭",
-    "region": "Oceania",
-    "rank": 141,
-    "score": 36.34,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 70,
-    "dimensions": {
-      "Government": 61.61,
-      "Infrastructure": 17.41,
-      "Capacity Building": 32.55
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.616145,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.48229,
-            "grade": 0.48229
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.174079,
-        "classification": "Early adopting",
-        "coverage": 0.6,
-        "availableIndicators": 3,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2017,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 26.91,
-            "grade": 0.870395
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.325523,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 2,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 65.91584194,
-            "grade": 0.642936
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 65.915802,
-            "grade": 0.659158
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "FJI",
-    "name": "Fiji",
-    "flag": "🇫🇯",
-    "region": "Oceania",
-    "rank": 142,
-    "score": 36.1,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 76.7,
-    "dimensions": {
-      "Government": 33.77,
-      "Infrastructure": 23.23,
-      "Capacity Building": 39.22
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.33772,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.67544,
-            "grade": 0.67544
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2013,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.232306,
-        "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 143.9351884,
-            "grade": 0.33051
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 234.662605369201,
-            "grade": 0.328412
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 102.99,
-            "grade": 0.50261
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.392217,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 2,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 82.99120533,
-            "grade": 0.821817
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 74.7052002,
-            "grade": 0.747052
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "MMR",
-    "name": "Myanmar",
-    "flag": "🇲🇲",
-    "region": "Asia",
-    "rank": 143,
-    "score": 36.07,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 25,
-      "Infrastructure": 38.59,
-      "Capacity Building": 44.62
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.250035,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.50007,
-            "grade": 0.50007
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.385873,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 103.1516626,
-            "grade": 0.236861
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 15.6178431189437,
-            "grade": 0.021857
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "6.3",
-            "grade": 0.8353
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 34.16,
-            "grade": 0.835348
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.446153,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 59.29075714,
-            "grade": 0.573532
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2020,
-            "value": 45.4477005,
-            "grade": 0.454477
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.336678,
-            "grade": 0.756602
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "CMR",
-    "name": "Cameroon",
-    "flag": "🇨🇲",
-    "region": "Africa",
-    "rank": 144,
-    "score": 35.66,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 58.97,
-      "Infrastructure": 26.77,
-      "Capacity Building": 23.21
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.589675,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.42935,
-            "grade": 0.42935
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.267745,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 17.43547808,
-            "grade": 0.040036
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2023,
-            "value": 76.9904567685257,
-            "grade": 0.107749
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "18.3",
-            "grade": 0.4647
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 56.73,
-            "grade": 0.72624
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.232141,
+        "value": 0.346199,
         "classification": "Early adopting",
         "coverage": 0.75,
         "availableIndicators": 3,
@@ -18094,15 +16829,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 49.0238048,
-            "grade": 0.465976
+            "value": 63.53602456,
+            "grade": 0.618005
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 46.25880051,
-            "grade": 0.462588
+            "value": 76.67890167,
+            "grade": 0.766789
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -18118,7 +16853,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Government"
     ],
     "weaknesses": [
-      "Capacity Building"
+      "Infrastructure"
     ],
     "trend3y": 0
   },
@@ -18127,30 +16862,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Guatemala",
     "flag": "🇬🇹",
     "region": "North America",
-    "rank": 145,
-    "score": 35.28,
+    "rank": 134,
+    "score": 36.61,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 28.69,
+      "Government": 32.69,
       "Infrastructure": 48.47,
       "Capacity Building": 28.66
     },
     "pillars": {
       "Government": {
-        "value": 0.286915,
+        "value": 0.326895,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.57383,
-            "grade": 0.57383
+            "value": 0.65379,
+            "grade": 0.65379
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -18252,64 +16987,57 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "GMB",
-    "name": "Gambia",
-    "flag": "🇬🇲",
-    "region": "Africa",
-    "rank": 146,
-    "score": 35.06,
+    "code": "GUY",
+    "name": "Guyana",
+    "flag": "🇬🇾",
+    "region": "South America",
+    "rank": 135,
+    "score": 35.66,
     "classification": "Early adopting",
     "yearlyChange": 0,
-    "dataCoverage": 76.7,
+    "dataCoverage": 78.3,
     "dimensions": {
-      "Government": 50.26,
-      "Infrastructure": 31.07,
-      "Capacity Building": 24.04
+      "Government": 54.77,
+      "Infrastructure": 15.67,
+      "Capacity Building": 41.77
     },
     "pillars": {
       "Government": {
-        "value": 0.502585,
+        "value": 0.547745,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.25517,
-            "grade": 0.25517
+            "value": 0.34549,
+            "grade": 0.34549
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
+            "year": 2021,
             "value": null,
             "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.310689,
+        "value": 0.156691,
         "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
+        "coverage": 0.6,
+        "availableIndicators": 3,
         "totalIndicators": 5,
         "indicators": [
           {
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 90.56825609,
-            "grade": 0.207967
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2023,
-            "value": 390.621356174262,
-            "grade": 0.546678
+            "value": 32.7282222,
+            "grade": 0.075152
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
@@ -18322,31 +17050,160 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 41.72,
-            "grade": 0.798801
+            "value": 60.44,
+            "grade": 0.708305
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.240436,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 2,
+        "value": 0.417692,
+        "classification": "Adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
         "totalIndicators": 4,
         "indicators": [
           {
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 49.10259138,
-            "grade": 0.466801
+            "value": 54.33765642,
+            "grade": 0.521644
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 49.49430084,
-            "grade": 0.494943
+            "value": 83.00080109,
+            "grade": 0.830008
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2012,
+            "value": 0.1420022,
+            "grade": 0.319115
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "CMR",
+    "name": "Cameroon",
+    "flag": "🇨🇲",
+    "region": "Africa",
+    "rank": 136,
+    "score": 35.19,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 57.44,
+      "Infrastructure": 26.77,
+      "Capacity Building": 23.21
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.574425,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.39885,
+            "grade": 0.39885
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.267745,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 17.43547808,
+            "grade": 0.040036
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2023,
+            "value": 76.9904567685257,
+            "grade": 0.107749
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "18.3",
+            "grade": 0.4647
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 56.73,
+            "grade": 0.72624
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.232141,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 49.0238048,
+            "grade": 0.465976
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 46.25880051,
+            "grade": 0.462588
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
           }
         ]
       }
@@ -18360,34 +17217,1090 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "SLV",
-    "name": "El Salvador",
-    "flag": "🇸🇻",
-    "region": "North America",
-    "rank": 147,
-    "score": 34.62,
+    "code": "KEN",
+    "name": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Africa",
+    "rank": 137,
+    "score": 35.01,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 29.94,
-      "Infrastructure": 37.63,
-      "Capacity Building": 36.28
+      "Government": 38.85,
+      "Infrastructure": 36.95,
+      "Capacity Building": 29.24
     },
     "pillars": {
       "Government": {
-        "value": 0.2994,
+        "value": 0.38852,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.5988,
-            "grade": 0.5988
+            "value": 0.77704,
+            "grade": 0.77704
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2021,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.369487,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 79.33077884,
+            "grade": 0.182163
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 42.8735457415845,
+            "grade": 0.060002
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 14,
+            "grade": 0.14
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "14.8",
+            "grade": 0.5737
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 22.53,
+            "grade": 0.891569
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.292437,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 47.4678837,
+            "grade": 0.449676
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 34.97622513,
+            "grade": 0.349762
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2016,
+            "value": 0.1647824,
+            "grade": 0.370308
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "MHL",
+    "name": "Marshall Islands",
+    "flag": "🇲🇭",
+    "region": "Oceania",
+    "rank": 138,
+    "score": 34.89,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 70,
+    "dimensions": {
+      "Government": 55.43,
+      "Infrastructure": 17.41,
+      "Capacity Building": 32.55
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.55429,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.35858,
+            "grade": 0.35858
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2021,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.174079,
+        "classification": "Early adopting",
+        "coverage": 0.6,
+        "availableIndicators": 3,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2017,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 26.91,
+            "grade": 0.870395
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.325523,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 2,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 65.91584194,
+            "grade": 0.642936
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 65.915802,
+            "grade": 0.659158
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "FJI",
+    "name": "Fiji",
+    "flag": "🇫🇯",
+    "region": "Oceania",
+    "rank": 139,
+    "score": 34.29,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 76.7,
+    "dimensions": {
+      "Government": 26.72,
+      "Infrastructure": 23.23,
+      "Capacity Building": 39.22
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.267155,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.53431,
+            "grade": 0.53431
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2013,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.232306,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 143.9351884,
+            "grade": 0.33051
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 234.662605369201,
+            "grade": 0.328412
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 102.99,
+            "grade": 0.50261
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.392217,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 2,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 82.99120533,
+            "grade": 0.821817
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 74.7052002,
+            "grade": 0.747052
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "BWA",
+    "name": "Botswana",
+    "flag": "🇧🇼",
+    "region": "Africa",
+    "rank": 140,
+    "score": 33.98,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 19.93,
+      "Infrastructure": 49.65,
+      "Capacity Building": 31.23
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.19926,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.39852,
+            "grade": 0.39852
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.496462,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 135.0878313,
+            "grade": 0.310195
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 58.7241819134218,
+            "grade": 0.082185
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 47,
+            "grade": 0.47
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "6.1",
+            "grade": 0.8424
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 46.12,
+            "grade": 0.777531
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.312269,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 68.92681812,
+            "grade": 0.674479
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 57.45950036,
+            "grade": 0.574595
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "TON",
+    "name": "Tonga",
+    "flag": "🇹🇴",
+    "region": "Oceania",
+    "rank": 141,
+    "score": 33.92,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 76.7,
+    "dimensions": {
+      "Government": 53.6,
+      "Infrastructure": 21.65,
+      "Capacity Building": 26.04
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.53602,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.32204,
+            "grade": 0.32204
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2021,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.216465,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 69.01847852,
+            "grade": 0.158483
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2021,
+            "value": 1.98980226340007,
+            "grade": 0.002785
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 16.43,
+            "grade": 0.921058
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.260445,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 2,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 39.61050147,
+            "grade": 0.367363
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 67.4417038,
+            "grade": 0.674417
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "LAO",
+    "name": "Lao People's Democratic Republic",
+    "flag": "🇱🇦",
+    "region": "Asia",
+    "rank": 142,
+    "score": 33.85,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 83.3,
+    "dimensions": {
+      "Government": 16.32,
+      "Infrastructure": 43,
+      "Capacity Building": 46.21
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.16324,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 1,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.32648,
+            "grade": 0.32648
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.430001,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 69.61294723,
+            "grade": 0.159848
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2021,
+            "value": 42.0063151227229,
+            "grade": 0.058788
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2023,
+            "value": 17,
+            "grade": 0.17
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "6.1",
+            "grade": 0.8421
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 16.8,
+            "grade": 0.919269
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.462141,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 70.2070482,
+            "grade": 0.68789
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 65.59269714,
+            "grade": 0.655927
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.224605,
+            "grade": 0.504745
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "MDG",
+    "name": "Madagascar",
+    "flag": "🇲🇬",
+    "region": "Africa",
+    "rank": 143,
+    "score": 33.36,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 93.3,
+    "dimensions": {
+      "Government": 57.72,
+      "Infrastructure": 20.14,
+      "Capacity Building": 24.34
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.577235,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.40447,
+            "grade": 0.40447
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2018,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.201435,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 28.19712938,
+            "grade": 0.064748
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2023,
+            "value": 23.4213448754272,
+            "grade": 0.032778
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2023,
+            "value": 6.12,
+            "grade": 0.0612
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 31.45,
+            "grade": 0.848448
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.243383,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 28.5,
+            "grade": 0.25097
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 18.67790031,
+            "grade": 0.186779
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.2384168,
+            "grade": 0.535784
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "ZMB",
+    "name": "Zambia",
+    "flag": "🇿🇲",
+    "region": "Africa",
+    "rank": 144,
+    "score": 33.36,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 85,
+    "dimensions": {
+      "Government": 62.29,
+      "Infrastructure": 35.16,
+      "Capacity Building": 8.63
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.62292,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.49584,
+            "grade": 0.49584
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.351606,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 62.41395478,
+            "grade": 0.143318
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 5,
+            "grade": 0.05
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "12.6",
+            "grade": 0.6409
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 15.86,
+            "grade": 0.923813
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.08629,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 21.16701467,
+            "grade": 0.17415
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 17.10099983,
+            "grade": 0.17101
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "MMR",
+    "name": "Myanmar",
+    "flag": "🇲🇲",
+    "region": "Asia",
+    "rank": 145,
+    "score": 33.17,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 16.3,
+      "Infrastructure": 38.59,
+      "Capacity Building": 44.62
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.16297,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.32594,
+            "grade": 0.32594
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.385873,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 103.1516626,
+            "grade": 0.236861
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 15.6178431189437,
+            "grade": 0.021857
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "6.3",
+            "grade": 0.8353
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 34.16,
+            "grade": 0.835348
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.446153,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 59.29075714,
+            "grade": 0.573532
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2020,
+            "value": 45.4477005,
+            "grade": 0.454477
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2018,
+            "value": 0.336678,
+            "grade": 0.756602
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "SLV",
+    "name": "El Salvador",
+    "flag": "🇸🇻",
+    "region": "North America",
+    "rank": 146,
+    "score": 33.12,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 100,
+    "dimensions": {
+      "Government": 25.45,
+      "Infrastructure": 37.63,
+      "Capacity Building": 36.28
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.254485,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.50897,
+            "grade": 0.50897
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -18489,135 +18402,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "TJK",
-    "name": "Tajikistan",
-    "flag": "🇹🇯",
-    "region": "Asia",
-    "rank": 148,
-    "score": 34.15,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 61.7,
-    "dimensions": {
-      "Government": 28.03,
-      "Infrastructure": 37.04,
-      "Capacity Building": 36.26
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.280275,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 1,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.56055,
-            "grade": 0.56055
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.370431,
-        "classification": "Early adopting",
-        "coverage": 0.6,
-        "availableIndicators": 3,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 51.17115811,
-            "grade": 0.117502
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 84.7,
-            "grade": 0.847
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 23.34,
-            "grade": 0.887653
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.362571,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 42.45328403,
-            "grade": 0.397143
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 55.79339981,
-            "grade": 0.557934
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2017,
-            "value": 0.2203607,
-            "grade": 0.495207
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Infrastructure"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "ZMB",
-    "name": "Zambia",
-    "flag": "🇿🇲",
+    "code": "GMB",
+    "name": "Gambia",
+    "flag": "🇬🇲",
     "region": "Africa",
-    "rank": 149,
-    "score": 34.02,
+    "rank": 147,
+    "score": 33.02,
     "classification": "Early adopting",
     "yearlyChange": 0,
-    "dataCoverage": 85,
+    "dataCoverage": 76.7,
     "dimensions": {
-      "Government": 64.62,
-      "Infrastructure": 35.16,
-      "Capacity Building": 8.63
+      "Government": 42.28,
+      "Infrastructure": 31.07,
+      "Capacity Building": 24.04
     },
     "pillars": {
       "Government": {
-        "value": 0.646185,
-        "classification": "Developing",
+        "value": 0.422755,
+        "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.54237,
-            "grade": 0.54237
+            "value": 0.09551,
+            "grade": 0.09551
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -18629,7 +18441,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
         ]
       },
       "Infrastructure": {
-        "value": 0.351606,
+        "value": 0.310689,
         "classification": "Early adopting",
         "coverage": 0.8,
         "availableIndicators": 4,
@@ -18639,59 +18451,52 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 62.41395478,
-            "grade": 0.143318
+            "value": 90.56825609,
+            "grade": 0.207967
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2023,
+            "value": 390.621356174262,
+            "grade": 0.546678
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 5,
-            "grade": 0.05
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "12.6",
-            "grade": 0.6409
+            "year": 2021,
+            "value": 0,
+            "grade": 0
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 15.86,
-            "grade": 0.923813
+            "value": 41.72,
+            "grade": 0.798801
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.08629,
+        "value": 0.240436,
         "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
+        "coverage": 0.5,
+        "availableIndicators": 2,
         "totalIndicators": 4,
         "indicators": [
           {
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 21.16701467,
-            "grade": 0.17415
+            "value": 49.10259138,
+            "grade": 0.466801
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 17.10099983,
-            "grade": 0.17101
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
+            "value": 49.49430084,
+            "grade": 0.494943
           }
         ]
       }
@@ -18705,90 +18510,83 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "KEN",
-    "name": "Kenya",
-    "flag": "🇰🇪",
-    "region": "Africa",
-    "rank": 150,
-    "score": 32.59,
+    "code": "CUB",
+    "name": "Cuba",
+    "flag": "🇨🇺",
+    "region": "North America",
+    "rank": 148,
+    "score": 32.27,
     "classification": "Early adopting",
     "yearlyChange": 0,
-    "dataCoverage": 100,
+    "dataCoverage": 93.3,
     "dimensions": {
-      "Government": 31.57,
-      "Infrastructure": 36.95,
-      "Capacity Building": 29.24
+      "Government": 48.99,
+      "Infrastructure": 19.79,
+      "Capacity Building": 29.99
     },
     "pillars": {
       "Government": {
-        "value": 0.3157,
-        "classification": "Early adopting",
+        "value": 0.48991,
+        "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.6314,
-            "grade": 0.6314
+            "value": 0.22982,
+            "grade": 0.22982
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
+            "year": 2022,
             "value": null,
-            "grade": 0
+            "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.369487,
+        "value": 0.1979,
         "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
+        "coverage": 0.8,
+        "availableIndicators": 4,
         "totalIndicators": 5,
         "indicators": [
           {
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 79.33077884,
-            "grade": 0.182163
+            "value": 52.44691994,
+            "grade": 0.120431
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
             "year": 2024,
-            "value": 42.8735457415845,
-            "grade": 0.060002
+            "value": 105.199947625777,
+            "grade": 0.147228
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
             "year": 2024,
-            "value": 14,
-            "grade": 0.14
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "14.8",
-            "grade": 0.5737
+            "value": 0,
+            "grade": 0
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 22.53,
-            "grade": 0.891569
+            "value": 57.64,
+            "grade": 0.721841
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.292437,
+        "value": 0.299939,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 4,
@@ -18798,15 +18596,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 47.4678837,
-            "grade": 0.449676
+            "value": 33.02319232,
+            "grade": 0.298354
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 34.97622513,
-            "grade": 0.349762
+            "value": 70.47699738,
+            "grade": 0.70477
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -18819,123 +18617,8 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
             "year": 2016,
-            "value": 0.1647824,
-            "grade": 0.370308
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Infrastructure"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "SDN",
-    "name": "Sudan",
-    "flag": "🇸🇩",
-    "region": "Africa",
-    "rank": 151,
-    "score": 32.42,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 85,
-    "dimensions": {
-      "Government": 51.3,
-      "Infrastructure": 21.47,
-      "Capacity Building": 27.21
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.51297,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.27594,
-            "grade": 0.27594
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.214678,
-        "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 59.90033928,
-            "grade": 0.137546
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2017,
-            "value": 5.66193660394292,
-            "grade": 0.007924
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 15.01,
-            "grade": 0.927922
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.272072,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2020,
-            "value": 29.26771224,
-            "grade": 0.259012
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2017,
-            "value": 18.60000038,
-            "grade": 0.186
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2015,
-            "value": 0.2862498,
-            "grade": 0.643277
+            "value": 0.0874986,
+            "grade": 0.196632
           }
         ]
       }
@@ -18945,250 +18628,6 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     ],
     "weaknesses": [
       "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "MDG",
-    "name": "Madagascar",
-    "flag": "🇲🇬",
-    "region": "Africa",
-    "rank": 152,
-    "score": 32.1,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 93.3,
-    "dimensions": {
-      "Government": 53.67,
-      "Infrastructure": 20.14,
-      "Capacity Building": 24.34
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.53673,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.32346,
-            "grade": 0.32346
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2018,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.201435,
-        "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 28.19712938,
-            "grade": 0.064748
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2023,
-            "value": 23.4213448754272,
-            "grade": 0.032778
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2023,
-            "value": 6.12,
-            "grade": 0.0612
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 31.45,
-            "grade": 0.848448
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.243383,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 28.5,
-            "grade": 0.25097
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 18.67790031,
-            "grade": 0.186779
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.2384168,
-            "grade": 0.535784
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "COM",
-    "name": "Comoros",
-    "flag": "🇰🇲",
-    "region": "Africa",
-    "rank": 153,
-    "score": 32.06,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 50.43,
-      "Infrastructure": 29.7,
-      "Capacity Building": 18.58
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.50431,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.25862,
-            "grade": 0.25862
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.297014,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 108.4086828,
-            "grade": 0.248933
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2023,
-            "value": 75.4011559932627,
-            "grade": 0.105524
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "25.8",
-            "grade": 0.2316
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 20.99,
-            "grade": 0.899014
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.185844,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 44.46339269,
-            "grade": 0.418201
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 32.51750183,
-            "grade": 0.325175
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -19197,30 +18636,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Mali",
     "flag": "🇲🇱",
     "region": "Africa",
-    "rank": 154,
-    "score": 31.65,
+    "rank": 149,
+    "score": 32.15,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 52.53,
+      "Government": 54.17,
       "Infrastructure": 24.24,
       "Capacity Building": 20.11
     },
     "pillars": {
       "Government": {
-        "value": 0.525265,
+        "value": 0.5417,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.30053,
-            "grade": 0.30053
+            "value": 0.3334,
+            "grade": 0.3334
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -19315,298 +18754,47 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "HND",
-    "name": "Honduras",
-    "flag": "🇭🇳",
-    "region": "North America",
-    "rank": 155,
-    "score": 31.34,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 100,
-    "dimensions": {
-      "Government": 24.28,
-      "Infrastructure": 34.45,
-      "Capacity Building": 35.3
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.242795,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.48559,
-            "grade": 0.48559
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.34454,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 49.43471108,
-            "grade": 0.113514
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 145.749305588645,
-            "grade": 0.203977
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "11.8",
-            "grade": 0.665
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 53.84,
-            "grade": 0.740211
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.352999,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 4,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 50.75729032,
-            "grade": 0.484136
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 58.62269974,
-            "grade": 0.586227
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2018,
-            "value": 0.1520226,
-            "grade": 0.341634
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "VUT",
-    "name": "Vanuatu",
-    "flag": "🇻🇺",
-    "region": "Oceania",
-    "rank": 156,
-    "score": 31.13,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 27.14,
-      "Infrastructure": 46.98,
-      "Capacity Building": 20.83
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.271355,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.54271,
-            "grade": 0.54271
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2006,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.469781,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 435.4936435,
-            "grade": 1
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2023,
-            "value": 18.6357583226927,
-            "grade": 0.026081
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "19.0",
-            "grade": 0.443
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 24.96,
-            "grade": 0.879822
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.208334,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 62.75505277,
-            "grade": 0.609824
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2015,
-            "value": 22.35140038,
-            "grade": 0.223514
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Infrastructure"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "ATG",
-    "name": "Antigua and Barbuda",
-    "flag": "🇦🇬",
-    "region": "North America",
-    "rank": 157,
-    "score": 30.54,
+    "code": "LBY",
+    "name": "Libya",
+    "flag": "🇱🇾",
+    "region": "Africa",
+    "rank": 150,
+    "score": 31.94,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 85,
     "dimensions": {
-      "Government": 32.14,
-      "Infrastructure": 18.07,
-      "Capacity Building": 39.8
+      "Government": 4.04,
+      "Infrastructure": 44.85,
+      "Capacity Building": 39.48
     },
     "pillars": {
       "Government": {
-        "value": 0.32141,
+        "value": 0.04038,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.64282,
-            "grade": 0.64282
+            "value": 0.08076,
+            "grade": 0.08076
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
+            "year": 2021,
             "value": null,
             "grade": 0
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.180687,
-        "classification": "Early adopting",
+        "value": 0.448512,
+        "classification": "Adopting",
         "coverage": 0.8,
         "availableIndicators": 4,
         "totalIndicators": 5,
@@ -19615,34 +18803,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 52.04112102,
-            "grade": 0.119499
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2016,
-            "value": 24.1951219512195,
-            "grade": 0.033861
+            "value": 128.0120655,
+            "grade": 0.293947
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
+            "year": 2022,
             "value": 0,
             "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "0.7",
+            "grade": 1
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 51.8,
-            "grade": 0.750073
+            "value": 10.73,
+            "grade": 0.948613
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.398022,
+        "value": 0.394814,
         "classification": "Early adopting",
         "coverage": 0.75,
         "availableIndicators": 3,
@@ -19652,139 +18840,31 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 76.95819448,
-            "grade": 0.758615
+            "value": 77.06296386,
+            "grade": 0.759713
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 72.73040009,
-            "grade": 0.727304
+            "value": 81.95449829,
+            "grade": 0.819545
           },
           {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2012,
-            "value": 0.0472441,
-            "grade": 0.10617
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "GIN",
-    "name": "Guinea",
-    "flag": "🇬🇳",
-    "region": "Africa",
-    "rank": 158,
-    "score": 30.49,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 76.7,
-    "dimensions": {
-      "Government": 57.53,
-      "Infrastructure": 20.34,
-      "Capacity Building": 18.17
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.575295,
-        "classification": "Developing",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.40059,
-            "grade": 0.40059
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.203394,
-        "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 53.47350029,
-            "grade": 0.122788
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 38.9320523707524,
-            "grade": 0.054486
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
             "value": 0,
             "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 33.26,
-            "grade": 0.839698
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.181691,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 2,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 42.12624333,
-            "grade": 0.393717
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 33.30469894,
-            "grade": 0.333047
           }
         ]
       }
     },
     "strengths": [
-      "Government"
+      "Infrastructure"
     ],
     "weaknesses": [
-      "Capacity Building"
+      "Government"
     ],
     "trend3y": 0
   },
@@ -19793,30 +18873,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Uganda",
     "flag": "🇺🇬",
     "region": "Africa",
-    "rank": 159,
-    "score": 29.65,
+    "rank": 151,
+    "score": 31.93,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 85,
     "dimensions": {
-      "Government": 59.82,
+      "Government": 67.85,
       "Infrastructure": 24.06,
       "Capacity Building": 11.07
     },
     "pillars": {
       "Government": {
-        "value": 0.59818,
+        "value": 0.678455,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.44636,
-            "grade": 0.44636
+            "value": 0.60691,
+            "grade": 0.60691
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -19904,313 +18984,69 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "NER",
-    "name": "Niger",
-    "flag": "🇳🇪",
-    "region": "Africa",
-    "rank": 160,
-    "score": 29.35,
+    "code": "TJK",
+    "name": "Tajikistan",
+    "flag": "🇹🇯",
+    "region": "Asia",
+    "rank": 152,
+    "score": 31.83,
     "classification": "Early adopting",
     "yearlyChange": 0,
-    "dataCoverage": 85,
+    "dataCoverage": 61.7,
     "dimensions": {
-      "Government": 48.08,
-      "Infrastructure": 19.09,
-      "Capacity Building": 23.74
+      "Government": 22.38,
+      "Infrastructure": 37.04,
+      "Capacity Building": 36.26
     },
     "pillars": {
       "Government": {
-        "value": 0.480785,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.21157,
-            "grade": 0.21157
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.190883,
-        "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 32.97041344,
-            "grade": 0.075708
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2023,
-            "value": 16.0241191270719,
-            "grade": 0.022426
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 29.83,
-            "grade": 0.85628
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.237412,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 53.86561322,
-            "grade": 0.516698
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 15.55760002,
-            "grade": 0.155576
-          },
-          {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2019,
-            "value": 0.1234282,
-            "grade": 0.277375
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "KIR",
-    "name": "Kiribati",
-    "flag": "🇰🇮",
-    "region": "Oceania",
-    "rank": 161,
-    "score": 29.34,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 68.3,
-    "dimensions": {
-      "Government": 22.86,
-      "Infrastructure": 18.86,
-      "Capacity Building": 44.62
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.228615,
+        "value": 0.2238,
         "classification": "Early adopting",
         "coverage": 0.5,
         "availableIndicators": 1,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.45723,
-            "grade": 0.45723
+            "value": 0.4476,
+            "grade": 0.4476
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.188613,
+        "value": 0.370431,
         "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 51.76258939,
-            "grade": 0.11886
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 45.0955048111446,
-            "grade": 0.063112
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 49.52,
-            "grade": 0.761094
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.446177,
-        "classification": "Adopting",
-        "coverage": 0.75,
+        "coverage": 0.6,
         "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 89.52880021,
-            "grade": 0.890304
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 89.44029999,
-            "grade": 0.894403
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "NIC",
-    "name": "Nicaragua",
-    "flag": "🇳🇮",
-    "region": "North America",
-    "rank": 162,
-    "score": 29.31,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 26.59,
-      "Infrastructure": 31.84,
-      "Capacity Building": 28.11
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.265905,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.53181,
-            "grade": 0.53181
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2022,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.318373,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
         "totalIndicators": 5,
         "indicators": [
           {
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 70.31699763,
-            "grade": 0.161465
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 70.6822513962965,
-            "grade": 0.09892
+            "value": 51.17115811,
+            "grade": 0.117502
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
             "year": 2024,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "18.9",
-            "grade": 0.4446
+            "value": 84.7,
+            "grade": 0.847
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 23.5,
-            "grade": 0.88688
+            "value": 23.34,
+            "grade": 0.887653
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.281119,
+        "value": 0.362571,
         "classification": "Early adopting",
         "coverage": 0.75,
         "availableIndicators": 3,
@@ -20220,22 +19056,22 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 53.27569995,
-            "grade": 0.510519
+            "value": 42.45328403,
+            "grade": 0.397143
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 61.39550018,
-            "grade": 0.613955
+            "value": 55.79339981,
+            "grade": 0.557934
           },
           {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2017,
+            "value": 0.2203607,
+            "grade": 0.495207
           }
         ]
       }
@@ -20245,6 +19081,114 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     ],
     "weaknesses": [
       "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "GIN",
+    "name": "Guinea",
+    "flag": "🇬🇳",
+    "region": "Africa",
+    "rank": 153,
+    "score": 31.51,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 76.7,
+    "dimensions": {
+      "Government": 61.54,
+      "Infrastructure": 20.34,
+      "Capacity Building": 18.17
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.615405,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.48081,
+            "grade": 0.48081
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.203394,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 53.47350029,
+            "grade": 0.122788
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 38.9320523707524,
+            "grade": 0.054486
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 33.26,
+            "grade": 0.839698
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.181691,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 2,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 42.12624333,
+            "grade": 0.393717
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 33.30469894,
+            "grade": 0.333047
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -20253,30 +19197,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Mozambique",
     "flag": "🇲🇿",
     "region": "Africa",
-    "rank": 163,
-    "score": 29.29,
+    "rank": 154,
+    "score": 31.14,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 100,
     "dimensions": {
-      "Government": 51.74,
+      "Government": 57.3,
       "Infrastructure": 23.92,
       "Capacity Building": 12.22
     },
     "pillars": {
       "Government": {
-        "value": 0.51738,
-        "classification": "Adopting",
+        "value": 0.572955,
+        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.28476,
-            "grade": 0.28476
+            "value": 0.39591,
+            "grade": 0.39591
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -20378,156 +19322,69 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "PLW",
-    "name": "Palau",
-    "flag": "🇵🇼",
-    "region": "Oceania",
-    "rank": 164,
-    "score": 29.03,
+    "code": "HND",
+    "name": "Honduras",
+    "flag": "🇭🇳",
+    "region": "North America",
+    "rank": 155,
+    "score": 30.9,
     "classification": "Early adopting",
     "yearlyChange": 0,
-    "dataCoverage": 53.3,
+    "dataCoverage": 100,
     "dimensions": {
-      "Government": 25.36,
-      "Infrastructure": 17.43,
-      "Capacity Building": 41.77
+      "Government": 22.94,
+      "Infrastructure": 34.45,
+      "Capacity Building": 35.3
     },
     "pillars": {
       "Government": {
-        "value": 0.25362,
+        "value": 0.22937,
         "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 1,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.50724,
-            "grade": 0.50724
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.174311,
-        "classification": "Early adopting",
-        "coverage": 0.6,
-        "availableIndicators": 3,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2013,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 26.67,
-            "grade": 0.871556
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.417715,
-        "classification": "Adopting",
-        "coverage": 0.5,
-        "availableIndicators": 2,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 83.92548628,
-            "grade": 0.831604
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 83.92549896,
-            "grade": 0.839255
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "TLS",
-    "name": "Timor-Leste",
-    "flag": "🇹🇱",
-    "region": "Asia",
-    "rank": 165,
-    "score": 28.91,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 85,
-    "dimensions": {
-      "Government": 57.6,
-      "Infrastructure": 22.4,
-      "Capacity Building": 12.33
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.57601,
-        "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.40202,
-            "grade": 0.40202
+            "value": 0.45874,
+            "grade": 0.45874
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
+            "year": 2021,
             "value": null,
-            "grade": 0.75
+            "grade": 0
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.223994,
+        "value": 0.34454,
         "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
+        "coverage": 1,
+        "availableIndicators": 5,
         "totalIndicators": 5,
         "indicators": [
           {
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 28.61910072,
-            "grade": 0.065716
+            "value": 49.43471108,
+            "grade": 0.113514
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 145.749305588645,
+            "grade": 0.203977
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
+            "year": 2024,
             "value": 0,
             "grade": 0
           },
@@ -20535,135 +19392,20 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "Fixed-broadband Internet basket price.xlsx",
             "indicator": "Fixed-broadband Internet basket price",
             "year": 2023,
-            "value": "29.9",
-            "grade": 0.1068
+            "value": "11.8",
+            "grade": 0.665
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 10.97,
-            "grade": 0.947452
+            "value": 53.84,
+            "grade": 0.740211
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.123295,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2019,
-            "value": 18.17059878,
-            "grade": 0.142759
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2021,
-            "value": 35.04199982,
-            "grade": 0.35042
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "COD",
-    "name": "Democratic Republic of the Congo",
-    "flag": "🇨🇩",
-    "region": "Africa",
-    "rank": 166,
-    "score": 28.88,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 93.3,
-    "dimensions": {
-      "Government": 51.07,
-      "Infrastructure": 18.4,
-      "Capacity Building": 18.75
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.510745,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.27149,
-            "grade": 0.27149
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.184004,
-        "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 30.14695277,
-            "grade": 0.069225
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 32.8673122595587,
-            "grade": 0.045998
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 40.48,
-            "grade": 0.804796
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.187465,
+        "value": 0.352999,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 4,
@@ -20673,15 +19415,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 24.17360152,
-            "grade": 0.205646
+            "value": 50.75729032,
+            "grade": 0.484136
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 19.67350006,
-            "grade": 0.196735
+            "value": 58.62269974,
+            "grade": 0.586227
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -20693,9 +19435,124 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           {
             "source": "Percentage of graduates from STEM.xlsx",
             "indicator": "Percentage of graduates from STEM",
-            "year": 2016,
-            "value": 0.1546235,
-            "grade": 0.347479
+            "year": 2018,
+            "value": 0.1520226,
+            "grade": 0.341634
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "NER",
+    "name": "Niger",
+    "flag": "🇳🇪",
+    "region": "Africa",
+    "rank": 156,
+    "score": 30.72,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 85,
+    "dimensions": {
+      "Government": 52.92,
+      "Infrastructure": 19.09,
+      "Capacity Building": 23.74
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.529195,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.30839,
+            "grade": 0.30839
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2021,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.190883,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 32.97041344,
+            "grade": 0.075708
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2023,
+            "value": 16.0241191270719,
+            "grade": 0.022426
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 29.83,
+            "grade": 0.85628
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.237412,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 53.86561322,
+            "grade": 0.516698
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 15.55760002,
+            "grade": 0.155576
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2019,
+            "value": 0.1234282,
+            "grade": 0.277375
           }
         ]
       }
@@ -20709,34 +19566,142 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
+    "code": "KNA",
+    "name": "Saint Kitts and Nevis",
+    "flag": "🇰🇳",
+    "region": "North America",
+    "rank": 157,
+    "score": 30.71,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 68.3,
+    "dimensions": {
+      "Government": 15.19,
+      "Infrastructure": 41.09,
+      "Capacity Building": 39.79
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.151925,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 1,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.30385,
+            "grade": 0.30385
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.410894,
+        "classification": "Adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 157.7610315,
+            "grade": 0.362258
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2022,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "3.7",
+            "grade": 0.917
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 46.6,
+            "grade": 0.77521
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.397921,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 83.0892338,
+            "grade": 0.822844
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 76.88400269,
+            "grade": 0.76884
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
     "code": "SLB",
     "name": "Solomon Islands",
     "flag": "🇸🇧",
     "region": "Oceania",
-    "rank": 167,
-    "score": 28.84,
+    "rank": 158,
+    "score": 30.48,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 76.7,
     "dimensions": {
-      "Government": 55.91,
+      "Government": 62.35,
       "Infrastructure": 17.57,
       "Capacity Building": 17.49
     },
     "pillars": {
       "Government": {
-        "value": 0.559055,
+        "value": 0.62348,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.36811,
-            "grade": 0.36811
+            "value": 0.49696,
+            "grade": 0.49696
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -20817,34 +19782,271 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "BDI",
-    "name": "Burundi",
-    "flag": "🇧🇮",
+    "code": "SDN",
+    "name": "Sudan",
+    "flag": "🇸🇩",
     "region": "Africa",
-    "rank": 168,
-    "score": 27.82,
+    "rank": 159,
+    "score": 30.34,
     "classification": "Early adopting",
     "yearlyChange": 0,
-    "dataCoverage": 93.3,
+    "dataCoverage": 85,
     "dimensions": {
-      "Government": 49.9,
-      "Infrastructure": 16.71,
-      "Capacity Building": 18.64
+      "Government": 43.97,
+      "Infrastructure": 21.47,
+      "Capacity Building": 27.21
     },
     "pillars": {
       "Government": {
-        "value": 0.499025,
+        "value": 0.43965,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.24805,
-            "grade": 0.24805
+            "value": 0.1293,
+            "grade": 0.1293
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.214678,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 59.90033928,
+            "grade": 0.137546
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2017,
+            "value": 5.66193660394292,
+            "grade": 0.007924
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 15.01,
+            "grade": 0.927922
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.272072,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2020,
+            "value": 29.26771224,
+            "grade": 0.259012
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2017,
+            "value": 18.60000038,
+            "grade": 0.186
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2015,
+            "value": 0.2862498,
+            "grade": 0.643277
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "VUT",
+    "name": "Vanuatu",
+    "flag": "🇻🇺",
+    "region": "Oceania",
+    "rank": 160,
+    "score": 30.13,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 23.85,
+      "Infrastructure": 46.98,
+      "Capacity Building": 20.83
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.23846,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.47692,
+            "grade": 0.47692
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2006,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.469781,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 435.4936435,
+            "grade": 1
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2023,
+            "value": 18.6357583226927,
+            "grade": 0.026081
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "19.0",
+            "grade": 0.443
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 24.96,
+            "grade": 0.879822
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.208334,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 62.75505277,
+            "grade": 0.609824
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2015,
+            "value": 22.35140038,
+            "grade": 0.223514
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "BDI",
+    "name": "Burundi",
+    "flag": "🇧🇮",
+    "region": "Africa",
+    "rank": 161,
+    "score": 28.86,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 93.3,
+    "dimensions": {
+      "Government": 53.23,
+      "Infrastructure": 16.71,
+      "Capacity Building": 18.64
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.5323,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.3146,
+            "grade": 0.3146
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -20939,34 +20141,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "GNB",
-    "name": "Guinea-Bissau",
-    "flag": "🇬🇼",
+    "code": "COM",
+    "name": "Comoros",
+    "flag": "🇰🇲",
     "region": "Africa",
-    "rank": 169,
-    "score": 27.79,
+    "rank": 162,
+    "score": 28.46,
     "classification": "Early adopting",
     "yearlyChange": 0,
-    "dataCoverage": 85,
+    "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 52.92,
-      "Infrastructure": 21.51,
-      "Capacity Building": 13.71
+      "Government": 38.65,
+      "Infrastructure": 29.7,
+      "Capacity Building": 18.58
     },
     "pillars": {
       "Government": {
-        "value": 0.529155,
-        "classification": "Adopting",
+        "value": 0.386495,
+        "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.30831,
-            "grade": 0.30831
+            "value": 0.02299,
+            "grade": 0.02299
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -20978,44 +20180,51 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
         ]
       },
       "Infrastructure": {
-        "value": 0.215123,
+        "value": 0.297014,
         "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
+        "coverage": 1,
+        "availableIndicators": 5,
         "totalIndicators": 5,
         "indicators": [
           {
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 80.32041218,
-            "grade": 0.184435
+            "value": 108.4086828,
+            "grade": 0.248933
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 35.0582958880402,
-            "grade": 0.049064
+            "year": 2023,
+            "value": 75.4011559932627,
+            "grade": 0.105524
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2023,
+            "year": 2021,
             "value": 0,
             "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "25.8",
+            "grade": 0.2316
           },
           {
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 32.76,
-            "grade": 0.842115
+            "value": 20.99,
+            "grade": 0.899014
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.137097,
+        "value": 0.185844,
         "classification": "Early adopting",
         "coverage": 0.75,
         "availableIndicators": 3,
@@ -21025,15 +20234,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 28.46607903,
-            "grade": 0.250614
+            "value": 44.46339269,
+            "grade": 0.418201
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 29.77739906,
-            "grade": 0.297774
+            "value": 32.51750183,
+            "grade": 0.325175
           },
           {
             "source": "AI_Researchers_Global.xlsx",
@@ -21050,365 +20259,6 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     ],
     "weaknesses": [
       "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "STP",
-    "name": "Sao Tome and Principe",
-    "flag": "🇸🇹",
-    "region": "Africa",
-    "rank": 170,
-    "score": 27.5,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 21.54,
-      "Infrastructure": 30.5,
-      "Capacity Building": 28.46
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.21539,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.43078,
-            "grade": 0.43078
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.305007,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 44.64497996,
-            "grade": 0.102516
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2024,
-            "value": 38.0378488897342,
-            "grade": 0.053234
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2023,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "16.7",
-            "grade": 0.5146
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 30.16,
-            "grade": 0.854684
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.284606,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 56.78180719,
-            "grade": 0.547248
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 59.11759949,
-            "grade": 0.591176
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Infrastructure"
-    ],
-    "weaknesses": [
-      "Government"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "AFG",
-    "name": "Afghanistan",
-    "flag": "🇦🇫",
-    "region": "Asia",
-    "rank": 171,
-    "score": 27.13,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 91.7,
-    "dimensions": {
-      "Government": 47.91,
-      "Infrastructure": 27.33,
-      "Capacity Building": 10.16
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.479135,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.20827,
-            "grade": 0.20827
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2021,
-            "value": null,
-            "grade": 0.75
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.273255,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 60.09908156,
-            "grade": 0.138002
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2023,
-            "value": 9.7320190200391,
-            "grade": 0.01362
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "19.4",
-            "grade": 0.4319
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 45.04,
-            "grade": 0.782752
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.101644,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 27.98975982,
-            "grade": 0.245624
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 16.09499931,
-            "grade": 0.16095
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "DJI",
-    "name": "Djibouti",
-    "flag": "🇩🇯",
-    "region": "Africa",
-    "rank": 172,
-    "score": 26.99,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 75,
-    "dimensions": {
-      "Government": 14.55,
-      "Infrastructure": 34.97,
-      "Capacity Building": 32.92
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.145525,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 1,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.29105,
-            "grade": 0.29105
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.349679,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 34.78158193,
-            "grade": 0.079867
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2023,
-            "value": 135.731707317073,
-            "grade": 0.189958
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2023,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "9.3",
-            "grade": 0.743
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 54.8,
-            "grade": 0.73557
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.32916,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 67.8931621,
-            "grade": 0.66365
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2024,
-            "value": 65.29889679,
-            "grade": 0.652989
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Infrastructure"
-    ],
-    "weaknesses": [
-      "Government"
     ],
     "trend3y": 0
   },
@@ -21417,30 +20267,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Malawi",
     "flag": "🇲🇼",
     "region": "Africa",
-    "rank": 173,
-    "score": 26.91,
+    "rank": 163,
+    "score": 28.15,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 85,
     "dimensions": {
-      "Government": 56.27,
+      "Government": 60.62,
       "Infrastructure": 21.27,
       "Capacity Building": 9.1
     },
     "pillars": {
       "Government": {
-        "value": 0.56267,
+        "value": 0.606235,
         "classification": "Developing",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.37534,
-            "grade": 0.37534
+            "value": 0.46247,
+            "grade": 0.46247
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -21528,34 +20378,271 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "SLE",
-    "name": "Sierra Leone",
-    "flag": "🇸🇱",
-    "region": "Africa",
-    "rank": 174,
-    "score": 26.88,
+    "code": "NIC",
+    "name": "Nicaragua",
+    "flag": "🇳🇮",
+    "region": "North America",
+    "rank": 164,
+    "score": 28.04,
     "classification": "Early adopting",
     "yearlyChange": 0,
-    "dataCoverage": 76.7,
+    "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 52.71,
-      "Infrastructure": 16.21,
-      "Capacity Building": 16.1
+      "Government": 22.46,
+      "Infrastructure": 31.84,
+      "Capacity Building": 28.11
     },
     "pillars": {
       "Government": {
-        "value": 0.52711,
+        "value": 0.224635,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.44927,
+            "grade": 0.44927
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.318373,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 70.31699763,
+            "grade": 0.161465
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 70.6822513962965,
+            "grade": 0.09892
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "18.9",
+            "grade": 0.4446
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 23.5,
+            "grade": 0.88688
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.281119,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 53.27569995,
+            "grade": 0.510519
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 61.39550018,
+            "grade": 0.613955
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "TLS",
+    "name": "Timor-Leste",
+    "flag": "🇹🇱",
+    "region": "Asia",
+    "rank": 165,
+    "score": 28.04,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 85,
+    "dimensions": {
+      "Government": 54.53,
+      "Infrastructure": 22.4,
+      "Capacity Building": 12.33
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.54528,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.30422,
-            "grade": 0.30422
+            "value": 0.34056,
+            "grade": 0.34056
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.223994,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 28.61910072,
+            "grade": 0.065716
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "29.9",
+            "grade": 0.1068
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 10.97,
+            "grade": 0.947452
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.123295,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2019,
+            "value": 18.17059878,
+            "grade": 0.142759
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2021,
+            "value": 35.04199982,
+            "grade": 0.35042
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "SLE",
+    "name": "Sierra Leone",
+    "flag": "🇸🇱",
+    "region": "Africa",
+    "rank": 166,
+    "score": 27.88,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 76.7,
+    "dimensions": {
+      "Government": 56.61,
+      "Infrastructure": 16.21,
+      "Capacity Building": 16.1
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.56614,
+        "classification": "Developing",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.38228,
+            "grade": 0.38228
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -21636,34 +20723,264 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
+    "code": "COD",
+    "name": "Democratic Republic of the Congo",
+    "flag": "🇨🇩",
+    "region": "Africa",
+    "rank": 167,
+    "score": 27.87,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 93.3,
+    "dimensions": {
+      "Government": 47.84,
+      "Infrastructure": 18.4,
+      "Capacity Building": 18.75
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.478355,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.20671,
+            "grade": 0.20671
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.184004,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 30.14695277,
+            "grade": 0.069225
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 32.8673122595587,
+            "grade": 0.045998
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 40.48,
+            "grade": 0.804796
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.187465,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 4,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 24.17360152,
+            "grade": 0.205646
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 19.67350006,
+            "grade": 0.196735
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2016,
+            "value": 0.1546235,
+            "grade": 0.347479
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "KIR",
+    "name": "Kiribati",
+    "flag": "🇰🇮",
+    "region": "Oceania",
+    "rank": 168,
+    "score": 27.81,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 68.3,
+    "dimensions": {
+      "Government": 19.52,
+      "Infrastructure": 18.86,
+      "Capacity Building": 44.62
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.195175,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 1,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.39035,
+            "grade": 0.39035
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.188613,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 51.76258939,
+            "grade": 0.11886
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 45.0955048111446,
+            "grade": 0.063112
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 49.52,
+            "grade": 0.761094
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.446177,
+        "classification": "Adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 89.52880021,
+            "grade": 0.890304
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 89.44029999,
+            "grade": 0.894403
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
     "code": "NGA",
     "name": "Nigeria",
     "flag": "🇳🇬",
     "region": "Africa",
-    "rank": 175,
-    "score": 26.82,
+    "rank": 169,
+    "score": 27.67,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 24.07,
+      "Government": 26.86,
       "Infrastructure": 35.85,
       "Capacity Building": 20.89
     },
     "pillars": {
       "Government": {
-        "value": 0.24073,
+        "value": 0.268595,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.48146,
-            "grade": 0.48146
+            "value": 0.53719,
+            "grade": 0.53719
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -21758,34 +21075,271 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "FSM",
-    "name": "Micronesia",
-    "flag": "🇫🇲",
-    "region": "Oceania",
-    "rank": 176,
-    "score": 26.66,
+    "code": "ATG",
+    "name": "Antigua and Barbuda",
+    "flag": "🇦🇬",
+    "region": "North America",
+    "rank": 170,
+    "score": 27.34,
     "classification": "Early adopting",
     "yearlyChange": 0,
-    "dataCoverage": 70,
+    "dataCoverage": 85,
     "dimensions": {
-      "Government": 53.68,
-      "Infrastructure": 16.06,
-      "Capacity Building": 16.91
+      "Government": 20.83,
+      "Infrastructure": 18.07,
+      "Capacity Building": 39.8
     },
     "pillars": {
       "Government": {
-        "value": 0.53676,
+        "value": 0.20829,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.41658,
+            "grade": 0.41658
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2022,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.180687,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 52.04112102,
+            "grade": 0.119499
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2016,
+            "value": 24.1951219512195,
+            "grade": 0.033861
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 51.8,
+            "grade": 0.750073
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.398022,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 76.95819448,
+            "grade": 0.758615
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 72.73040009,
+            "grade": 0.727304
+          },
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2012,
+            "value": 0.0472441,
+            "grade": 0.10617
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Infrastructure"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "AFG",
+    "name": "Afghanistan",
+    "flag": "🇦🇫",
+    "region": "Asia",
+    "rank": 171,
+    "score": 26.15,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 91.7,
+    "dimensions": {
+      "Government": 44.69,
+      "Infrastructure": 27.33,
+      "Capacity Building": 10.16
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.446895,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.32352,
-            "grade": 0.32352
+            "value": 0.14379,
+            "grade": 0.14379
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2021,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.273255,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 60.09908156,
+            "grade": 0.138002
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2023,
+            "value": 9.7320190200391,
+            "grade": 0.01362
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "19.4",
+            "grade": 0.4319
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 45.04,
+            "grade": 0.782752
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.101644,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 27.98975982,
+            "grade": 0.245624
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 16.09499931,
+            "grade": 0.16095
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "FSM",
+    "name": "Micronesia",
+    "flag": "🇫🇲",
+    "region": "Oceania",
+    "rank": 172,
+    "score": 25.94,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 70,
+    "dimensions": {
+      "Government": 50.61,
+      "Infrastructure": 16.06,
+      "Capacity Building": 16.91
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.506055,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.26211,
+            "grade": 0.26211
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -21859,46 +21413,46 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "NPL",
-    "name": "Nepal",
-    "flag": "🇳🇵",
-    "region": "Asia",
-    "rank": 177,
-    "score": 25.51,
+    "code": "GNB",
+    "name": "Guinea-Bissau",
+    "flag": "🇬🇼",
+    "region": "Africa",
+    "rank": 173,
+    "score": 25.22,
     "classification": "Early adopting",
     "yearlyChange": 0,
-    "dataCoverage": 76.7,
+    "dataCoverage": 85,
     "dimensions": {
-      "Government": 28.91,
-      "Infrastructure": 23.25,
-      "Capacity Building": 20.93
+      "Government": 43.85,
+      "Infrastructure": 21.51,
+      "Capacity Building": 13.71
     },
     "pillars": {
       "Government": {
-        "value": 0.289065,
-        "classification": "Early adopting",
+        "value": 0.438515,
+        "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.57813,
-            "grade": 0.57813
+            "value": 0.12703,
+            "grade": 0.12703
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
             "indicator": "Regulatory framework for infrastructure sharing",
             "year": 2024,
             "value": null,
-            "grade": 0
+            "grade": 0.75
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.232529,
+        "value": 0.215123,
         "classification": "Early adopting",
         "coverage": 0.8,
         "availableIndicators": 4,
@@ -21908,20 +21462,20 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 99.64478834,
-            "grade": 0.228809
+            "value": 80.32041218,
+            "grade": 0.184435
           },
           {
             "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
             "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2017,
-            "value": 2.04925509114866,
-            "grade": 0.002868
+            "year": 2024,
+            "value": 35.0582958880402,
+            "grade": 0.049064
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
+            "year": 2023,
             "value": 0,
             "grade": 0
           },
@@ -21929,31 +21483,38 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 14.38,
-            "grade": 0.930968
+            "value": 32.76,
+            "grade": 0.842115
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.209277,
+        "value": 0.137097,
         "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 2,
+        "coverage": 0.75,
+        "availableIndicators": 3,
         "totalIndicators": 4,
         "indicators": [
           {
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 40.23361915,
-            "grade": 0.37389
+            "value": 28.46607903,
+            "grade": 0.250614
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 46.32189941,
-            "grade": 0.463219
+            "value": 29.77739906,
+            "grade": 0.297774
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
           }
         ]
       }
@@ -21967,39 +21528,39 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "NRU",
-    "name": "Nauru",
-    "flag": "🇳🇷",
+    "code": "PLW",
+    "name": "Palau",
+    "flag": "🇵🇼",
     "region": "Oceania",
-    "rank": 178,
-    "score": 25.5,
+    "rank": 174,
+    "score": 24.97,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 53.3,
     "dimensions": {
-      "Government": 22.27,
-      "Infrastructure": 11.9,
-      "Capacity Building": 39.54
+      "Government": 13.93,
+      "Infrastructure": 17.43,
+      "Capacity Building": 41.77
     },
     "pillars": {
       "Government": {
-        "value": 0.22272,
+        "value": 0.139335,
         "classification": "Early adopting",
         "coverage": 0.5,
         "availableIndicators": 1,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.44544,
-            "grade": 0.44544
+            "value": 0.27867,
+            "grade": 0.27867
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.119012,
+        "value": 0.174311,
         "classification": "Early adopting",
         "coverage": 0.6,
         "availableIndicators": 3,
@@ -22008,9 +21569,9 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           {
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 33.48120867,
-            "grade": 0.076881
+            "year": 2013,
+            "value": 0,
+            "grade": 0
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
@@ -22023,14 +21584,14 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 99.77,
-            "grade": 0.518177
+            "value": 26.67,
+            "grade": 0.871556
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.395392,
-        "classification": "Early adopting",
+        "value": 0.417715,
+        "classification": "Adopting",
         "coverage": 0.5,
         "availableIndicators": 2,
         "totalIndicators": 4,
@@ -22039,15 +21600,15 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 76.27430425,
-            "grade": 0.751451
+            "value": 83.92548628,
+            "grade": 0.831604
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 83.01170349,
-            "grade": 0.830117
+            "value": 83.92549896,
+            "grade": 0.839255
           }
         ]
       }
@@ -22056,7 +21617,122 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Capacity Building"
     ],
     "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "DJI",
+    "name": "Djibouti",
+    "flag": "🇩🇯",
+    "region": "Africa",
+    "rank": 175,
+    "score": 24.94,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 75,
+    "dimensions": {
+      "Government": 10.46,
+      "Infrastructure": 34.97,
+      "Capacity Building": 32.92
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.104575,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 1,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.20915,
+            "grade": 0.20915
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.349679,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 34.78158193,
+            "grade": 0.079867
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2023,
+            "value": 135.731707317073,
+            "grade": 0.189958
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2023,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "9.3",
+            "grade": 0.743
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 54.8,
+            "grade": 0.73557
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.32916,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 67.8931621,
+            "grade": 0.66365
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 65.29889679,
+            "grade": 0.652989
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
       "Infrastructure"
+    ],
+    "weaknesses": [
+      "Government"
     ],
     "trend3y": 0
   },
@@ -22065,30 +21741,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Haiti",
     "flag": "🇭🇹",
     "region": "North America",
-    "rank": 179,
-    "score": 25.24,
+    "rank": 176,
+    "score": 24.38,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 70,
     "dimensions": {
-      "Government": 48.08,
+      "Government": 44.39,
       "Infrastructure": 20.93,
       "Capacity Building": 12.61
     },
     "pillars": {
       "Government": {
-        "value": 0.480825,
+        "value": 0.443925,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.21165,
-            "grade": 0.21165
+            "value": 0.13785,
+            "grade": 0.13785
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -22162,34 +21838,372 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "GNQ",
-    "name": "Equatorial Guinea",
-    "flag": "🇬🇶",
+    "code": "STP",
+    "name": "Sao Tome and Principe",
+    "flag": "🇸🇹",
     "region": "Africa",
-    "rank": 180,
-    "score": 23.61,
+    "rank": 177,
+    "score": 24.21,
     "classification": "Early adopting",
     "yearlyChange": 0,
-    "dataCoverage": 85,
+    "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 14.28,
-      "Infrastructure": 23.47,
-      "Capacity Building": 29.78
+      "Government": 10.78,
+      "Infrastructure": 30.5,
+      "Capacity Building": 28.46
     },
     "pillars": {
       "Government": {
-        "value": 0.14277,
+        "value": 0.107785,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.28554,
-            "grade": 0.28554
+            "value": 0.21557,
+            "grade": 0.21557
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.305007,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 44.64497996,
+            "grade": 0.102516
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2024,
+            "value": 38.0378488897342,
+            "grade": 0.053234
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2023,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "16.7",
+            "grade": 0.5146
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 30.16,
+            "grade": 0.854684
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.284606,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 56.78180719,
+            "grade": 0.547248
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 59.11759949,
+            "grade": 0.591176
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "NPL",
+    "name": "Nepal",
+    "flag": "🇳🇵",
+    "region": "Asia",
+    "rank": 178,
+    "score": 23.85,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 76.7,
+    "dimensions": {
+      "Government": 22.4,
+      "Infrastructure": 23.25,
+      "Capacity Building": 20.93
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.22403,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.44806,
+            "grade": 0.44806
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.232529,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 99.64478834,
+            "grade": 0.228809
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2017,
+            "value": 2.04925509114866,
+            "grade": 0.002868
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 14.38,
+            "grade": 0.930968
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.209277,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 2,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 40.23361915,
+            "grade": 0.37389
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 46.32189941,
+            "grade": 0.463219
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "TCD",
+    "name": "Chad",
+    "flag": "🇹🇩",
+    "region": "Africa",
+    "rank": 179,
+    "score": 23.82,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 76.7,
+    "dimensions": {
+      "Government": 50.87,
+      "Infrastructure": 17.3,
+      "Capacity Building": 10.35
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.50869,
+        "classification": "Adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.26738,
+            "grade": 0.26738
+          },
+          {
+            "source": "Regulatory framework for infrastructure sharing.xlsx",
+            "indicator": "Regulatory framework for infrastructure sharing",
+            "year": 2024,
+            "value": null,
+            "grade": 0.75
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.173025,
+        "classification": "Early adopting",
+        "coverage": 0.8,
+        "availableIndicators": 4,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 17.26054372,
+            "grade": 0.039634
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2021,
+            "value": 34.544167410881,
+            "grade": 0.048345
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2024,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 46.2,
+            "grade": 0.777144
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.103462,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 2,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 31.99468208,
+            "grade": 0.28758
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2024,
+            "value": 12.62689972,
+            "grade": 0.126269
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Government"
+    ],
+    "weaknesses": [
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "GNQ",
+    "name": "Equatorial Guinea",
+    "flag": "🇬🇶",
+    "region": "Africa",
+    "rank": 180,
+    "score": 22.3,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 85,
+    "dimensions": {
+      "Government": 9.66,
+      "Infrastructure": 23.47,
+      "Capacity Building": 29.78
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.096595,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 2,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.19319,
+            "grade": 0.19319
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -22277,69 +22291,55 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "TCD",
-    "name": "Chad",
-    "flag": "🇹🇩",
-    "region": "Africa",
+    "code": "NRU",
+    "name": "Nauru",
+    "flag": "🇳🇷",
+    "region": "Oceania",
     "rank": 181,
-    "score": 22.68,
+    "score": 21.92,
     "classification": "Early adopting",
     "yearlyChange": 0,
-    "dataCoverage": 76.7,
+    "dataCoverage": 53.3,
     "dimensions": {
-      "Government": 46.43,
-      "Infrastructure": 17.3,
-      "Capacity Building": 10.35
+      "Government": 12.19,
+      "Infrastructure": 11.9,
+      "Capacity Building": 39.54
     },
     "pillars": {
       "Government": {
-        "value": 0.464265,
-        "classification": "Adopting",
-        "coverage": 1,
-        "availableIndicators": 2,
+        "value": 0.121935,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 1,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.17853,
-            "grade": 0.17853
-          },
-          {
-            "source": "Regulatory framework for infrastructure sharing.xlsx",
-            "indicator": "Regulatory framework for infrastructure sharing",
-            "year": 2024,
-            "value": null,
-            "grade": 0.75
+            "value": 0.24387,
+            "grade": 0.24387
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.173025,
+        "value": 0.119012,
         "classification": "Early adopting",
-        "coverage": 0.8,
-        "availableIndicators": 4,
+        "coverage": 0.6,
+        "availableIndicators": 3,
         "totalIndicators": 5,
         "indicators": [
           {
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
             "year": 2024,
-            "value": 17.26054372,
-            "grade": 0.039634
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2021,
-            "value": 34.544167410881,
-            "grade": 0.048345
+            "value": 33.48120867,
+            "grade": 0.076881
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
             "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2024,
+            "year": 2021,
             "value": 0,
             "grade": 0
           },
@@ -22347,13 +22347,13 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
             "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
             "year": 2025,
-            "value": 46.2,
-            "grade": 0.777144
+            "value": 99.77,
+            "grade": 0.518177
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.103462,
+        "value": 0.395392,
         "classification": "Early adopting",
         "coverage": 0.5,
         "availableIndicators": 2,
@@ -22363,24 +22363,24 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "source": "households-with-internet-access-at-home.xlsx",
             "indicator": "households-with-internet-access-at-home",
             "year": 2024,
-            "value": 31.99468208,
-            "grade": 0.28758
+            "value": 76.27430425,
+            "grade": 0.751451
           },
           {
             "source": "individuals-using-the-internet.xlsx",
             "indicator": "individuals-using-the-internet",
             "year": 2024,
-            "value": 12.62689972,
-            "grade": 0.126269
+            "value": 83.01170349,
+            "grade": 0.830117
           }
         ]
       }
     },
     "strengths": [
-      "Government"
+      "Capacity Building"
     ],
     "weaknesses": [
-      "Capacity Building"
+      "Infrastructure"
     ],
     "trend3y": 0
   },
@@ -22390,29 +22390,29 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "flag": "🇪🇹",
     "region": "Africa",
     "rank": 182,
-    "score": 20.16,
+    "score": 20.63,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 91.7,
     "dimensions": {
-      "Government": 15.55,
+      "Government": 17.1,
       "Infrastructure": 34.51,
       "Capacity Building": 11.93
     },
     "pillars": {
       "Government": {
-        "value": 0.155545,
+        "value": 0.170975,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.31109,
-            "grade": 0.31109
+            "value": 0.34195,
+            "grade": 0.34195
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -22507,337 +22507,34 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "TUV",
-    "name": "Tuvalu",
-    "flag": "🇹🇻",
-    "region": "Oceania",
-    "rank": 183,
-    "score": 19.96,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 53.3,
-    "dimensions": {
-      "Government": 20.21,
-      "Infrastructure": 16.81,
-      "Capacity Building": 21.92
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.202125,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 1,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.40425,
-            "grade": 0.40425
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.168143,
-        "classification": "Early adopting",
-        "coverage": 0.6,
-        "availableIndicators": 3,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2017,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 33.05,
-            "grade": 0.840714
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.21919,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 2,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2021,
-            "value": 54.63516881,
-            "grade": 0.52476
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2017,
-            "value": 35.20000076,
-            "grade": 0.352
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Capacity Building"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "TKM",
-    "name": "Turkmenistan",
-    "flag": "🇹🇲",
-    "region": "Asia",
-    "rank": 184,
-    "score": 19.73,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 53.3,
-    "dimensions": {
-      "Government": 23.78,
-      "Infrastructure": 11.2,
-      "Capacity Building": 22.38
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.237845,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 1,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.47569,
-            "grade": 0.47569
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.112033,
-        "classification": "Early adopting",
-        "coverage": 0.6,
-        "availableIndicators": 3,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 54.47462925,
-            "grade": 0.125087
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2021,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 116.96,
-            "grade": 0.435077
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.223789,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 2,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2024,
-            "value": 72.81886721,
-            "grade": 0.715252
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2016,
-            "value": 17.99029922,
-            "grade": 0.179903
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Government"
-    ],
-    "weaknesses": [
-      "Infrastructure"
-    ],
-    "trend3y": 0
-  },
-  {
-    "code": "YEM",
-    "name": "Yemen",
-    "flag": "🇾🇪",
-    "region": "Asia",
-    "rank": 185,
-    "score": 18.71,
-    "classification": "Early adopting",
-    "yearlyChange": 0,
-    "dataCoverage": 75,
-    "dimensions": {
-      "Government": 11.59,
-      "Infrastructure": 37.08,
-      "Capacity Building": 10.94
-    },
-    "pillars": {
-      "Government": {
-        "value": 0.115875,
-        "classification": "Early adopting",
-        "coverage": 0.5,
-        "availableIndicators": 1,
-        "totalIndicators": 2,
-        "indicators": [
-          {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
-            "year": 2024,
-            "value": 0.23175,
-            "grade": 0.23175
-          }
-        ]
-      },
-      "Infrastructure": {
-        "value": 0.370817,
-        "classification": "Early adopting",
-        "coverage": 1,
-        "availableIndicators": 5,
-        "totalIndicators": 5,
-        "indicators": [
-          {
-            "source": "active-mobile-broadband-subscriptions.xlsx",
-            "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 34.57893746,
-            "grade": 0.079402
-          },
-          {
-            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
-            "indicator": "mobile-broadband-internet-traffic-within-the-country",
-            "year": 2023,
-            "value": 10.3471597748547,
-            "grade": 0.014481
-          },
-          {
-            "source": "population-coverage-by-mobile-network-technology.xlsx",
-            "indicator": "population-coverage-by-mobile-network-technology",
-            "year": 2023,
-            "value": 0,
-            "grade": 0
-          },
-          {
-            "source": "Fixed-broadband Internet basket price.xlsx",
-            "indicator": "Fixed-broadband Internet basket price",
-            "year": 2023,
-            "value": "6.1",
-            "grade": 0.8433
-          },
-          {
-            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
-            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
-            "year": 2025,
-            "value": 17.29,
-            "grade": 0.9169
-          }
-        ]
-      },
-      "Capacity Building": {
-        "value": 0.109445,
-        "classification": "Early adopting",
-        "coverage": 0.75,
-        "availableIndicators": 3,
-        "totalIndicators": 4,
-        "indicators": [
-          {
-            "source": "households-with-internet-access-at-home.xlsx",
-            "indicator": "households-with-internet-access-at-home",
-            "year": 2021,
-            "value": 29.63605417,
-            "grade": 0.262871
-          },
-          {
-            "source": "individuals-using-the-internet.xlsx",
-            "indicator": "individuals-using-the-internet",
-            "year": 2019,
-            "value": 17.49099922,
-            "grade": 0.17491
-          },
-          {
-            "source": "AI_Researchers_Global.xlsx",
-            "indicator": "AI_Researchers_Global",
-            "year": 2025,
-            "value": 0,
-            "grade": 0
-          }
-        ]
-      }
-    },
-    "strengths": [
-      "Infrastructure"
-    ],
-    "weaknesses": [
-      "Capacity Building"
-    ],
-    "trend3y": 0
-  },
-  {
     "code": "BFA",
     "name": "Burkina Faso",
     "flag": "🇧🇫",
     "region": "Africa",
-    "rank": 186,
-    "score": 18.68,
+    "rank": 183,
+    "score": 19.36,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 85,
     "dimensions": {
-      "Government": 14.47,
+      "Government": 16.88,
       "Infrastructure": 19.64,
       "Capacity Building": 20.17
     },
     "pillars": {
       "Government": {
-        "value": 0.14473,
+        "value": 0.16882,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.28946,
-            "grade": 0.28946
+            "value": 0.33764,
+            "grade": 0.33764
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -22929,30 +22626,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Central African Republic",
     "flag": "🇨🇫",
     "region": "Africa",
-    "rank": 187,
-    "score": 17.32,
+    "rank": 184,
+    "score": 17.55,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 76.7,
     "dimensions": {
-      "Government": 42.24,
+      "Government": 43.14,
       "Infrastructure": 14.93,
       "Capacity Building": 3.45
     },
     "pillars": {
       "Government": {
-        "value": 0.42235,
+        "value": 0.4314,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.0947,
-            "grade": 0.0947
+            "value": 0.1128,
+            "grade": 0.1128
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -23037,30 +22734,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Liberia",
     "flag": "🇱🇷",
     "region": "Africa",
-    "rank": 188,
-    "score": 17.11,
+    "rank": 185,
+    "score": 17.28,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 85,
     "dimensions": {
-      "Government": 12.57,
+      "Government": 13.17,
       "Infrastructure": 20.73,
       "Capacity Building": 16.42
     },
     "pillars": {
       "Government": {
-        "value": 0.125665,
+        "value": 0.131675,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.25133,
-            "grade": 0.25133
+            "value": 0.26335,
+            "grade": 0.26335
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -23148,34 +22845,149 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
+    "code": "YEM",
+    "name": "Yemen",
+    "flag": "🇾🇪",
+    "region": "Asia",
+    "rank": 186,
+    "score": 16.36,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 75,
+    "dimensions": {
+      "Government": 6.89,
+      "Infrastructure": 37.08,
+      "Capacity Building": 10.94
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.06887,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 1,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.13774,
+            "grade": 0.13774
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.370817,
+        "classification": "Early adopting",
+        "coverage": 1,
+        "availableIndicators": 5,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 34.57893746,
+            "grade": 0.079402
+          },
+          {
+            "source": "mobile-broadband-internet-traffic-within-the-country.xlsx",
+            "indicator": "mobile-broadband-internet-traffic-within-the-country",
+            "year": 2023,
+            "value": 10.3471597748547,
+            "grade": 0.014481
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2023,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "Fixed-broadband Internet basket price.xlsx",
+            "indicator": "Fixed-broadband Internet basket price",
+            "year": 2023,
+            "value": "6.1",
+            "grade": 0.8433
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 17.29,
+            "grade": 0.9169
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.109445,
+        "classification": "Early adopting",
+        "coverage": 0.75,
+        "availableIndicators": 3,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2021,
+            "value": 29.63605417,
+            "grade": 0.262871
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2019,
+            "value": 17.49099922,
+            "grade": 0.17491
+          },
+          {
+            "source": "AI_Researchers_Global.xlsx",
+            "indicator": "AI_Researchers_Global",
+            "year": 2025,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Infrastructure"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
     "code": "PNG",
     "name": "Papua New Guinea",
     "flag": "🇵🇬",
     "region": "Oceania",
-    "rank": 189,
-    "score": 15.91,
+    "rank": 187,
+    "score": 16.31,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 76.7,
     "dimensions": {
-      "Government": 15.38,
+      "Government": 16.96,
       "Infrastructure": 19.11,
       "Capacity Building": 11.49
     },
     "pillars": {
       "Government": {
-        "value": 0.15378,
+        "value": 0.1696,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.30756,
-            "grade": 0.30756
+            "value": 0.3392,
+            "grade": 0.3392
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -23256,50 +23068,50 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "trend3y": 0
   },
   {
-    "code": "PRK",
-    "name": "Democratic People's Republic of Korea",
-    "flag": "🇰🇵",
-    "region": "Asia",
-    "rank": 190,
-    "score": 15.29,
+    "code": "TUV",
+    "name": "Tuvalu",
+    "flag": "🇹🇻",
+    "region": "Oceania",
+    "rank": 188,
+    "score": 16.23,
     "classification": "Early adopting",
     "yearlyChange": 0,
-    "dataCoverage": 38.3,
+    "dataCoverage": 53.3,
     "dimensions": {
-      "Government": 11.6,
-      "Infrastructure": 1,
-      "Capacity Building": 23.49
+      "Government": 9.72,
+      "Infrastructure": 16.81,
+      "Capacity Building": 21.92
     },
     "pillars": {
       "Government": {
-        "value": 0.116005,
+        "value": 0.09719,
         "classification": "Early adopting",
         "coverage": 0.5,
         "availableIndicators": 1,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.23201,
-            "grade": 0.23201
+            "value": 0.19438,
+            "grade": 0.19438
           }
         ]
       },
       "Infrastructure": {
-        "value": 0.010032,
+        "value": 0.168143,
         "classification": "Early adopting",
-        "coverage": 0.4,
-        "availableIndicators": 2,
+        "coverage": 0.6,
+        "availableIndicators": 3,
         "totalIndicators": 5,
         "indicators": [
           {
             "source": "active-mobile-broadband-subscriptions.xlsx",
             "indicator": "active-mobile-broadband-subscriptions",
-            "year": 2024,
-            "value": 21.84474382,
-            "grade": 0.050161
+            "year": 2017,
+            "value": 0,
+            "grade": 0
           },
           {
             "source": "population-coverage-by-mobile-network-technology.xlsx",
@@ -23307,22 +23119,130 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
             "year": 2021,
             "value": 0,
             "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 33.05,
+            "grade": 0.840714
           }
         ]
       },
       "Capacity Building": {
-        "value": 0.234855,
+        "value": 0.21919,
         "classification": "Early adopting",
-        "coverage": 0.25,
-        "availableIndicators": 1,
+        "coverage": 0.5,
+        "availableIndicators": 2,
         "totalIndicators": 4,
         "indicators": [
           {
-            "source": "Percentage of graduates from STEM.xlsx",
-            "indicator": "Percentage of graduates from STEM",
-            "year": 2015,
-            "value": 0.4180296,
-            "grade": 0.93942
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2021,
+            "value": 54.63516881,
+            "grade": 0.52476
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2017,
+            "value": 35.20000076,
+            "grade": 0.352
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Government"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "TKM",
+    "name": "Turkmenistan",
+    "flag": "🇹🇲",
+    "region": "Asia",
+    "rank": 189,
+    "score": 15.73,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 53.3,
+    "dimensions": {
+      "Government": 12.53,
+      "Infrastructure": 11.2,
+      "Capacity Building": 22.38
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.12532,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 1,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.25064,
+            "grade": 0.25064
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.112033,
+        "classification": "Early adopting",
+        "coverage": 0.6,
+        "availableIndicators": 3,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 54.47462925,
+            "grade": 0.125087
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          },
+          {
+            "source": "mobile-broadband-data-and-voice-high-consumption-basket-total.xlsx",
+            "indicator": "mobile-broadband-data-and-voice-high-consumption-basket-total",
+            "year": 2025,
+            "value": 116.96,
+            "grade": 0.435077
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.223789,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 2,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "households-with-internet-access-at-home.xlsx",
+            "indicator": "households-with-internet-access-at-home",
+            "year": 2024,
+            "value": 72.81886721,
+            "grade": 0.715252
+          },
+          {
+            "source": "individuals-using-the-internet.xlsx",
+            "indicator": "individuals-using-the-internet",
+            "year": 2016,
+            "value": 17.99029922,
+            "grade": 0.179903
           }
         ]
       }
@@ -23340,30 +23260,30 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "name": "Somalia",
     "flag": "🇸🇴",
     "region": "Africa",
-    "rank": 191,
-    "score": 13.32,
+    "rank": 190,
+    "score": 15.45,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 85,
     "dimensions": {
-      "Government": 7.34,
+      "Government": 14.85,
       "Infrastructure": 22.22,
       "Capacity Building": 8.91
     },
     "pillars": {
       "Government": {
-        "value": 0.073385,
+        "value": 0.14855,
         "classification": "Early adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.14677,
-            "grade": 0.14677
+            "value": 0.2971,
+            "grade": 0.2971
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -23446,7 +23366,87 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Infrastructure"
     ],
     "weaknesses": [
-      "Government"
+      "Capacity Building"
+    ],
+    "trend3y": 0
+  },
+  {
+    "code": "PRK",
+    "name": "Democratic People's Republic of Korea",
+    "flag": "🇰🇵",
+    "region": "Asia",
+    "rank": 191,
+    "score": 12.7,
+    "classification": "Early adopting",
+    "yearlyChange": 0,
+    "dataCoverage": 38.3,
+    "dimensions": {
+      "Government": 1.45,
+      "Infrastructure": 1,
+      "Capacity Building": 23.49
+    },
+    "pillars": {
+      "Government": {
+        "value": 0.01454,
+        "classification": "Early adopting",
+        "coverage": 0.5,
+        "availableIndicators": 1,
+        "totalIndicators": 2,
+        "indicators": [
+          {
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
+            "year": 2024,
+            "value": 0.02908,
+            "grade": 0.02908
+          }
+        ]
+      },
+      "Infrastructure": {
+        "value": 0.010032,
+        "classification": "Early adopting",
+        "coverage": 0.4,
+        "availableIndicators": 2,
+        "totalIndicators": 5,
+        "indicators": [
+          {
+            "source": "active-mobile-broadband-subscriptions.xlsx",
+            "indicator": "active-mobile-broadband-subscriptions",
+            "year": 2024,
+            "value": 21.84474382,
+            "grade": 0.050161
+          },
+          {
+            "source": "population-coverage-by-mobile-network-technology.xlsx",
+            "indicator": "population-coverage-by-mobile-network-technology",
+            "year": 2021,
+            "value": 0,
+            "grade": 0
+          }
+        ]
+      },
+      "Capacity Building": {
+        "value": 0.234855,
+        "classification": "Early adopting",
+        "coverage": 0.25,
+        "availableIndicators": 1,
+        "totalIndicators": 4,
+        "indicators": [
+          {
+            "source": "Percentage of graduates from STEM.xlsx",
+            "indicator": "Percentage of graduates from STEM",
+            "year": 2015,
+            "value": 0.4180296,
+            "grade": 0.93942
+          }
+        ]
+      }
+    },
+    "strengths": [
+      "Capacity Building"
+    ],
+    "weaknesses": [
+      "Infrastructure"
     ],
     "trend3y": 0
   },
@@ -23456,29 +23456,29 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "flag": "🇸🇸",
     "region": "Africa",
     "rank": 192,
-    "score": 12.21,
+    "score": 12.61,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 76.7,
     "dimensions": {
-      "Government": 43.45,
+      "Government": 45.02,
       "Infrastructure": 0.47,
       "Capacity Building": 1.87
     },
     "pillars": {
       "Government": {
-        "value": 0.434535,
+        "value": 0.450205,
         "classification": "Adopting",
         "coverage": 1,
         "availableIndicators": 2,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.11907,
-            "grade": 0.11907
+            "value": 0.15041,
+            "grade": 0.15041
           },
           {
             "source": "Regulatory framework for infrastructure sharing.xlsx",
@@ -23564,29 +23564,29 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "flag": "🇪🇷",
     "region": "Africa",
     "rank": 193,
-    "score": 10.59,
+    "score": 7.7,
     "classification": "Early adopting",
     "yearlyChange": 0,
     "dataCoverage": 55,
     "dimensions": {
-      "Government": 7.88,
+      "Government": 0,
       "Infrastructure": 1.56,
       "Capacity Building": 28.56
     },
     "pillars": {
       "Government": {
-        "value": 0.07881,
+        "value": 0,
         "classification": "Early adopting",
         "coverage": 0.5,
         "availableIndicators": 1,
         "totalIndicators": 2,
         "indicators": [
           {
-            "source": "EGOV_DATA.xlsx",
-            "indicator": "EGOV_DATA",
+            "source": "Online Service Index.xlsx",
+            "indicator": "Online Service Index",
             "year": 2024,
-            "value": 0.15762,
-            "grade": 0.15762
+            "value": 0,
+            "grade": 0
           }
         ]
       },
@@ -23648,7 +23648,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Capacity Building"
     ],
     "weaknesses": [
-      "Infrastructure"
+      "Government"
     ],
     "trend3y": 0
   }
