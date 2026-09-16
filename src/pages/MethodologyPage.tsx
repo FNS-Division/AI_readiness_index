@@ -51,7 +51,7 @@ export default function MethodologyPage() {
             country&apos;s capacity to develop, adopt and govern artificial
             intelligence. The current version is built from indicators grouped
             into three pillars: Policy and governance, Infrastructure, and
-            Digital skills.
+            Capacity building.
           </p>
 
           <p className="mt-3 text-sm leading-relaxed text-slate-600">

@@ -14,7 +14,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 85.16,
       "Infrastructure": 60.8,
-      "Digital Skills": 78.75
+      "Capacity Building": 78.75
     },
     "pillars": {
       "Government": {
@@ -84,7 +84,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.787498,
         "classification": "Mature",
         "coverage": 1,
@@ -143,7 +143,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 83.47,
       "Infrastructure": 58.21,
-      "Digital Skills": 82.39
+      "Capacity Building": 82.39
     },
     "pillars": {
       "Government": {
@@ -213,7 +213,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.823939,
         "classification": "Mature",
         "coverage": 1,
@@ -272,7 +272,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 85.51,
       "Infrastructure": 63.49,
-      "Digital Skills": 71.39
+      "Capacity Building": 71.39
     },
     "pillars": {
       "Government": {
@@ -342,7 +342,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.713885,
         "classification": "Mature",
         "coverage": 1,
@@ -401,7 +401,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 86.74,
       "Infrastructure": 56.83,
-      "Digital Skills": 75.61
+      "Capacity Building": 75.61
     },
     "pillars": {
       "Government": {
@@ -471,7 +471,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.756094,
         "classification": "Mature",
         "coverage": 1,
@@ -530,7 +530,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 86.14,
       "Infrastructure": 60.23,
-      "Digital Skills": 68.14
+      "Capacity Building": 68.14
     },
     "pillars": {
       "Government": {
@@ -600,7 +600,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.681415,
         "classification": "Developing",
         "coverage": 1,
@@ -659,7 +659,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 85.19,
       "Infrastructure": 51.65,
-      "Digital Skills": 74.58
+      "Capacity Building": 74.58
     },
     "pillars": {
       "Government": {
@@ -729,7 +729,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.745816,
         "classification": "Mature",
         "coverage": 1,
@@ -788,7 +788,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 84.08,
       "Infrastructure": 53.56,
-      "Digital Skills": 71.76
+      "Capacity Building": 71.76
     },
     "pillars": {
       "Government": {
@@ -858,7 +858,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.717582,
         "classification": "Mature",
         "coverage": 1,
@@ -917,7 +917,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 78.06,
       "Infrastructure": 52.75,
-      "Digital Skills": 76.63
+      "Capacity Building": 76.63
     },
     "pillars": {
       "Government": {
@@ -987,7 +987,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.766307,
         "classification": "Mature",
         "coverage": 1,
@@ -1046,7 +1046,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 81.09,
       "Infrastructure": 51.8,
-      "Digital Skills": 69.47
+      "Capacity Building": 69.47
     },
     "pillars": {
       "Government": {
@@ -1116,7 +1116,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.6947,
         "classification": "Developing",
         "coverage": 0.75,
@@ -1168,7 +1168,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 79.28,
       "Infrastructure": 51.42,
-      "Digital Skills": 72.37
+      "Capacity Building": 72.37
     },
     "pillars": {
       "Government": {
@@ -1238,7 +1238,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.723652,
         "classification": "Mature",
         "coverage": 1,
@@ -1297,7 +1297,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 83.53,
       "Infrastructure": 48.42,
-      "Digital Skills": 71.03
+      "Capacity Building": 71.03
     },
     "pillars": {
       "Government": {
@@ -1367,7 +1367,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.710258,
         "classification": "Mature",
         "coverage": 1,
@@ -1426,7 +1426,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 78.72,
       "Infrastructure": 53.2,
-      "Digital Skills": 70.89
+      "Capacity Building": 70.89
     },
     "pillars": {
       "Government": {
@@ -1496,7 +1496,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.708864,
         "classification": "Mature",
         "coverage": 1,
@@ -1555,7 +1555,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 83.48,
       "Infrastructure": 60.36,
-      "Digital Skills": 58.76
+      "Capacity Building": 58.76
     },
     "pillars": {
       "Government": {
@@ -1625,7 +1625,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.587588,
         "classification": "Developing",
         "coverage": 1,
@@ -1667,7 +1667,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Government"
     ],
     "weaknesses": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -1684,7 +1684,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 80.74,
       "Infrastructure": 52.81,
-      "Digital Skills": 68.74
+      "Capacity Building": 68.74
     },
     "pillars": {
       "Government": {
@@ -1754,7 +1754,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.687414,
         "classification": "Developing",
         "coverage": 1,
@@ -1813,7 +1813,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 80.87,
       "Infrastructure": 52.11,
-      "Digital Skills": 69.29
+      "Capacity Building": 69.29
     },
     "pillars": {
       "Government": {
@@ -1883,7 +1883,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.692869,
         "classification": "Developing",
         "coverage": 1,
@@ -1942,7 +1942,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 84.26,
       "Infrastructure": 56.95,
-      "Digital Skills": 59.53
+      "Capacity Building": 59.53
     },
     "pillars": {
       "Government": {
@@ -2012,7 +2012,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.595296,
         "classification": "Developing",
         "coverage": 0.75,
@@ -2064,7 +2064,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 81.63,
       "Infrastructure": 51.26,
-      "Digital Skills": 68.91
+      "Capacity Building": 68.91
     },
     "pillars": {
       "Government": {
@@ -2134,7 +2134,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.689149,
         "classification": "Developing",
         "coverage": 1,
@@ -2193,7 +2193,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 83.05,
       "Infrastructure": 58.93,
-      "Digital Skills": 59.84
+      "Capacity Building": 59.84
     },
     "pillars": {
       "Government": {
@@ -2263,7 +2263,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.598404,
         "classification": "Developing",
         "coverage": 1,
@@ -2322,7 +2322,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 79.58,
       "Infrastructure": 49.55,
-      "Digital Skills": 72.29
+      "Capacity Building": 72.29
     },
     "pillars": {
       "Government": {
@@ -2392,7 +2392,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.722915,
         "classification": "Mature",
         "coverage": 1,
@@ -2451,7 +2451,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 78.7,
       "Infrastructure": 52.02,
-      "Digital Skills": 69.78
+      "Capacity Building": 69.78
     },
     "pillars": {
       "Government": {
@@ -2521,7 +2521,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.697796,
         "classification": "Developing",
         "coverage": 1,
@@ -2580,7 +2580,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 79.26,
       "Infrastructure": 54.25,
-      "Digital Skills": 66.36
+      "Capacity Building": 66.36
     },
     "pillars": {
       "Government": {
@@ -2650,7 +2650,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.663637,
         "classification": "Developing",
         "coverage": 1,
@@ -2709,7 +2709,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 81.93,
       "Infrastructure": 53.21,
-      "Digital Skills": 60.58
+      "Capacity Building": 60.58
     },
     "pillars": {
       "Government": {
@@ -2779,7 +2779,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.605843,
         "classification": "Developing",
         "coverage": 1,
@@ -2838,7 +2838,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 76.56,
       "Infrastructure": 69.55,
-      "Digital Skills": 50
+      "Capacity Building": 50
     },
     "pillars": {
       "Government": {
@@ -2908,7 +2908,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.5,
         "classification": "Adopting",
         "coverage": 0.75,
@@ -2943,7 +2943,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Government"
     ],
     "weaknesses": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -2960,7 +2960,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 81.59,
       "Infrastructure": 55.28,
-      "Digital Skills": 58.04
+      "Capacity Building": 58.04
     },
     "pillars": {
       "Government": {
@@ -3030,7 +3030,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.580406,
         "classification": "Developing",
         "coverage": 1,
@@ -3089,7 +3089,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 81.29,
       "Infrastructure": 51.2,
-      "Digital Skills": 61.45
+      "Capacity Building": 61.45
     },
     "pillars": {
       "Government": {
@@ -3159,7 +3159,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.614529,
         "classification": "Developing",
         "coverage": 1,
@@ -3218,7 +3218,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 78.11,
       "Infrastructure": 49.47,
-      "Digital Skills": 66.25
+      "Capacity Building": 66.25
     },
     "pillars": {
       "Government": {
@@ -3288,7 +3288,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.662458,
         "classification": "Developing",
         "coverage": 1,
@@ -3347,7 +3347,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 77.72,
       "Infrastructure": 50.3,
-      "Digital Skills": 65.21
+      "Capacity Building": 65.21
     },
     "pillars": {
       "Government": {
@@ -3417,7 +3417,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.652113,
         "classification": "Developing",
         "coverage": 1,
@@ -3476,7 +3476,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 83.83,
       "Infrastructure": 38.53,
-      "Digital Skills": 70.18
+      "Capacity Building": 70.18
     },
     "pillars": {
       "Government": {
@@ -3546,7 +3546,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.701849,
         "classification": "Mature",
         "coverage": 1,
@@ -3605,7 +3605,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 80.59,
       "Infrastructure": 53.53,
-      "Digital Skills": 57.7
+      "Capacity Building": 57.7
     },
     "pillars": {
       "Government": {
@@ -3675,7 +3675,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.577005,
         "classification": "Developing",
         "coverage": 1,
@@ -3734,7 +3734,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 80.14,
       "Infrastructure": 48.74,
-      "Digital Skills": 60.14
+      "Capacity Building": 60.14
     },
     "pillars": {
       "Government": {
@@ -3804,7 +3804,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.60136,
         "classification": "Developing",
         "coverage": 1,
@@ -3863,7 +3863,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 78.23,
       "Infrastructure": 50.72,
-      "Digital Skills": 59.86
+      "Capacity Building": 59.86
     },
     "pillars": {
       "Government": {
@@ -3933,7 +3933,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.598571,
         "classification": "Developing",
         "coverage": 1,
@@ -3992,7 +3992,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 47.87,
       "Infrastructure": 65.05,
-      "Digital Skills": 73.91
+      "Capacity Building": 73.91
     },
     "pillars": {
       "Government": {
@@ -4062,7 +4062,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.739087,
         "classification": "Mature",
         "coverage": 1,
@@ -4101,7 +4101,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -4121,7 +4121,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 48.39,
       "Infrastructure": 53.07,
-      "Digital Skills": 83.73
+      "Capacity Building": 83.73
     },
     "pillars": {
       "Government": {
@@ -4191,7 +4191,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.837326,
         "classification": "Mature",
         "coverage": 1,
@@ -4230,7 +4230,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -4250,7 +4250,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 79.51,
       "Infrastructure": 39.13,
-      "Digital Skills": 64.47
+      "Capacity Building": 64.47
     },
     "pillars": {
       "Government": {
@@ -4320,7 +4320,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.644672,
         "classification": "Developing",
         "coverage": 1,
@@ -4379,7 +4379,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 48.46,
       "Infrastructure": 51.32,
-      "Digital Skills": 83.18
+      "Capacity Building": 83.18
     },
     "pillars": {
       "Government": {
@@ -4449,7 +4449,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.831819,
         "classification": "Mature",
         "coverage": 1,
@@ -4488,7 +4488,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -4508,7 +4508,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 72.85,
       "Infrastructure": 50.46,
-      "Digital Skills": 59.21
+      "Capacity Building": 59.21
     },
     "pillars": {
       "Government": {
@@ -4578,7 +4578,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.592123,
         "classification": "Developing",
         "coverage": 1,
@@ -4637,7 +4637,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 45.33,
       "Infrastructure": 58.74,
-      "Digital Skills": 77.23
+      "Capacity Building": 77.23
     },
     "pillars": {
       "Government": {
@@ -4707,7 +4707,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.772347,
         "classification": "Mature",
         "coverage": 1,
@@ -4746,7 +4746,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -4766,7 +4766,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 46.91,
       "Infrastructure": 48.66,
-      "Digital Skills": 85.44
+      "Capacity Building": 85.44
     },
     "pillars": {
       "Government": {
@@ -4836,7 +4836,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.854392,
         "classification": "Mature",
         "coverage": 1,
@@ -4875,7 +4875,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -4895,7 +4895,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 73.56,
       "Infrastructure": 52.64,
-      "Digital Skills": 54.65
+      "Capacity Building": 54.65
     },
     "pillars": {
       "Government": {
@@ -4965,7 +4965,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.546534,
         "classification": "Adopting",
         "coverage": 1,
@@ -5024,7 +5024,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 82.07,
       "Infrastructure": 30.84,
-      "Digital Skills": 67.45
+      "Capacity Building": 67.45
     },
     "pillars": {
       "Government": {
@@ -5094,7 +5094,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.674498,
         "classification": "Developing",
         "coverage": 1,
@@ -5153,7 +5153,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 77.5,
       "Infrastructure": 35.06,
-      "Digital Skills": 65.93
+      "Capacity Building": 65.93
     },
     "pillars": {
       "Government": {
@@ -5223,7 +5223,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.659287,
         "classification": "Developing",
         "coverage": 1,
@@ -5282,7 +5282,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 80.37,
       "Infrastructure": 44.28,
-      "Digital Skills": 52.49
+      "Capacity Building": 52.49
     },
     "pillars": {
       "Government": {
@@ -5352,7 +5352,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.524877,
         "classification": "Adopting",
         "coverage": 0.75,
@@ -5404,7 +5404,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 47.89,
       "Infrastructure": 47.64,
-      "Digital Skills": 82.82
+      "Capacity Building": 82.82
     },
     "pillars": {
       "Government": {
@@ -5474,7 +5474,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.828232,
         "classification": "Mature",
         "coverage": 1,
@@ -5513,7 +5513,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -5533,7 +5533,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 45.02,
       "Infrastructure": 55.82,
-      "Digital Skills": 76.98
+      "Capacity Building": 76.98
     },
     "pillars": {
       "Government": {
@@ -5603,7 +5603,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.769808,
         "classification": "Mature",
         "coverage": 1,
@@ -5642,7 +5642,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -5662,7 +5662,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 46.63,
       "Infrastructure": 57.37,
-      "Digital Skills": 72.72
+      "Capacity Building": 72.72
     },
     "pillars": {
       "Government": {
@@ -5732,7 +5732,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.727232,
         "classification": "Mature",
         "coverage": 1,
@@ -5771,7 +5771,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -5791,7 +5791,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 75.68,
       "Infrastructure": 38.17,
-      "Digital Skills": 62.57
+      "Capacity Building": 62.57
     },
     "pillars": {
       "Government": {
@@ -5861,7 +5861,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.625674,
         "classification": "Developing",
         "coverage": 1,
@@ -5920,7 +5920,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 76.05,
       "Infrastructure": 33.73,
-      "Digital Skills": 65.28
+      "Capacity Building": 65.28
     },
     "pillars": {
       "Government": {
@@ -5990,7 +5990,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.652829,
         "classification": "Developing",
         "coverage": 1,
@@ -6049,7 +6049,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 71.37,
       "Infrastructure": 52.25,
-      "Digital Skills": 51.36
+      "Capacity Building": 51.36
     },
     "pillars": {
       "Government": {
@@ -6119,7 +6119,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.513552,
         "classification": "Adopting",
         "coverage": 1,
@@ -6161,7 +6161,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Government"
     ],
     "weaknesses": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -6178,7 +6178,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 47.89,
       "Infrastructure": 50.76,
-      "Digital Skills": 76.22
+      "Capacity Building": 76.22
     },
     "pillars": {
       "Government": {
@@ -6248,7 +6248,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.76216,
         "classification": "Mature",
         "coverage": 1,
@@ -6287,7 +6287,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -6307,7 +6307,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 70.32,
       "Infrastructure": 32.38,
-      "Digital Skills": 71.67
+      "Capacity Building": 71.67
     },
     "pillars": {
       "Government": {
@@ -6377,7 +6377,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.716698,
         "classification": "Mature",
         "coverage": 1,
@@ -6416,7 +6416,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -6436,7 +6436,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 45.69,
       "Infrastructure": 52.71,
-      "Digital Skills": 73.01
+      "Capacity Building": 73.01
     },
     "pillars": {
       "Government": {
@@ -6506,7 +6506,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.730072,
         "classification": "Mature",
         "coverage": 1,
@@ -6545,7 +6545,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -6565,7 +6565,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 42.26,
       "Infrastructure": 48.21,
-      "Digital Skills": 78.6
+      "Capacity Building": 78.6
     },
     "pillars": {
       "Government": {
@@ -6635,7 +6635,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.786042,
         "classification": "Mature",
         "coverage": 1,
@@ -6674,7 +6674,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -6694,7 +6694,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 76.75,
       "Infrastructure": 37.89,
-      "Digital Skills": 53.05
+      "Capacity Building": 53.05
     },
     "pillars": {
       "Government": {
@@ -6764,7 +6764,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.530476,
         "classification": "Adopting",
         "coverage": 1,
@@ -6823,7 +6823,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 77.5,
       "Infrastructure": 33.64,
-      "Digital Skills": 56.28
+      "Capacity Building": 56.28
     },
     "pillars": {
       "Government": {
@@ -6893,7 +6893,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.562792,
         "classification": "Developing",
         "coverage": 1,
@@ -6952,7 +6952,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 43.72,
       "Infrastructure": 50.78,
-      "Digital Skills": 71.96
+      "Capacity Building": 71.96
     },
     "pillars": {
       "Government": {
@@ -7022,7 +7022,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.719579,
         "classification": "Mature",
         "coverage": 1,
@@ -7061,7 +7061,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -7081,7 +7081,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 79.61,
       "Infrastructure": 32.3,
-      "Digital Skills": 53.17
+      "Capacity Building": 53.17
     },
     "pillars": {
       "Government": {
@@ -7151,7 +7151,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.531722,
         "classification": "Adopting",
         "coverage": 1,
@@ -7210,7 +7210,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 76.46,
       "Infrastructure": 30.72,
-      "Digital Skills": 57.53
+      "Capacity Building": 57.53
     },
     "pillars": {
       "Government": {
@@ -7280,7 +7280,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.575332,
         "classification": "Developing",
         "coverage": 1,
@@ -7339,7 +7339,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 48.35,
       "Infrastructure": 56.41,
-      "Digital Skills": 59.55
+      "Capacity Building": 59.55
     },
     "pillars": {
       "Government": {
@@ -7409,7 +7409,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.595498,
         "classification": "Developing",
         "coverage": 1,
@@ -7448,7 +7448,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -7468,7 +7468,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 77.85,
       "Infrastructure": 35.69,
-      "Digital Skills": 50.5
+      "Capacity Building": 50.5
     },
     "pillars": {
       "Government": {
@@ -7538,7 +7538,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.505002,
         "classification": "Adopting",
         "coverage": 1,
@@ -7597,7 +7597,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 44.26,
       "Infrastructure": 61.11,
-      "Digital Skills": 57.79
+      "Capacity Building": 57.79
     },
     "pillars": {
       "Government": {
@@ -7667,7 +7667,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.577912,
         "classification": "Developing",
         "coverage": 1,
@@ -7726,7 +7726,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 75.54,
       "Infrastructure": 27.89,
-      "Digital Skills": 59.69
+      "Capacity Building": 59.69
     },
     "pillars": {
       "Government": {
@@ -7796,7 +7796,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.596898,
         "classification": "Developing",
         "coverage": 1,
@@ -7855,7 +7855,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 42.88,
       "Infrastructure": 46.89,
-      "Digital Skills": 73.28
+      "Capacity Building": 73.28
     },
     "pillars": {
       "Government": {
@@ -7925,7 +7925,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.732826,
         "classification": "Mature",
         "coverage": 1,
@@ -7964,7 +7964,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -7984,7 +7984,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 71.71,
       "Infrastructure": 28.82,
-      "Digital Skills": 61.57
+      "Capacity Building": 61.57
     },
     "pillars": {
       "Government": {
@@ -8054,7 +8054,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.615727,
         "classification": "Developing",
         "coverage": 1,
@@ -8113,7 +8113,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 77.46,
       "Infrastructure": 29.78,
-      "Digital Skills": 54.78
+      "Capacity Building": 54.78
     },
     "pillars": {
       "Government": {
@@ -8183,7 +8183,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.547839,
         "classification": "Adopting",
         "coverage": 1,
@@ -8242,7 +8242,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 74.08,
       "Infrastructure": 31.48,
-      "Digital Skills": 55.76
+      "Capacity Building": 55.76
     },
     "pillars": {
       "Government": {
@@ -8312,7 +8312,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.557646,
         "classification": "Developing",
         "coverage": 1,
@@ -8371,7 +8371,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 70.06,
       "Infrastructure": 44.67,
-      "Digital Skills": 45.76
+      "Capacity Building": 45.76
     },
     "pillars": {
       "Government": {
@@ -8441,7 +8441,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.457565,
         "classification": "Adopting",
         "coverage": 0.75,
@@ -8493,7 +8493,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 72.56,
       "Infrastructure": 44.85,
-      "Digital Skills": 43.32
+      "Capacity Building": 43.32
     },
     "pillars": {
       "Government": {
@@ -8563,7 +8563,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.433245,
         "classification": "Adopting",
         "coverage": 1,
@@ -8605,7 +8605,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Government"
     ],
     "weaknesses": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -8622,7 +8622,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 71.23,
       "Infrastructure": 41.13,
-      "Digital Skills": 47.2
+      "Capacity Building": 47.2
     },
     "pillars": {
       "Government": {
@@ -8692,7 +8692,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.472047,
         "classification": "Adopting",
         "coverage": 1,
@@ -8751,7 +8751,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 42.33,
       "Infrastructure": 50.18,
-      "Digital Skills": 66.1
+      "Capacity Building": 66.1
     },
     "pillars": {
       "Government": {
@@ -8821,7 +8821,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.660978,
         "classification": "Developing",
         "coverage": 1,
@@ -8860,7 +8860,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -8880,7 +8880,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 72.17,
       "Infrastructure": 26.59,
-      "Digital Skills": 59.76
+      "Capacity Building": 59.76
     },
     "pillars": {
       "Government": {
@@ -8950,7 +8950,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.597573,
         "classification": "Developing",
         "coverage": 1,
@@ -9009,7 +9009,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 37.77,
       "Infrastructure": 50.62,
-      "Digital Skills": 70.08
+      "Capacity Building": 70.08
     },
     "pillars": {
       "Government": {
@@ -9079,7 +9079,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.700821,
         "classification": "Mature",
         "coverage": 1,
@@ -9118,7 +9118,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -9138,7 +9138,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 81.7,
       "Infrastructure": 25.44,
-      "Digital Skills": 56.05
+      "Capacity Building": 56.05
     },
     "pillars": {
       "Government": {
@@ -9201,7 +9201,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.560469,
         "classification": "Developing",
         "coverage": 1,
@@ -9260,7 +9260,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 67.28,
       "Infrastructure": 29.13,
-      "Digital Skills": 61.59
+      "Capacity Building": 61.59
     },
     "pillars": {
       "Government": {
@@ -9330,7 +9330,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.615897,
         "classification": "Developing",
         "coverage": 1,
@@ -9389,7 +9389,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 77.54,
       "Infrastructure": 28.59,
-      "Digital Skills": 50.33
+      "Capacity Building": 50.33
     },
     "pillars": {
       "Government": {
@@ -9459,7 +9459,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.503283,
         "classification": "Adopting",
         "coverage": 1,
@@ -9518,7 +9518,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 76.1,
       "Infrastructure": 28.48,
-      "Digital Skills": 51.46
+      "Capacity Building": 51.46
     },
     "pillars": {
       "Government": {
@@ -9588,7 +9588,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.514607,
         "classification": "Adopting",
         "coverage": 1,
@@ -9647,7 +9647,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 76.47,
       "Infrastructure": 28.11,
-      "Digital Skills": 50.95
+      "Capacity Building": 50.95
     },
     "pillars": {
       "Government": {
@@ -9717,7 +9717,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.509537,
         "classification": "Adopting",
         "coverage": 1,
@@ -9776,7 +9776,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 70.89,
       "Infrastructure": 27.23,
-      "Digital Skills": 56.98
+      "Capacity Building": 56.98
     },
     "pillars": {
       "Government": {
@@ -9839,7 +9839,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.569837,
         "classification": "Developing",
         "coverage": 0.75,
@@ -9891,7 +9891,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 69.15,
       "Infrastructure": 28.5,
-      "Digital Skills": 55.6
+      "Capacity Building": 55.6
     },
     "pillars": {
       "Government": {
@@ -9961,7 +9961,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.556007,
         "classification": "Developing",
         "coverage": 1,
@@ -10020,7 +10020,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 40.11,
       "Infrastructure": 48.92,
-      "Digital Skills": 62.86
+      "Capacity Building": 62.86
     },
     "pillars": {
       "Government": {
@@ -10090,7 +10090,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.628612,
         "classification": "Developing",
         "coverage": 1,
@@ -10129,7 +10129,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -10149,7 +10149,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 73.22,
       "Infrastructure": 30.41,
-      "Digital Skills": 46.32
+      "Capacity Building": 46.32
     },
     "pillars": {
       "Government": {
@@ -10219,7 +10219,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.463213,
         "classification": "Adopting",
         "coverage": 0.75,
@@ -10271,7 +10271,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 45.05,
       "Infrastructure": 44.64,
-      "Digital Skills": 61.47
+      "Capacity Building": 61.47
     },
     "pillars": {
       "Government": {
@@ -10341,7 +10341,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.614705,
         "classification": "Developing",
         "coverage": 1,
@@ -10380,7 +10380,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -10400,7 +10400,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 45.07,
       "Infrastructure": 39.23,
-      "Digital Skills": 59.74
+      "Capacity Building": 59.74
     },
     "pillars": {
       "Government": {
@@ -10470,7 +10470,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.597383,
         "classification": "Developing",
         "coverage": 0.75,
@@ -10502,7 +10502,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -10522,7 +10522,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 76.5,
       "Infrastructure": 27.6,
-      "Digital Skills": 44.28
+      "Capacity Building": 44.28
     },
     "pillars": {
       "Government": {
@@ -10592,7 +10592,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.442793,
         "classification": "Adopting",
         "coverage": 1,
@@ -10651,7 +10651,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 42.66,
       "Infrastructure": 35.39,
-      "Digital Skills": 69.9
+      "Capacity Building": 69.9
     },
     "pillars": {
       "Government": {
@@ -10721,7 +10721,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.698955,
         "classification": "Developing",
         "coverage": 1,
@@ -10760,7 +10760,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -10780,7 +10780,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 72.36,
       "Infrastructure": 32.54,
-      "Digital Skills": 41.29
+      "Capacity Building": 41.29
     },
     "pillars": {
       "Government": {
@@ -10850,7 +10850,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.412893,
         "classification": "Adopting",
         "coverage": 0.75,
@@ -10902,7 +10902,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 73.99,
       "Infrastructure": 27.09,
-      "Digital Skills": 46.62
+      "Capacity Building": 46.62
     },
     "pillars": {
       "Government": {
@@ -10965,7 +10965,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.466186,
         "classification": "Adopting",
         "coverage": 1,
@@ -11024,7 +11024,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 35.87,
       "Infrastructure": 55.29,
-      "Digital Skills": 49.51
+      "Capacity Building": 49.51
     },
     "pillars": {
       "Government": {
@@ -11094,7 +11094,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.495056,
         "classification": "Adopting",
         "coverage": 0.75,
@@ -11146,7 +11146,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 32.75,
       "Infrastructure": 51.02,
-      "Digital Skills": 56.36
+      "Capacity Building": 56.36
     },
     "pillars": {
       "Government": {
@@ -11209,7 +11209,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.563618,
         "classification": "Developing",
         "coverage": 1,
@@ -11248,7 +11248,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -11268,7 +11268,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 71,
       "Infrastructure": 26.68,
-      "Digital Skills": 43.59
+      "Capacity Building": 43.59
     },
     "pillars": {
       "Government": {
@@ -11338,7 +11338,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.435856,
         "classification": "Adopting",
         "coverage": 1,
@@ -11397,7 +11397,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 66.88,
       "Infrastructure": 34.72,
-      "Digital Skills": 38.98
+      "Capacity Building": 38.98
     },
     "pillars": {
       "Government": {
@@ -11467,7 +11467,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.389767,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -11519,7 +11519,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 43.08,
       "Infrastructure": 39.84,
-      "Digital Skills": 56.89
+      "Capacity Building": 56.89
     },
     "pillars": {
       "Government": {
@@ -11589,7 +11589,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.56889,
         "classification": "Developing",
         "coverage": 1,
@@ -11628,7 +11628,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -11648,7 +11648,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 66.27,
       "Infrastructure": 25.82,
-      "Digital Skills": 47.35
+      "Capacity Building": 47.35
     },
     "pillars": {
       "Government": {
@@ -11718,7 +11718,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.473536,
         "classification": "Adopting",
         "coverage": 1,
@@ -11777,7 +11777,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 34.25,
       "Infrastructure": 39.31,
-      "Digital Skills": 64.91
+      "Capacity Building": 64.91
     },
     "pillars": {
       "Government": {
@@ -11847,7 +11847,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.649101,
         "classification": "Developing",
         "coverage": 1,
@@ -11886,7 +11886,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -11906,7 +11906,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 45.03,
       "Infrastructure": 36.56,
-      "Digital Skills": 56.29
+      "Capacity Building": 56.29
     },
     "pillars": {
       "Government": {
@@ -11976,7 +11976,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.562927,
         "classification": "Developing",
         "coverage": 1,
@@ -12015,7 +12015,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -12035,7 +12035,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 69.08,
       "Infrastructure": 23.15,
-      "Digital Skills": 45.33
+      "Capacity Building": 45.33
     },
     "pillars": {
       "Government": {
@@ -12105,7 +12105,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.453349,
         "classification": "Adopting",
         "coverage": 1,
@@ -12164,7 +12164,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 34.47,
       "Infrastructure": 47.97,
-      "Digital Skills": 54.76
+      "Capacity Building": 54.76
     },
     "pillars": {
       "Government": {
@@ -12234,7 +12234,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.547561,
         "classification": "Adopting",
         "coverage": 1,
@@ -12273,7 +12273,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -12293,7 +12293,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 70.35,
       "Infrastructure": 27.41,
-      "Digital Skills": 38.81
+      "Capacity Building": 38.81
     },
     "pillars": {
       "Government": {
@@ -12363,7 +12363,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.388145,
         "classification": "Early adopting",
         "coverage": 1,
@@ -12422,7 +12422,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 71.58,
       "Infrastructure": 27.31,
-      "Digital Skills": 36.8
+      "Capacity Building": 36.8
     },
     "pillars": {
       "Government": {
@@ -12492,7 +12492,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.367958,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -12544,7 +12544,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 43.09,
       "Infrastructure": 32.23,
-      "Digital Skills": 59.93
+      "Capacity Building": 59.93
     },
     "pillars": {
       "Government": {
@@ -12614,7 +12614,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.599317,
         "classification": "Developing",
         "coverage": 1,
@@ -12653,7 +12653,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -12673,7 +12673,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 37.22,
       "Infrastructure": 31.46,
-      "Digital Skills": 65.68
+      "Capacity Building": 65.68
     },
     "pillars": {
       "Government": {
@@ -12743,7 +12743,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.656812,
         "classification": "Developing",
         "coverage": 1,
@@ -12782,7 +12782,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -12802,7 +12802,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 37.53,
       "Infrastructure": 45.66,
-      "Digital Skills": 50.63
+      "Capacity Building": 50.63
     },
     "pillars": {
       "Government": {
@@ -12872,7 +12872,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.506311,
         "classification": "Adopting",
         "coverage": 1,
@@ -12911,7 +12911,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -12931,7 +12931,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 60.36,
       "Infrastructure": 27.16,
-      "Digital Skills": 42.04
+      "Capacity Building": 42.04
     },
     "pillars": {
       "Government": {
@@ -13001,7 +13001,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.420359,
         "classification": "Adopting",
         "coverage": 0.75,
@@ -13053,7 +13053,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 67.54,
       "Infrastructure": 22.99,
-      "Digital Skills": 40.24
+      "Capacity Building": 40.24
     },
     "pillars": {
       "Government": {
@@ -13123,7 +13123,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.402429,
         "classification": "Adopting",
         "coverage": 1,
@@ -13182,7 +13182,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 67.91,
       "Infrastructure": 30.34,
-      "Digital Skills": 33.12
+      "Capacity Building": 33.12
     },
     "pillars": {
       "Government": {
@@ -13252,7 +13252,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.331181,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -13304,7 +13304,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 63.77,
       "Infrastructure": 29.83,
-      "Digital Skills": 36.43
+      "Capacity Building": 36.43
     },
     "pillars": {
       "Government": {
@@ -13374,7 +13374,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.364308,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -13426,7 +13426,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 42.28,
       "Infrastructure": 31.1,
-      "Digital Skills": 56.17
+      "Capacity Building": 56.17
     },
     "pillars": {
       "Government": {
@@ -13496,7 +13496,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.561681,
         "classification": "Developing",
         "coverage": 1,
@@ -13535,7 +13535,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -13555,7 +13555,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 66.2,
       "Infrastructure": 24.69,
-      "Digital Skills": 35.6
+      "Capacity Building": 35.6
     },
     "pillars": {
       "Government": {
@@ -13625,7 +13625,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.355999,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -13677,7 +13677,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 59.9,
       "Infrastructure": 21.6,
-      "Digital Skills": 44.47
+      "Capacity Building": 44.47
     },
     "pillars": {
       "Government": {
@@ -13747,7 +13747,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.44466,
         "classification": "Adopting",
         "coverage": 1,
@@ -13806,7 +13806,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 58.11,
       "Infrastructure": 33.03,
-      "Digital Skills": 33.75
+      "Capacity Building": 33.75
     },
     "pillars": {
       "Government": {
@@ -13876,7 +13876,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.337514,
         "classification": "Early adopting",
         "coverage": 1,
@@ -13935,7 +13935,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 38.11,
       "Infrastructure": 38.45,
-      "Digital Skills": 47.91
+      "Capacity Building": 47.91
     },
     "pillars": {
       "Government": {
@@ -14005,7 +14005,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.479073,
         "classification": "Adopting",
         "coverage": 1,
@@ -14044,7 +14044,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -14064,7 +14064,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 64.73,
       "Infrastructure": 11.4,
-      "Digital Skills": 40.81
+      "Capacity Building": 40.81
     },
     "pillars": {
       "Government": {
@@ -14127,7 +14127,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.408098,
         "classification": "Adopting",
         "coverage": 0.5,
@@ -14172,7 +14172,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 62.98,
       "Infrastructure": 20.14,
-      "Digital Skills": 38.09
+      "Capacity Building": 38.09
     },
     "pillars": {
       "Government": {
@@ -14242,7 +14242,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.380928,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -14294,7 +14294,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 69.79,
       "Infrastructure": 10.56,
-      "Digital Skills": 45.14
+      "Capacity Building": 45.14
     },
     "pillars": {
       "Government": {
@@ -14357,7 +14357,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.451364,
         "classification": "Adopting",
         "coverage": 0.75,
@@ -14409,7 +14409,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 70.75,
       "Infrastructure": 11.08,
-      "Digital Skills": 36.74
+      "Capacity Building": 36.74
     },
     "pillars": {
       "Government": {
@@ -14472,7 +14472,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.367372,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -14517,7 +14517,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 54.96,
       "Infrastructure": 18.84,
-      "Digital Skills": 42.58
+      "Capacity Building": 42.58
     },
     "pillars": {
       "Government": {
@@ -14587,7 +14587,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.425775,
         "classification": "Adopting",
         "coverage": 1,
@@ -14646,7 +14646,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 64.75,
       "Infrastructure": 7.67,
-      "Digital Skills": 38.34
+      "Capacity Building": 38.34
     },
     "pillars": {
       "Government": {
@@ -14709,7 +14709,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.383389,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -14754,7 +14754,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 65.43,
       "Infrastructure": 21.37,
-      "Digital Skills": 28.84
+      "Capacity Building": 28.84
     },
     "pillars": {
       "Government": {
@@ -14824,7 +14824,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.28845,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -14876,7 +14876,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 61.86,
       "Infrastructure": 5.76,
-      "Digital Skills": 49.18
+      "Capacity Building": 49.18
     },
     "pillars": {
       "Government": {
@@ -14939,7 +14939,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.491783,
         "classification": "Adopting",
         "coverage": 0.75,
@@ -14991,7 +14991,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 63.31,
       "Infrastructure": 18.75,
-      "Digital Skills": 31.12
+      "Capacity Building": 31.12
     },
     "pillars": {
       "Government": {
@@ -15061,7 +15061,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.311213,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -15113,7 +15113,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 33.39,
       "Infrastructure": 30.92,
-      "Digital Skills": 44.03
+      "Capacity Building": 44.03
     },
     "pillars": {
       "Government": {
@@ -15183,7 +15183,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.440286,
         "classification": "Adopting",
         "coverage": 0.75,
@@ -15215,7 +15215,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -15235,7 +15235,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 56.94,
       "Infrastructure": 23.89,
-      "Digital Skills": 31.94
+      "Capacity Building": 31.94
     },
     "pillars": {
       "Government": {
@@ -15305,7 +15305,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.31942,
         "classification": "Early adopting",
         "coverage": 1,
@@ -15364,7 +15364,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 59.14,
       "Infrastructure": 28.09,
-      "Digital Skills": 24.55
+      "Capacity Building": 24.55
     },
     "pillars": {
       "Government": {
@@ -15434,7 +15434,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.245495,
         "classification": "Early adopting",
         "coverage": 1,
@@ -15476,7 +15476,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Government"
     ],
     "weaknesses": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -15493,7 +15493,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 31.83,
       "Infrastructure": 33.31,
-      "Digital Skills": 41.9
+      "Capacity Building": 41.9
     },
     "pillars": {
       "Government": {
@@ -15563,7 +15563,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.418997,
         "classification": "Adopting",
         "coverage": 0.75,
@@ -15595,7 +15595,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -15615,7 +15615,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 62,
       "Infrastructure": 17.26,
-      "Digital Skills": 31.51
+      "Capacity Building": 31.51
     },
     "pillars": {
       "Government": {
@@ -15685,7 +15685,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.315051,
         "classification": "Early adopting",
         "coverage": 1,
@@ -15744,7 +15744,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 33.77,
       "Infrastructure": 23.13,
-      "Digital Skills": 39.22
+      "Capacity Building": 39.22
     },
     "pillars": {
       "Government": {
@@ -15807,7 +15807,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.392217,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -15832,7 +15832,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -15852,7 +15852,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 58.24,
       "Infrastructure": 17.09,
-      "Digital Skills": 30.3
+      "Capacity Building": 30.3
     },
     "pillars": {
       "Government": {
@@ -15922,7 +15922,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.30303,
         "classification": "Early adopting",
         "coverage": 1,
@@ -15981,7 +15981,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 31.53,
       "Infrastructure": 30.08,
-      "Digital Skills": 39.79
+      "Capacity Building": 39.79
     },
     "pillars": {
       "Government": {
@@ -16037,7 +16037,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.397921,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -16069,7 +16069,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -16089,7 +16089,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 60.39,
       "Infrastructure": 15.22,
-      "Digital Skills": 29.11
+      "Capacity Building": 29.11
     },
     "pillars": {
       "Government": {
@@ -16159,7 +16159,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.291052,
         "classification": "Early adopting",
         "coverage": 1,
@@ -16218,7 +16218,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 64.72,
       "Infrastructure": 7.34,
-      "Digital Skills": 41.77
+      "Capacity Building": 41.77
     },
     "pillars": {
       "Government": {
@@ -16274,7 +16274,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.417692,
         "classification": "Adopting",
         "coverage": 0.75,
@@ -16326,7 +16326,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 31.19,
       "Infrastructure": 26.57,
-      "Digital Skills": 45.88
+      "Capacity Building": 45.88
     },
     "pillars": {
       "Government": {
@@ -16396,7 +16396,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.458758,
         "classification": "Adopting",
         "coverage": 1,
@@ -16435,7 +16435,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -16455,7 +16455,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 54.46,
       "Infrastructure": 14.74,
-      "Digital Skills": 33.77
+      "Capacity Building": 33.77
     },
     "pillars": {
       "Government": {
@@ -16525,7 +16525,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.337742,
         "classification": "Early adopting",
         "coverage": 1,
@@ -16584,7 +16584,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 57.1,
       "Infrastructure": 27.79,
-      "Digital Skills": 20.09
+      "Capacity Building": 20.09
     },
     "pillars": {
       "Government": {
@@ -16654,7 +16654,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.200888,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -16689,7 +16689,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Government"
     ],
     "weaknesses": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -16706,7 +16706,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 30.59,
       "Infrastructure": 38.54,
-      "Digital Skills": 31.23
+      "Capacity Building": 31.23
     },
     "pillars": {
       "Government": {
@@ -16776,7 +16776,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.312269,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -16828,7 +16828,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 33.33,
       "Infrastructure": 28.34,
-      "Digital Skills": 36.78
+      "Capacity Building": 36.78
     },
     "pillars": {
       "Government": {
@@ -16898,7 +16898,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.36784,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -16930,7 +16930,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -16950,7 +16950,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 36.25,
       "Infrastructure": 25.02,
-      "Digital Skills": 35.91
+      "Capacity Building": 35.91
     },
     "pillars": {
       "Government": {
@@ -17020,7 +17020,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.359116,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -17072,7 +17072,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 64.3,
       "Infrastructure": 5.75,
-      "Digital Skills": 34.62
+      "Capacity Building": 34.62
     },
     "pillars": {
       "Government": {
@@ -17135,7 +17135,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.346199,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -17187,7 +17187,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 66.5,
       "Infrastructure": 6.73,
-      "Digital Skills": 25.81
+      "Capacity Building": 25.81
     },
     "pillars": {
       "Government": {
@@ -17257,7 +17257,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.258145,
         "classification": "Early adopting",
         "coverage": 1,
@@ -17316,7 +17316,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 62.11,
       "Infrastructure": 10.92,
-      "Digital Skills": 29.99
+      "Capacity Building": 29.99
     },
     "pillars": {
       "Government": {
@@ -17379,7 +17379,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.299939,
         "classification": "Early adopting",
         "coverage": 1,
@@ -17438,7 +17438,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 58.97,
       "Infrastructure": 17.72,
-      "Digital Skills": 23.21
+      "Capacity Building": 23.21
     },
     "pillars": {
       "Government": {
@@ -17508,7 +17508,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.232141,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -17560,7 +17560,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 22.02,
       "Infrastructure": 26.23,
-      "Digital Skills": 46.21
+      "Capacity Building": 46.21
     },
     "pillars": {
       "Government": {
@@ -17623,7 +17623,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.462141,
         "classification": "Adopting",
         "coverage": 1,
@@ -17662,7 +17662,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -17682,7 +17682,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 27.33,
       "Infrastructure": 26.91,
-      "Digital Skills": 39.48
+      "Capacity Building": 39.48
     },
     "pillars": {
       "Government": {
@@ -17745,7 +17745,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.394814,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -17777,7 +17777,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -17797,7 +17797,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 25,
       "Infrastructure": 25.17,
-      "Digital Skills": 44.62
+      "Capacity Building": 44.62
     },
     "pillars": {
       "Government": {
@@ -17867,7 +17867,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.446153,
         "classification": "Adopting",
         "coverage": 1,
@@ -17906,7 +17906,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -17926,7 +17926,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 50.26,
       "Infrastructure": 19.12,
-      "Digital Skills": 24.04
+      "Capacity Building": 24.04
     },
     "pillars": {
       "Government": {
@@ -17989,7 +17989,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.240436,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -18034,7 +18034,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 63.32,
       "Infrastructure": 4.8,
-      "Digital Skills": 26.04
+      "Capacity Building": 26.04
     },
     "pillars": {
       "Government": {
@@ -18097,7 +18097,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.260445,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -18142,7 +18142,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 28.69,
       "Infrastructure": 34.86,
-      "Digital Skills": 28.66
+      "Capacity Building": 28.66
     },
     "pillars": {
       "Government": {
@@ -18212,7 +18212,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.286591,
         "classification": "Early adopting",
         "coverage": 1,
@@ -18254,7 +18254,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Infrastructure"
     ],
     "weaknesses": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -18271,7 +18271,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 61.61,
       "Infrastructure": 2.59,
-      "Digital Skills": 32.55
+      "Capacity Building": 32.55
     },
     "pillars": {
       "Government": {
@@ -18327,7 +18327,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.325523,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -18372,7 +18372,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 29.94,
       "Infrastructure": 22.44,
-      "Digital Skills": 36.28
+      "Capacity Building": 36.28
     },
     "pillars": {
       "Government": {
@@ -18442,7 +18442,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.362777,
         "classification": "Early adopting",
         "coverage": 1,
@@ -18481,7 +18481,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -18501,7 +18501,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 28.03,
       "Infrastructure": 21.54,
-      "Digital Skills": 36.26
+      "Capacity Building": 36.26
     },
     "pillars": {
       "Government": {
@@ -18550,7 +18550,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.362571,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -18582,7 +18582,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -18602,7 +18602,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 52.53,
       "Infrastructure": 13.26,
-      "Digital Skills": 20.11
+      "Capacity Building": 20.11
     },
     "pillars": {
       "Government": {
@@ -18672,7 +18672,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.201068,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -18724,7 +18724,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 24.28,
       "Infrastructure": 24.85,
-      "Digital Skills": 35.3
+      "Capacity Building": 35.3
     },
     "pillars": {
       "Government": {
@@ -18794,7 +18794,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.352999,
         "classification": "Early adopting",
         "coverage": 1,
@@ -18833,7 +18833,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -18853,7 +18853,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 64.62,
       "Infrastructure": 18.21,
-      "Digital Skills": 8.63
+      "Capacity Building": 8.63
     },
     "pillars": {
       "Government": {
@@ -18916,7 +18916,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.08629,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -18951,7 +18951,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Government"
     ],
     "weaknesses": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -18968,7 +18968,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 31.57,
       "Infrastructure": 21.29,
-      "Digital Skills": 29.24
+      "Capacity Building": 29.24
     },
     "pillars": {
       "Government": {
@@ -19038,7 +19038,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.292437,
         "classification": "Early adopting",
         "coverage": 1,
@@ -19097,7 +19097,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 50.43,
       "Infrastructure": 13.74,
-      "Digital Skills": 18.58
+      "Capacity Building": 18.58
     },
     "pillars": {
       "Government": {
@@ -19167,7 +19167,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.185844,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -19219,7 +19219,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 32.14,
       "Infrastructure": 8.07,
-      "Digital Skills": 39.8
+      "Capacity Building": 39.8
     },
     "pillars": {
       "Government": {
@@ -19282,7 +19282,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.398022,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -19314,7 +19314,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -19334,7 +19334,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 53.67,
       "Infrastructure": 6.21,
-      "Digital Skills": 24.34
+      "Capacity Building": 24.34
     },
     "pillars": {
       "Government": {
@@ -19397,7 +19397,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.243383,
         "classification": "Early adopting",
         "coverage": 1,
@@ -19456,7 +19456,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 27.14,
       "Infrastructure": 31.79,
-      "Digital Skills": 20.83
+      "Capacity Building": 20.83
     },
     "pillars": {
       "Government": {
@@ -19526,7 +19526,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.208334,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -19561,7 +19561,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Infrastructure"
     ],
     "weaknesses": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -19578,7 +19578,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 22.86,
       "Infrastructure": 8.42,
-      "Digital Skills": 44.62
+      "Capacity Building": 44.62
     },
     "pillars": {
       "Government": {
@@ -19634,7 +19634,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.446177,
         "classification": "Adopting",
         "coverage": 0.75,
@@ -19666,7 +19666,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -19686,7 +19686,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 51.3,
       "Infrastructure": 4.35,
-      "Digital Skills": 27.21
+      "Capacity Building": 27.21
     },
     "pillars": {
       "Government": {
@@ -19749,7 +19749,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.272072,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -19801,7 +19801,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 57.53,
       "Infrastructure": 6.75,
-      "Digital Skills": 18.17
+      "Capacity Building": 18.17
     },
     "pillars": {
       "Government": {
@@ -19864,7 +19864,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.181691,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -19909,7 +19909,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 22.27,
       "Infrastructure": 11.17,
-      "Digital Skills": 39.54
+      "Capacity Building": 39.54
     },
     "pillars": {
       "Government": {
@@ -19958,7 +19958,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.395392,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -19983,7 +19983,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -20003,7 +20003,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 14.55,
       "Infrastructure": 25.55,
-      "Digital Skills": 32.92
+      "Capacity Building": 32.92
     },
     "pillars": {
       "Government": {
@@ -20066,7 +20066,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.32916,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -20098,7 +20098,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -20118,7 +20118,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 25.36,
       "Infrastructure": 2.57,
-      "Digital Skills": 41.77
+      "Capacity Building": 41.77
     },
     "pillars": {
       "Government": {
@@ -20167,7 +20167,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.417715,
         "classification": "Adopting",
         "coverage": 0.5,
@@ -20192,7 +20192,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -20212,7 +20212,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 26.59,
       "Infrastructure": 16.36,
-      "Digital Skills": 28.11
+      "Capacity Building": 28.11
     },
     "pillars": {
       "Government": {
@@ -20282,7 +20282,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.281119,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -20314,7 +20314,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -20334,7 +20334,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 55.91,
       "Infrastructure": 3.96,
-      "Digital Skills": 17.49
+      "Capacity Building": 17.49
     },
     "pillars": {
       "Government": {
@@ -20397,7 +20397,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.174855,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -20442,7 +20442,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 48.08,
       "Infrastructure": 4.84,
-      "Digital Skills": 23.74
+      "Capacity Building": 23.74
     },
     "pillars": {
       "Government": {
@@ -20505,7 +20505,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.237412,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -20557,7 +20557,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 51.07,
       "Infrastructure": 6.21,
-      "Digital Skills": 18.75
+      "Capacity Building": 18.75
     },
     "pillars": {
       "Government": {
@@ -20620,7 +20620,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.187465,
         "classification": "Early adopting",
         "coverage": 1,
@@ -20679,7 +20679,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 49.9,
       "Infrastructure": 7.13,
-      "Digital Skills": 18.64
+      "Capacity Building": 18.64
     },
     "pillars": {
       "Government": {
@@ -20742,7 +20742,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.18643,
         "classification": "Early adopting",
         "coverage": 1,
@@ -20801,7 +20801,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 59.82,
       "Infrastructure": 7.86,
-      "Digital Skills": 11.07
+      "Capacity Building": 11.07
     },
     "pillars": {
       "Government": {
@@ -20864,7 +20864,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.110742,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -20916,7 +20916,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 52.71,
       "Infrastructure": 6.46,
-      "Digital Skills": 16.1
+      "Capacity Building": 16.1
     },
     "pillars": {
       "Government": {
@@ -20979,7 +20979,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.161025,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -21024,7 +21024,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 47.91,
       "Infrastructure": 16.02,
-      "Digital Skills": 10.16
+      "Capacity Building": 10.16
     },
     "pillars": {
       "Government": {
@@ -21094,7 +21094,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.101644,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -21129,7 +21129,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Government"
     ],
     "weaknesses": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -21146,7 +21146,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 14.28,
       "Infrastructure": 23.47,
-      "Digital Skills": 29.78
+      "Capacity Building": 29.78
     },
     "pillars": {
       "Government": {
@@ -21209,7 +21209,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.297753,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -21241,7 +21241,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Government"
@@ -21261,7 +21261,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 51.74,
       "Infrastructure": 5.9,
-      "Digital Skills": 12.22
+      "Capacity Building": 12.22
     },
     "pillars": {
       "Government": {
@@ -21331,7 +21331,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.122239,
         "classification": "Early adopting",
         "coverage": 1,
@@ -21390,7 +21390,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 21.54,
       "Infrastructure": 16.31,
-      "Digital Skills": 28.46
+      "Capacity Building": 28.46
     },
     "pillars": {
       "Government": {
@@ -21460,7 +21460,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.284606,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -21492,7 +21492,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -21512,7 +21512,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 52.92,
       "Infrastructure": 7.83,
-      "Digital Skills": 13.71
+      "Capacity Building": 13.71
     },
     "pillars": {
       "Government": {
@@ -21575,7 +21575,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.137097,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -21627,7 +21627,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 57.6,
       "Infrastructure": 4.5,
-      "Digital Skills": 12.33
+      "Capacity Building": 12.33
     },
     "pillars": {
       "Government": {
@@ -21690,7 +21690,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.123295,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -21742,7 +21742,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 53.68,
       "Infrastructure": 3.94,
-      "Digital Skills": 16.91
+      "Capacity Building": 16.91
     },
     "pillars": {
       "Government": {
@@ -21798,7 +21798,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.169053,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -21843,7 +21843,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 24.07,
       "Infrastructure": 18.23,
-      "Digital Skills": 20.89
+      "Capacity Building": 20.89
     },
     "pillars": {
       "Government": {
@@ -21913,7 +21913,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.208851,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -21965,7 +21965,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 56.27,
       "Infrastructure": 4.41,
-      "Digital Skills": 9.1
+      "Capacity Building": 9.1
     },
     "pillars": {
       "Government": {
@@ -22028,7 +22028,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.091029,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -22080,7 +22080,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 23.78,
       "Infrastructure": 13.8,
-      "Digital Skills": 22.38
+      "Capacity Building": 22.38
     },
     "pillars": {
       "Government": {
@@ -22129,7 +22129,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.223789,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -22174,7 +22174,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 28.91,
       "Infrastructure": 6.01,
-      "Digital Skills": 20.93
+      "Capacity Building": 20.93
     },
     "pillars": {
       "Government": {
@@ -22237,7 +22237,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.209277,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -22282,7 +22282,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 46.43,
       "Infrastructure": 6.22,
-      "Digital Skills": 10.35
+      "Capacity Building": 10.35
     },
     "pillars": {
       "Government": {
@@ -22345,7 +22345,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.103462,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -22390,7 +22390,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 43.45,
       "Infrastructure": 20.47,
-      "Digital Skills": 1.87
+      "Capacity Building": 1.87
     },
     "pillars": {
       "Government": {
@@ -22453,7 +22453,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.018702,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -22481,7 +22481,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Government"
     ],
     "weaknesses": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -22498,7 +22498,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 48.08,
       "Infrastructure": 1.79,
-      "Digital Skills": 12.61
+      "Capacity Building": 12.61
     },
     "pillars": {
       "Government": {
@@ -22554,7 +22554,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.126088,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -22599,7 +22599,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 20.21,
       "Infrastructure": 3.19,
-      "Digital Skills": 21.92
+      "Capacity Building": 21.92
     },
     "pillars": {
       "Government": {
@@ -22648,7 +22648,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.21919,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -22673,7 +22673,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -22693,7 +22693,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 11.6,
       "Infrastructure": 1,
-      "Digital Skills": 23.49
+      "Capacity Building": 23.49
     },
     "pillars": {
       "Government": {
@@ -22735,7 +22735,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.234855,
         "classification": "Early adopting",
         "coverage": 0.25,
@@ -22753,7 +22753,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -22773,7 +22773,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 15.55,
       "Infrastructure": 16.62,
-      "Digital Skills": 11.93
+      "Capacity Building": 11.93
     },
     "pillars": {
       "Government": {
@@ -22843,7 +22843,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.119318,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -22878,7 +22878,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Infrastructure"
     ],
     "weaknesses": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -22895,7 +22895,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 11.59,
       "Infrastructure": 20.41,
-      "Digital Skills": 10.94
+      "Capacity Building": 10.94
     },
     "pillars": {
       "Government": {
@@ -22958,7 +22958,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.109445,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -22993,7 +22993,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Infrastructure"
     ],
     "weaknesses": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -23010,7 +23010,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 42.24,
       "Infrastructure": 6.2,
-      "Digital Skills": 3.45
+      "Capacity Building": 3.45
     },
     "pillars": {
       "Government": {
@@ -23073,7 +23073,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.034456,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -23101,7 +23101,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       "Government"
     ],
     "weaknesses": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "trend3y": 0
   },
@@ -23118,7 +23118,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 14.47,
       "Infrastructure": 7.11,
-      "Digital Skills": 20.17
+      "Capacity Building": 20.17
     },
     "pillars": {
       "Government": {
@@ -23181,7 +23181,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.201727,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -23213,7 +23213,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -23233,7 +23233,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 15.38,
       "Infrastructure": 7.25,
-      "Digital Skills": 11.49
+      "Capacity Building": 11.49
     },
     "pillars": {
       "Government": {
@@ -23296,7 +23296,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.114894,
         "classification": "Early adopting",
         "coverage": 0.5,
@@ -23341,7 +23341,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 12.57,
       "Infrastructure": 4.73,
-      "Digital Skills": 16.42
+      "Capacity Building": 16.42
     },
     "pillars": {
       "Government": {
@@ -23404,7 +23404,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.164246,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -23436,7 +23436,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -23456,7 +23456,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 7.88,
       "Infrastructure": 1.56,
-      "Digital Skills": 28.56
+      "Capacity Building": 28.56
     },
     "pillars": {
       "Government": {
@@ -23498,7 +23498,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.285634,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -23530,7 +23530,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"
@@ -23550,7 +23550,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
     "dimensions": {
       "Government": 7.34,
       "Infrastructure": 2.97,
-      "Digital Skills": 8.91
+      "Capacity Building": 8.91
     },
     "pillars": {
       "Government": {
@@ -23613,7 +23613,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
           }
         ]
       },
-      "Digital Skills": {
+      "Capacity Building": {
         "value": 0.089118,
         "classification": "Early adopting",
         "coverage": 0.75,
@@ -23645,7 +23645,7 @@ export const generatedCountryProfiles: CountryAIReadiness[] = [
       }
     },
     "strengths": [
-      "Digital Skills"
+      "Capacity Building"
     ],
     "weaknesses": [
       "Infrastructure"

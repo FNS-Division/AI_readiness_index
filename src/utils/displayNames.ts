@@ -16,13 +16,13 @@ export const DISPLAY_READINESS_BANDS: DisplayReadinessBand[] = [
 export const ENABLER_LABELS: Record<AIDimension, string> = {
   Government: "Policy and governance",
   Infrastructure: "Infrastructure",
-  "Digital Skills": "Digital skills",
+  "Capacity Building": "Capacity building",
 };
 
 export const SHORT_ENABLER_LABELS: Record<AIDimension, string> = {
   Government: "Policy/gov.",
   Infrastructure: "Infrastructure",
-  "Digital Skills": "Digital skills",
+  "Capacity Building": "Capacity building",
 };
 
 const LEGACY_CLASSIFICATION_LABELS: Record<string, DisplayReadinessBand> = {
@@ -46,7 +46,7 @@ export function getShortEnablerLabel(enabler: AIDimension | string): string {
 export function getMultilineEnablerLabel(enabler: AIDimension | string): string {
   return getEnablerLabel(enabler)
     .replace("Policy and governance", "Policy and\ngovernance")
-    .replace("Digital skills", "Digital\nskills");
+    .replace("Capacity building", "Capacity\nbuilding");
 }
 
 export function getAlphabeticalEnablers(): AIDimension[] {

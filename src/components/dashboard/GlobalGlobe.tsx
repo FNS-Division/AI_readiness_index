@@ -461,7 +461,7 @@ export default function GlobalGlobe({ selected, onSelect }: GlobalGlobeProps) {
 
           <p className="mt-2 text-sm leading-6 text-slate-300">
             Explore how countries compare across Policy and governance, Infrastructure,
-            and Digital skills.
+            and Capacity building.
           </p>
 
           <div className="mt-4 flex flex-wrap gap-2 text-xs">

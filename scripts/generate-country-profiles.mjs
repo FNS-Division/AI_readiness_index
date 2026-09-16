@@ -14,19 +14,19 @@ const EXPECTED_UN_MEMBER_COUNT = 193;
 const PILLARS = [
   "Government",
   "Infrastructure",
-  "Digital Skills",
+  "Capacity Building",
 ];
 
 const PILLAR_SOURCE_DIRECTORIES = {
   Government: ["Government"],
   Infrastructure: ["Infrastructure", "Market"],
-  "Digital Skills": ["Society", "Skills & Capacity Building"],
+  "Capacity Building": ["Society", "Skills & Capacity Building"],
 };
 
 const PILLAR_WEIGHTS = {
   Government: 1 / 3,
   Infrastructure: 1 / 3,
-  "Digital Skills": 1 / 3,
+  "Capacity Building": 1 / 3,
 };
 
 const ALLOWED_COUNTRIES = {

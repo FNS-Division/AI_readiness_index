@@ -10,7 +10,7 @@ export type Region =
 export type AIPillar =
   | "Government"
   | "Infrastructure"
-  | "Digital Skills";
+  | "Capacity Building";
 
 export type AIDimension = AIPillar;
 export type AIEnabler = AIPillar;
@@ -29,7 +29,7 @@ export type ReadinessClassification =
 export const AI_DIMENSIONS: AIDimension[] = [
   "Government",
   "Infrastructure",
-  "Digital Skills",
+  "Capacity Building",
 ];
 
 export const AI_PILLARS: AIPillar[] = AI_DIMENSIONS;

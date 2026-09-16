@@ -22,13 +22,13 @@ const GENERATED_DATA_FILE = [
 const AI_PILLARS = [
   "Government",
   "Infrastructure",
-  "Digital Skills",
+  "Capacity Building",
 ];
 
 const ENABLER_LABELS = {
   Government: "Policy and governance",
   Infrastructure: "Infrastructure",
-  "Digital Skills": "Digital skills",
+  "Capacity Building": "Capacity building",
 };
 
 const READINESS_BANDS = [
@@ -230,8 +230,8 @@ function findMentionedPillars(question) {
       "cost",
       "basket",
     ],
-    "Digital Skills": [
-      "digital skills",
+    "Capacity Building": [
+      "capacity building",
       "society",
       "social",
       "digital inclusion",
@@ -242,7 +242,6 @@ function findMentionedPillars(question) {
       "human capital",
       "human capital development",
       "capacity",
-      "capacity building",
       "stem",
       "education",
       "graduates",
@@ -442,7 +441,7 @@ You answer using only the dataset context provided by the local server.
 The dataset uses three pillars:
 - Policy and governance
 - Infrastructure
-- Digital skills
+- Capacity building
 
 The dashboard intentionally hides internal numeric scores, normalized grades, raw VALUES and ranking positions from end users.
 

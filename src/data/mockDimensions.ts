@@ -33,8 +33,8 @@ export const dimensionMeta: DimensionMeta[] = [
     color: "#06b812",
   },
   {
-    key: "Digital Skills",
-    label: "Digital skills",
+    key: "Capacity Building",
+    label: "Capacity building",
     description:
       "Measures digital inclusion, internet adoption and the human capital needed to build, adopt and manage AI systems.",
     indicators: [
